@@ -42,6 +42,8 @@ var selectRadius = 2 * gridSize
 var beltSpeed = 10.0
 var tolerance_div = 4.0
 
+var playerSpeed = 20.0
+
 var particle_vx = -50.0 .. 50.0
 var particle_vy = -100.0 .. -20.0
 var particle_ax = 0.0 .. 0.0
@@ -152,6 +154,7 @@ type
     facing*: Facing
     blinkLeft*: float32
     speed*: float32
+    boundbyscreen*: bool
   
   Ballot* = object
     x*: float32
@@ -306,17 +309,14 @@ proc draw*(b: ref Beam) {.inline.} =
   var bottom = 0.0
   if v < 0.25:
     # coming down
-    llog "beam coming down"
     top = 0.0
     bottom = lerp(0.0, b.pos.y, invLerp(0, 0.25, v))
   elif v > 0.75:
     # leaving
-    llog "beam leaving"
     bottom = b.pos.y
     top = lerp(0.0, b.pos.y, invLerp(0.75, 1.0, v))
   else:
     # holding
-    llog "Beam holding"
     top = 0.0
     bottom = b.pos.y
   
@@ -417,6 +417,9 @@ proc update*(c: var Creature, dt: float32) =
       c.facing = faceRight
     elif c.vx < 0:
       c.facing = faceLeft
+  if c.boundbyscreen:
+    c.y = clamp(c.y, 0.0, (screenHeight - 5).toFloat)
+    c.x = clamp(c.x, 0.0, (screenWidth - 5).toFloat)
   if c.blinkLeft > 0:
     c.blinkLeft -= min([dt, c.blinkLeft])
   else:
@@ -703,8 +706,8 @@ proc update*(pat: var Patroller, dt: float32) =
       pat.creature.facing = rnd([faceDown, faceLeft, faceRight])
     else:
       # not there yet
-      var amountx = dir.x * pat.creature.speed
-      var amounty = dir.y * pat.creature.speed
+      var amountx = dir.x * pat.creature.speed * timewarp
+      var amounty = dir.y * pat.creature.speed * timewarp
       let dx = target.x.toFloat - pos.x
       let dy = target.y.toFloat - pos.y
       if abs(dx) < abs(amountx):
@@ -822,8 +825,8 @@ proc start*(game: ref Game) =
   music(15, 0)
   timewarp = timewarp_normal
   game.state = Voting
-  game.player1 = Creature(color: losercolor, speed: 20)
-  game.player2 = Creature(color: orange, speed: 20)
+  game.player1 = Creature(color: losercolor, speed: playerSpeed, boundbyscreen: true)
+  game.player2 = Creature(color: orange, speed: playerSpeed, boundbyscreen: true)
   game.creatures = newSeq[Creature]()
   game.booths = newSeq[Booth]()
   game.ballots = newSeq[Ballot]()
@@ -925,8 +928,8 @@ proc nextAuditBallot*(game: ref Game) =
 
 proc startAudit*(game: ref Game) =
   game.state = Audit
-  game.player1 = Creature(color: losercolor, speed: 20)
-  game.player2 = Creature(color: orange, speed: 20)
+  game.player1 = Creature(color: losercolor, speed: playerSpeed)
+  game.player2 = Creature(color: orange, speed: playerSpeed)
   game.creatures = newSeq[Creature]()
   game.booths = newSeq[Booth]()
   game.ballots = newSeq[Ballot]()
@@ -1096,6 +1099,7 @@ proc draw*(game: ref Game) =
   of Audit:
     setColor(white)
     print("Audit time!", 1, 1)
+    print("Press the green button", 1, 1.grid + 1)
     print("get ballot " & $(game.target_ballot + 1), 2.grid + 1, 2.grid + 1)
     for b in game.buttons:
       b.draw()
@@ -1125,6 +1129,9 @@ proc draw*(game: ref Game) =
       except:
         llog "NO audited ballot: ", $b
     printr("T=" & nfloat(tval), screenWidth, 14)
+    if game.audited_ballots.len >= totalVotes:
+      game.game_over("A full handcount was needed!")
+      return
     if tval > 9.9:
       if game.pre_audit_winner == 1:
         setColor(blue)
