@@ -12,50 +12,76 @@ if (typeof Float32Array === 'undefined') Float32Array = Array;
 if (typeof Float64Array === 'undefined') Float64Array = Array;
 var NTI5565232 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
 var NTI5820011 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI16660216 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16815216 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
 var NTI2090020 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI10600204 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI16545162 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI16507262 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16625148 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16507539 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16775226 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
+var NTI16775232 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
 var NTI1194651 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI16890594 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI16890440 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
-var NTI16890388 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
-var NTI16890351 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
-var NTI16890299 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
-var NTI16890262 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
-var NTI16507569 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
-var NTI16507561 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
-var NTI16507559 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
-var NTI16507555 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
-var NTI16507553 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
-var NTI16507412 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
-var NTI16507424 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI16507551 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
-var NTI16507549 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
-var NTI16507547 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
-var NTI16507545 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
-var NTI16507345 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI16507521 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
-var NTI16507428 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
-var NTI16507430 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI16507509 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
-var NTI16507506 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI16507426 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
-var NTI16507422 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI16507432 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
-var NTI16507434 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI16507436 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
-var NTI16507438 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI16507477 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
-var NTI16507416 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
-var NTI16507461 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI16507452 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI16507418 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
-var NTI16890225 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
-var NTI16890188 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
-var NTI16507414 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
-var NTI16507420 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16750106 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16750074 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16750055 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16745010 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16735215 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16720611 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16720574 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16720517 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
+var NTI16720523 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16720470 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16720418 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16720351 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16720299 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16507694 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16507527 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16507686 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16507684 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16507680 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
+var NTI16507679 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16507677 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16507675 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16507499 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
+var NTI16507511 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16507673 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16507671 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16507669 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16507667 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16507513 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
+var NTI16507615 = {size: 0,kind: 25,base: null,node: null,finalizer: null};
+var NTI16507515 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16507655 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
+var NTI16507432 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16507637 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16507519 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
+var NTI16507521 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16507625 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
+var NTI16507622 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16507517 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
+var NTI16507509 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16507523 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
+var NTI16507525 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16507529 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
+var NTI16507531 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16507578 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
+var NTI16507503 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
+var NTI16507562 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16507553 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16507505 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
+var NTI16720247 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16720195 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16507501 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
+var NTI16507507 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16507535 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16507728 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI16507349 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16507537 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16765122 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
+var NTI16765128 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
+var NTI12685697 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
+var NTI12685656 = {size: 0,kind: 20,base: null,node: null,finalizer: null};
+var NTI12685694 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
+var NTI12685654 = {size: 0,kind: 20,base: null,node: null,finalizer: null};
 var NTI12936044 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
 var NTI1194623 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI12571057 = {size: 0, kind: 14, base: null, node: null, finalizer: null};
@@ -87,7 +113,7 @@ var NTI12571233 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI12571232 = {size: 0,kind: 22,base: null,node: null,finalizer: null};
 var NTI14605081 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
 var NTI1188005 = {size: 0,kind: 36,base: null,node: null,finalizer: null};
-var NTI16507078 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI16507103 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI14335050 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
 var NTI14335060 = {size: 0,kind: 24,base: null,node: null,finalizer: null};
 var NTI14335047 = {size: 0,kind: 16,base: null,node: null,finalizer: null};
@@ -179,9 +205,9 @@ NTI14331121.base = NTI1194408;
 NTI14331086.base = NTI14331121;
 NTI14335060.base = NTI14335050;
 NTI14335047.base = NTI14335060;
-var NNI16507078 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI1188005, name: "a", sons: null}, 
+var NNI16507103 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI1188005, name: "a", sons: null}, 
 {kind: 1, offset: "b", len: 0, typ: NTI1188005, name: "b", sons: null}]};
-NTI16507078.node = NNI16507078;
+NTI16507103.node = NNI16507103;
 var NNI12571202 = {kind: 2, offset: 0, typ: null, name: null, len: 2, sons: {"0": {kind: 1, offset: 0, typ: NTI12571202, name: "Keyboard", len: 0, sons: null}, 
 "1": {kind: 1, offset: 1, typ: NTI12571202, name: "Gamepad", len: 0, sons: null}}};
 NTI12571202.node = NNI12571202;
@@ -505,152 +531,203 @@ var NNI1194623 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI1194623.node = NNI1194623;
 NTI1194623.base = NTI1194621;
 NTI12936044.base = NTI1188056;
-var NNI16507414 = {kind: 2, offset: 0, typ: null, name: null, len: 4, sons: {"0": {kind: 1, offset: 0, typ: NTI16507414, name: "faceDown", len: 0, sons: null}, 
-"1": {kind: 1, offset: 1, typ: NTI16507414, name: "faceLeft", len: 0, sons: null}, 
-"2": {kind: 1, offset: 2, typ: NTI16507414, name: "faceUp", len: 0, sons: null}, 
-"3": {kind: 1, offset: 3, typ: NTI16507414, name: "faceRight", len: 0, sons: null}}};
-NTI16507414.node = NNI16507414;
-var NNI16507420 = {kind: 2, len: 8, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "x", len: 0, typ: NTI1188005, name: "x", sons: null}, 
+NTI12685654.base = NTI12685694;
+NTI12685656.base = NTI12685697;
+var NNI16507349 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI1188005, name: "Field0", sons: null}, 
+{kind: 1, offset: "Field1", len: 0, typ: NTI1188005, name: "Field1", sons: null}]};
+NTI16507349.node = NNI16507349;
+var NNI16507535 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "pos", len: 0, typ: NTI16507349, name: "pos", sons: null}, 
+{kind: 1, offset: "v", len: 0, typ: NTI16507349, name: "v", sons: null}, 
+{kind: 1, offset: "a", len: 0, typ: NTI16507349, name: "a", sons: null}, 
+{kind: 1, offset: "floor", len: 0, typ: NTI1188005, name: "floor", sons: null}, 
+{kind: 1, offset: "secondsLeft", len: 0, typ: NTI1188005, name: "secondsLeft", sons: null}]};
+NTI16507535.node = NNI16507535;
+NTI16507728.base = NTI16507535;
+var NNI16507537 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "pos", len: 0, typ: NTI16507349, name: "pos", sons: null}, 
+{kind: 1, offset: "particles", len: 0, typ: NTI16507728, name: "particles", sons: null}]};
+NTI16507537.node = NNI16507537;
+NTI16765122.base = NTI16507537;
+NTI16765128.base = NTI16765122;
+var NNI16507501 = {kind: 2, offset: 0, typ: null, name: null, len: 4, sons: {"0": {kind: 1, offset: 0, typ: NTI16507501, name: "faceDown", len: 0, sons: null}, 
+"1": {kind: 1, offset: 1, typ: NTI16507501, name: "faceLeft", len: 0, sons: null}, 
+"2": {kind: 1, offset: 2, typ: NTI16507501, name: "faceUp", len: 0, sons: null}, 
+"3": {kind: 1, offset: 3, typ: NTI16507501, name: "faceRight", len: 0, sons: null}}};
+NTI16507501.node = NNI16507501;
+var NNI16507507 = {kind: 2, len: 8, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "x", len: 0, typ: NTI1188005, name: "x", sons: null}, 
 {kind: 1, offset: "y", len: 0, typ: NTI1188005, name: "y", sons: null}, 
 {kind: 1, offset: "vx", len: 0, typ: NTI1188005, name: "vx", sons: null}, 
 {kind: 1, offset: "vy", len: 0, typ: NTI1188005, name: "vy", sons: null}, 
 {kind: 1, offset: "color", len: 0, typ: NTI1188044, name: "color", sons: null}, 
-{kind: 1, offset: "facing", len: 0, typ: NTI16507414, name: "facing", sons: null}, 
+{kind: 1, offset: "facing", len: 0, typ: NTI16507501, name: "facing", sons: null}, 
 {kind: 1, offset: "blinkLeft", len: 0, typ: NTI1188007, name: "blinkLeft", sons: null}, 
 {kind: 1, offset: "speed", len: 0, typ: NTI1188007, name: "speed", sons: null}]};
-NTI16507420.node = NNI16507420;
-NTI16890188.base = NTI16507420;
-var NNI16507461 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "val", len: 0, typ: NTI16507420, name: "val", sons: null}, 
+NTI16507507.node = NNI16507507;
+NTI16720195.base = NTI16507507;
+var NNI16507562 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "val", len: 0, typ: NTI16507507, name: "val", sons: null}, 
 {kind: 1, offset: "has", len: 0, typ: NTI1188064, name: "has", sons: null}]};
-NTI16507461.node = NNI16507461;
-var NNI16507416 = {kind: 2, offset: 0, typ: null, name: null, len: 5, sons: {"0": {kind: 1, offset: 0, typ: NTI16507416, name: "bvsIdle", len: 0, sons: null}, 
-"1": {kind: 1, offset: 1, typ: NTI16507416, name: "bvsComing", len: 0, sons: null}, 
-"2": {kind: 1, offset: 2, typ: NTI16507416, name: "bvsVoting", len: 0, sons: null}, 
-"3": {kind: 1, offset: 3, typ: NTI16507416, name: "bvsLeaving", len: 0, sons: null}, 
-"4": {kind: 1, offset: 4, typ: NTI16507416, name: "bvsDone", len: 0, sons: null}}};
-NTI16507416.node = NNI16507416;
-var NNI16507436 = {kind: 2, offset: 0, typ: null, name: null, len: 3, sons: {"0": {kind: 1, offset: 0, typ: NTI16507436, name: "Voting", len: 0, sons: null}, 
-"1": {kind: 1, offset: 1, typ: NTI16507436, name: "GameOver", len: 0, sons: null}, 
-"2": {kind: 1, offset: 2, typ: NTI16507436, name: "Audit", len: 0, sons: null}}};
-NTI16507436.node = NNI16507436;
-var NNI16507432 = {kind: 2, offset: 0, typ: null, name: null, len: 5, sons: {"0": {kind: 1, offset: 0, typ: NTI16507432, name: "selNothing", len: 0, sons: null}, 
-"1": {kind: 1, offset: 1, typ: NTI16507432, name: "selBooth", len: 0, sons: null}, 
-"2": {kind: 1, offset: 2, typ: NTI16507432, name: "selBallot", len: 0, sons: null}, 
-"3": {kind: 1, offset: 3, typ: NTI16507432, name: "selCounter", len: 0, sons: null}, 
-"4": {kind: 1, offset: 4, typ: NTI16507432, name: "selPatroller", len: 0, sons: null}}};
-NTI16507432.node = NNI16507432;
-var NNI16507422 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "x", len: 0, typ: NTI1188007, name: "x", sons: null}, 
+NTI16507562.node = NNI16507562;
+var NNI16507503 = {kind: 2, offset: 0, typ: null, name: null, len: 5, sons: {"0": {kind: 1, offset: 0, typ: NTI16507503, name: "bvsIdle", len: 0, sons: null}, 
+"1": {kind: 1, offset: 1, typ: NTI16507503, name: "bvsComing", len: 0, sons: null}, 
+"2": {kind: 1, offset: 2, typ: NTI16507503, name: "bvsVoting", len: 0, sons: null}, 
+"3": {kind: 1, offset: 3, typ: NTI16507503, name: "bvsLeaving", len: 0, sons: null}, 
+"4": {kind: 1, offset: 4, typ: NTI16507503, name: "bvsDone", len: 0, sons: null}}};
+NTI16507503.node = NNI16507503;
+var NNI16507529 = {kind: 2, offset: 0, typ: null, name: null, len: 4, sons: {"0": {kind: 1, offset: 0, typ: NTI16507529, name: "Start", len: 0, sons: null}, 
+"1": {kind: 1, offset: 1, typ: NTI16507529, name: "Voting", len: 0, sons: null}, 
+"2": {kind: 1, offset: 2, typ: NTI16507529, name: "GameOver", len: 0, sons: null}, 
+"3": {kind: 1, offset: 3, typ: NTI16507529, name: "Audit", len: 0, sons: null}}};
+NTI16507529.node = NNI16507529;
+var NNI16507523 = {kind: 2, offset: 0, typ: null, name: null, len: 6, sons: {"0": {kind: 1, offset: 0, typ: NTI16507523, name: "selNothing", len: 0, sons: null}, 
+"1": {kind: 1, offset: 1, typ: NTI16507523, name: "selBooth", len: 0, sons: null}, 
+"2": {kind: 1, offset: 2, typ: NTI16507523, name: "selBallot", len: 0, sons: null}, 
+"3": {kind: 1, offset: 3, typ: NTI16507523, name: "selCounter", len: 0, sons: null}, 
+"4": {kind: 1, offset: 4, typ: NTI16507523, name: "selPatroller", len: 0, sons: null}, 
+"5": {kind: 1, offset: 5, typ: NTI16507523, name: "selButton", len: 0, sons: null}}};
+NTI16507523.node = NNI16507523;
+var NNI16507509 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "x", len: 0, typ: NTI1188007, name: "x", sons: null}, 
 {kind: 1, offset: "y", len: 0, typ: NTI1188007, name: "y", sons: null}, 
 {kind: 1, offset: "vote", len: 0, typ: NTI1188044, name: "vote", sons: null}, 
 {kind: 1, offset: "index", len: 0, typ: NTI1188044, name: "index", sons: null}, 
 {kind: 1, offset: "flipped", len: 0, typ: NTI1188064, name: "flipped", sons: null}]};
-NTI16507422.node = NNI16507422;
-NTI16507509.base = NTI16507438;
-var NNI16507506 = {kind: 2, len: 6, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "x", len: 0, typ: NTI1188044, name: "x", sons: null}, 
+NTI16507509.node = NNI16507509;
+NTI16507625.base = NTI16507531;
+var NNI16507622 = {kind: 2, len: 6, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "x", len: 0, typ: NTI1188044, name: "x", sons: null}, 
 {kind: 1, offset: "y", len: 0, typ: NTI1188044, name: "y", sons: null}, 
-{kind: 1, offset: "game", len: 0, typ: NTI16507509, name: "game", sons: null}, 
+{kind: 1, offset: "game", len: 0, typ: NTI16507625, name: "game", sons: null}, 
 {kind: 1, offset: "animOffset", len: 0, typ: NTI1188007, name: "animOffset", sons: null}, 
 {kind: 1, offset: "lastBallot", len: 0, typ: NTI1188044, name: "lastBallot", sons: null}, 
 {kind: 1, offset: "broken", len: 0, typ: NTI1188064, name: "broken", sons: null}]};
-NTI16507506.node = NNI16507506;
-NTI16507426.base = NTI16507506;
-var NNI16507428 = {kind: 2, offset: 0, typ: null, name: null, len: 2, sons: {"0": {kind: 1, offset: 0, typ: NTI16507428, name: "patrolIdle", len: 0, sons: null}, 
-"1": {kind: 1, offset: 1, typ: NTI16507428, name: "patrolWalk", len: 0, sons: null}}};
-NTI16507428.node = NNI16507428;
-var NNI16507345 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI1188044, name: "Field0", sons: null}, 
+NTI16507622.node = NNI16507622;
+NTI16507517.base = NTI16507622;
+var NNI16507519 = {kind: 2, offset: 0, typ: null, name: null, len: 2, sons: {"0": {kind: 1, offset: 0, typ: NTI16507519, name: "patrolIdle", len: 0, sons: null}, 
+"1": {kind: 1, offset: 1, typ: NTI16507519, name: "patrolWalk", len: 0, sons: null}}};
+NTI16507519.node = NNI16507519;
+var NNI16507432 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI1188044, name: "Field0", sons: null}, 
 {kind: 1, offset: "Field1", len: 0, typ: NTI1188044, name: "Field1", sons: null}]};
-NTI16507345.node = NNI16507345;
-NTI16507521.base = NTI16507345;
-var NNI16507430 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "creature", len: 0, typ: NTI16507420, name: "creature", sons: null}, 
-{kind: 1, offset: "state", len: 0, typ: NTI16507428, name: "state", sons: null}, 
+NTI16507432.node = NNI16507432;
+NTI16507637.base = NTI16507432;
+var NNI16507521 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "creature", len: 0, typ: NTI16507507, name: "creature", sons: null}, 
+{kind: 1, offset: "state", len: 0, typ: NTI16507519, name: "state", sons: null}, 
 {kind: 1, offset: "stateSecondsLeft", len: 0, typ: NTI1188005, name: "stateSecondsLeft", sons: null}, 
 {kind: 1, offset: "waypointId", len: 0, typ: NTI1188044, name: "waypointId", sons: null}, 
-{kind: 1, offset: "waypoints", len: 0, typ: NTI16507521, name: "waypoints", sons: null}]};
-NTI16507430.node = NNI16507430;
-var NNI16507434 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "distance", len: 0, typ: NTI1188007, name: "distance", sons: null}, 
-{kind: 3, offset: "kind", len: 5, typ: NTI16507432, name: "kind", sons: [[setConstr(0), {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []}], 
-[setConstr(1), {kind: 1, offset: "booth", len: 0, typ: NTI16507418, name: "booth", sons: null}], 
-[setConstr(2), {kind: 1, offset: "ballot", len: 0, typ: NTI16507422, name: "ballot", sons: null}], 
-[setConstr(3), {kind: 1, offset: "countingMachine", len: 0, typ: NTI16507426, name: "countingMachine", sons: null}], 
-[setConstr(4), {kind: 1, offset: "patroller", len: 0, typ: NTI16507430, name: "patroller", sons: null}]]}]};
-NTI16507434.node = NNI16507434;
-NTI16507545.base = NTI16507420;
-NTI16507547.base = NTI16507418;
-NTI16507549.base = NTI16507422;
-var NNI16507412 = {kind: 2, offset: 0, typ: null, name: null, len: 4, sons: {"0": {kind: 1, offset: 0, typ: NTI16507412, name: "Up", len: 0, sons: null}, 
-"1": {kind: 1, offset: 1, typ: NTI16507412, name: "Right", len: 0, sons: null}, 
-"2": {kind: 1, offset: 2, typ: NTI16507412, name: "Down", len: 0, sons: null}, 
-"3": {kind: 1, offset: 3, typ: NTI16507412, name: "Left", len: 0, sons: null}}};
-NTI16507412.node = NNI16507412;
-var NNI16507424 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "dir", len: 0, typ: NTI16507412, name: "dir", sons: null}, 
-{kind: 1, offset: "tl", len: 0, typ: NTI16507345, name: "tl", sons: null}, 
-{kind: 1, offset: "br", len: 0, typ: NTI16507345, name: "br", sons: null}, 
+{kind: 1, offset: "waypoints", len: 0, typ: NTI16507637, name: "waypoints", sons: null}]};
+NTI16507521.node = NNI16507521;
+var NNI16507513 = {kind: 2, offset: 0, typ: null, name: null, len: 2, sons: {"0": {kind: 1, offset: 0, typ: NTI16507513, name: "Push", len: 0, sons: null}, 
+"1": {kind: 1, offset: 1, typ: NTI16507513, name: "Toggle", len: 0, sons: null}}};
+NTI16507513.node = NNI16507513;
+var NNI16507515 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "loc", len: 0, typ: NTI16507432, name: "loc", sons: null}, 
+{kind: 1, offset: "isPushed", len: 0, typ: NTI1188064, name: "isPushed", sons: null}, 
+{kind: 1, offset: "onPress", len: 0, typ: NTI16507615, name: "onPress", sons: null}, 
+{kind: 1, offset: "kind", len: 0, typ: NTI16507513, name: "kind", sons: null}, 
+{kind: 1, offset: "animSecondsLeft", len: 0, typ: NTI1188005, name: "animSecondsLeft", sons: null}]};
+NTI16507515.node = NNI16507515;
+NTI16507655.base = NTI16507515;
+var NNI16507525 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "distance", len: 0, typ: NTI1188007, name: "distance", sons: null}, 
+{kind: 3, offset: "kind", len: 6, typ: NTI16507523, name: "kind", sons: [[setConstr(0), {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []}], 
+[setConstr(1), {kind: 1, offset: "booth", len: 0, typ: NTI16507505, name: "booth", sons: null}], 
+[setConstr(2), {kind: 1, offset: "ballot", len: 0, typ: NTI16507509, name: "ballot", sons: null}], 
+[setConstr(3), {kind: 1, offset: "countingMachine", len: 0, typ: NTI16507517, name: "countingMachine", sons: null}], 
+[setConstr(4), {kind: 1, offset: "patroller", len: 0, typ: NTI16507521, name: "patroller", sons: null}], 
+[setConstr(5), {kind: 1, offset: "button", len: 0, typ: NTI16507655, name: "button", sons: null}]]}]};
+NTI16507525.node = NNI16507525;
+NTI16507667.base = NTI16507507;
+NTI16507669.base = NTI16507505;
+NTI16507671.base = NTI16507509;
+var NNI16507499 = {kind: 2, offset: 0, typ: null, name: null, len: 4, sons: {"0": {kind: 1, offset: 0, typ: NTI16507499, name: "Up", len: 0, sons: null}, 
+"1": {kind: 1, offset: 1, typ: NTI16507499, name: "Right", len: 0, sons: null}, 
+"2": {kind: 1, offset: 2, typ: NTI16507499, name: "Down", len: 0, sons: null}, 
+"3": {kind: 1, offset: 3, typ: NTI16507499, name: "Left", len: 0, sons: null}}};
+NTI16507499.node = NNI16507499;
+var NNI16507511 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "dir", len: 0, typ: NTI16507499, name: "dir", sons: null}, 
+{kind: 1, offset: "tl", len: 0, typ: NTI16507432, name: "tl", sons: null}, 
+{kind: 1, offset: "br", len: 0, typ: NTI16507432, name: "br", sons: null}, 
 {kind: 1, offset: "offset", len: 0, typ: NTI1188007, name: "offset", sons: null}, 
 {kind: 1, offset: "speed", len: 0, typ: NTI1188007, name: "speed", sons: null}]};
-NTI16507424.node = NNI16507424;
-NTI16507551.base = NTI16507424;
-NTI16507553.base = NTI16507426;
-NTI16507555.base = NTI16507430;
-NTI16507559.base = NTI1188044;
-NTI16507561.base = NTI1188044;
-NTI16507569.base = NTI1188044;
-var NNI16507438 = {kind: 2, len: 21, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "state", len: 0, typ: NTI16507436, name: "state", sons: null}, 
-{kind: 1, offset: "player1", len: 0, typ: NTI16507420, name: "player1", sons: null}, 
-{kind: 1, offset: "player1_selected", len: 0, typ: NTI16507434, name: "player1_selected", sons: null}, 
-{kind: 1, offset: "player2", len: 0, typ: NTI16507420, name: "player2", sons: null}, 
-{kind: 1, offset: "creatures", len: 0, typ: NTI16507545, name: "creatures", sons: null}, 
-{kind: 1, offset: "booths", len: 0, typ: NTI16507547, name: "booths", sons: null}, 
-{kind: 1, offset: "ballots", len: 0, typ: NTI16507549, name: "ballots", sons: null}, 
-{kind: 1, offset: "belts", len: 0, typ: NTI16507551, name: "belts", sons: null}, 
-{kind: 1, offset: "counters", len: 0, typ: NTI16507553, name: "counters", sons: null}, 
-{kind: 1, offset: "patrollers", len: 0, typ: NTI16507555, name: "patrollers", sons: null}, 
+NTI16507511.node = NNI16507511;
+NTI16507673.base = NTI16507511;
+NTI16507675.base = NTI16507517;
+NTI16507677.base = NTI16507521;
+NTI16507680.base = NTI16507515;
+NTI16507679.base = NTI16507680;
+NTI16507684.base = NTI1188044;
+var NNI16507527 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI1188044, name: "Field0", sons: null}, 
+{kind: 1, offset: "Field1", len: 0, typ: NTI1188064, name: "Field1", sons: null}]};
+NTI16507527.node = NNI16507527;
+NTI16507686.base = NTI16507527;
+NTI16507694.base = NTI1188044;
+var NNI16507531 = {kind: 2, len: 22, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "state", len: 0, typ: NTI16507529, name: "state", sons: null}, 
+{kind: 1, offset: "player1", len: 0, typ: NTI16507507, name: "player1", sons: null}, 
+{kind: 1, offset: "player1_selected", len: 0, typ: NTI16507525, name: "player1_selected", sons: null}, 
+{kind: 1, offset: "player2", len: 0, typ: NTI16507507, name: "player2", sons: null}, 
+{kind: 1, offset: "creatures", len: 0, typ: NTI16507667, name: "creatures", sons: null}, 
+{kind: 1, offset: "booths", len: 0, typ: NTI16507669, name: "booths", sons: null}, 
+{kind: 1, offset: "ballots", len: 0, typ: NTI16507671, name: "ballots", sons: null}, 
+{kind: 1, offset: "belts", len: 0, typ: NTI16507673, name: "belts", sons: null}, 
+{kind: 1, offset: "counters", len: 0, typ: NTI16507675, name: "counters", sons: null}, 
+{kind: 1, offset: "patrollers", len: 0, typ: NTI16507677, name: "patrollers", sons: null}, 
+{kind: 1, offset: "buttons", len: 0, typ: NTI16507679, name: "buttons", sons: null}, 
 {kind: 1, offset: "winnerVotes", len: 0, typ: NTI1188044, name: "winnerVotes", sons: null}, 
 {kind: 1, offset: "loserVotes", len: 0, typ: NTI1188044, name: "loserVotes", sons: null}, 
-{kind: 1, offset: "true_votes", len: 0, typ: NTI16507559, name: "true_votes", sons: null}, 
-{kind: 1, offset: "counted_votes", len: 0, typ: NTI16507561, name: "counted_votes", sons: null}, 
+{kind: 1, offset: "true_votes", len: 0, typ: NTI16507684, name: "true_votes", sons: null}, 
+{kind: 1, offset: "counted_votes", len: 0, typ: NTI16507686, name: "counted_votes", sons: null}, 
 {kind: 1, offset: "game_over_msg", len: 0, typ: NTI1188013, name: "game_over_msg", sons: null}, 
 {kind: 1, offset: "pre_audit_winner", len: 0, typ: NTI1188044, name: "pre_audit_winner", sons: null}, 
 {kind: 1, offset: "target_ballot", len: 0, typ: NTI1188044, name: "target_ballot", sons: null}, 
 {kind: 1, offset: "audit_s_value", len: 0, typ: NTI1188005, name: "audit_s_value", sons: null}, 
 {kind: 1, offset: "audit_tol_value", len: 0, typ: NTI1188005, name: "audit_tol_value", sons: null}, 
 {kind: 1, offset: "audit_T_value", len: 0, typ: NTI1188005, name: "audit_T_value", sons: null}, 
-{kind: 1, offset: "audited_ballots", len: 0, typ: NTI16507569, name: "audited_ballots", sons: null}]};
-NTI16507438.node = NNI16507438;
-NTI16507477.base = NTI16507438;
-var NNI16507452 = {kind: 2, len: 7, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "x", len: 0, typ: NTI1188044, name: "x", sons: null}, 
+{kind: 1, offset: "audited_ballots", len: 0, typ: NTI16507694, name: "audited_ballots", sons: null}]};
+NTI16507531.node = NNI16507531;
+NTI16507578.base = NTI16507531;
+var NNI16507553 = {kind: 2, len: 7, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "x", len: 0, typ: NTI1188044, name: "x", sons: null}, 
 {kind: 1, offset: "y", len: 0, typ: NTI1188044, name: "y", sons: null}, 
-{kind: 1, offset: "voter", len: 0, typ: NTI16507461, name: "voter", sons: null}, 
+{kind: 1, offset: "voter", len: 0, typ: NTI16507562, name: "voter", sons: null}, 
 {kind: 1, offset: "vote", len: 0, typ: NTI1188044, name: "vote", sons: null}, 
-{kind: 1, offset: "voterState", len: 0, typ: NTI16507416, name: "voterState", sons: null}, 
+{kind: 1, offset: "voterState", len: 0, typ: NTI16507503, name: "voterState", sons: null}, 
 {kind: 1, offset: "stateSecondsLeft", len: 0, typ: NTI1188007, name: "stateSecondsLeft", sons: null}, 
-{kind: 1, offset: "game", len: 0, typ: NTI16507477, name: "game", sons: null}]};
-NTI16507452.node = NNI16507452;
-NTI16507418.base = NTI16507452;
-NTI16890225.base = NTI16507418;
-NTI16890262.base = NTI16507422;
-NTI16890299.base = NTI16507424;
-NTI16890351.base = NTI16507426;
-NTI16890388.base = NTI16507430;
-NTI16890440.base = NTI1188044;
-var NNI16890594 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI1188044, name: "Field0", sons: null}, 
+{kind: 1, offset: "game", len: 0, typ: NTI16507578, name: "game", sons: null}]};
+NTI16507553.node = NNI16507553;
+NTI16507505.base = NTI16507553;
+NTI16720247.base = NTI16507505;
+NTI16720299.base = NTI16507509;
+NTI16720351.base = NTI16507511;
+NTI16720418.base = NTI16507517;
+NTI16720470.base = NTI16507521;
+NTI16720517.base = NTI16507515;
+NTI16720523.base = NTI16720517;
+NTI16720574.base = NTI1188044;
+NTI16720611.base = NTI16507527;
+var NNI16735215 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI1188044, name: "Field0", sons: null}, 
 {kind: 1, offset: "Field1", len: 0, typ: NTI1188044, name: "Field1", sons: null}]};
-NTI16890594.node = NNI16890594;
+NTI16735215.node = NNI16735215;
+NTI16745010.base = NTI16735215;
+var NNI16750055 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI1188044, name: "Field0", sons: null}, 
+{kind: 1, offset: "Field1", len: 0, typ: NTI1188044, name: "Field1", sons: null}]};
+NTI16750055.node = NNI16750055;
+var NNI16750074 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI1188044, name: "Field0", sons: null}, 
+{kind: 1, offset: "Field1", len: 0, typ: NTI1188044, name: "Field1", sons: null}]};
+NTI16750074.node = NNI16750074;
+var NNI16750106 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI1188044, name: "Field0", sons: null}, 
+{kind: 1, offset: "Field1", len: 0, typ: NTI1188044, name: "Field1", sons: null}]};
+NTI16750106.node = NNI16750106;
 var NNI1194651 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI1194651.node = NNI1194651;
 NTI1194651.base = NTI1194619;
-var NNI16507262 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI1188005, name: "Field0", sons: null}, 
-{kind: 1, offset: "Field1", len: 0, typ: NTI1188005, name: "Field1", sons: null}]};
-NTI16507262.node = NNI16507262;
-var NNI16545162 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI16507345, name: "Field0", sons: null}, 
-{kind: 1, offset: "Field1", len: 0, typ: NTI16507345, name: "Field1", sons: null}]};
-NTI16545162.node = NNI16545162;
+var NNI16507539 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "pos", len: 0, typ: NTI16507349, name: "pos", sons: null}, 
+{kind: 1, offset: "secondsLeft", len: 0, typ: NTI1188005, name: "secondsLeft", sons: null}]};
+NTI16507539.node = NNI16507539;
+NTI16775226.base = NTI16507539;
+NTI16775232.base = NTI16775226;
+var NNI16625148 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI16507432, name: "Field0", sons: null}, 
+{kind: 1, offset: "Field1", len: 0, typ: NTI16507432, name: "Field1", sons: null}]};
+NTI16625148.node = NNI16625148;
 var NNI10600204 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI10600204.node = NNI10600204;
 NTI10600204.base = NTI1194619;
 var NNI2090020 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI1188044, name: "a", sons: null}, 
 {kind: 1, offset: "b", len: 0, typ: NTI1188044, name: "b", sons: null}]};
 NTI2090020.node = NNI2090020;
-NTI16660216.base = NTI16507422;
+NTI16815216.base = NTI16507509;
 var NNI5820011 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a", len: 0, typ: NTI5565232, name: "a", sons: null}, 
 {kind: 1, offset: "b", len: 0, typ: NTI1188044, name: "b", sons: null}]};
 NTI5820011.node = NNI5820011;
@@ -1058,13 +1135,6 @@ function negInt(a_1460615) {
 
 }
 var ConstSet2 = setConstr(13, 10);
-var ConstSet3 = setConstr(3);
-function raiseFieldError(f_1450047) {
-    raiseException({message: nimCopy(null, f_1450047, NTI1188013), parent: null, m_type: NTI1194651, name: null, trace: [], up: null}, "FieldDefect");
-
-  
-}
-var ConstSet4 = setConstr(2);
 function modInt(a_1460491, b_1460492) {
         if (b_1460492 == 0) raiseDivByZero();
     if (b_1460492 == -1 && a_1460491 == 2147483647) raiseOverflow();
@@ -1073,6 +1143,14 @@ function modInt(a_1460491, b_1460492) {
 
   
 }
+var ConstSet3 = setConstr(3);
+function raiseFieldError(f_1450047) {
+    raiseException({message: nimCopy(null, f_1450047, NTI1188013), parent: null, m_type: NTI1194651, name: null, trace: [], up: null}, "FieldDefect");
+
+  
+}
+var ConstSet4 = setConstr(5);
+var ConstSet5 = setConstr(5);
 function nimMax(a_1460821, b_1460822) {
     var Tmp1;
 
@@ -1113,11 +1191,8 @@ function nimMin(a_1460803, b_1460804) {
   return result_1460805;
 
 }
-var ConstSet5 = setConstr(13, 10);
-var ConstSet6 = setConstr(1);
-var ConstSet7 = setConstr(3);
-var ConstSet8 = setConstr(2);
-var ConstSet9 = setConstr(1, 0);
+var ConstSet6 = setConstr(13, 10);
+var ConstSet7 = setConstr(2, 1);
 function absInt(a_1460666) {
     var Tmp1;
 
@@ -1135,10 +1210,10 @@ function absInt(a_1460666) {
   return result_1460667;
 
 }
-var ConstSet10 = setConstr(7, 15, 10);
-var ConstSet11 = setConstr(0, 1);
-var ConstSet12 = setConstr(0, 3);
-var ConstSet13 = setConstr(2, 4);
+var ConstSet8 = setConstr(7, 15, 10);
+var ConstSet9 = setConstr(0, 1);
+var ConstSet10 = setConstr(0, 3);
+var ConstSet11 = setConstr(2, 4);
 function eqStrings(a_1460222, b_1460223) {
         if (a_1460222 == b_1460223) return true;
     if (a_1460222 === null && b_1460223.length == 0) return true;
@@ -1153,15 +1228,15 @@ function eqStrings(a_1460222, b_1460223) {
 
   
 }
-var ConstSet14 = setConstr(2);
-var ConstSet15 = setConstr(60, 62, 94);
-var ConstSet16 = setConstr(60, 62, 94);
-var ConstSet17 = setConstr(45, 43, 32);
+var ConstSet12 = setConstr(2);
+var ConstSet13 = setConstr(60, 62, 94);
+var ConstSet14 = setConstr(60, 62, 94);
+var ConstSet15 = setConstr(45, 43, 32);
+var ConstSet16 = setConstr([48, 57]);
+var ConstSet17 = setConstr([48, 57]);
 var ConstSet18 = setConstr([48, 57]);
-var ConstSet19 = setConstr([48, 57]);
-var ConstSet20 = setConstr([48, 57]);
-var ConstSet21 = setConstr([65, 90], [97, 122]);
-var ConstSet22 = setConstr(46, 44);
+var ConstSet19 = setConstr([65, 90], [97, 122]);
+var ConstSet20 = setConstr(46, 44);
 function nimCharToStr(x_1375674) {
   var result_1375675 = [];
 
@@ -1171,8 +1246,12 @@ function nimCharToStr(x_1375674) {
   return result_1375675;
 
 }
-var ConstSet23 = setConstr([65, 90]);
-var ConstSet24 = setConstr([97, 122]);
+var ConstSet21 = setConstr([65, 90]);
+var ConstSet22 = setConstr([97, 122]);
+var ConstSet23 = setConstr(1);
+var ConstSet24 = setConstr(3);
+var ConstSet25 = setConstr(2);
+var ConstSet26 = setConstr(5);
 var globalRaiseHook_1357018 = [null];
 var localRaiseHook_1357023 = [null];
 var outOfMemHook_1357026 = [null];
@@ -1531,30 +1610,40 @@ clipMaxY_12755336[0] = subInt(screenHeight_12755223[0], 1);
 var ditherColor_15065339 = [-1];
 var defaultFontSurface_16150071 = {w: 381, h: 8, channels: 1, tw: 4, th: 4, filename: [], data: [2, 0, 0, 0, 2, 0, 1, 0, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 1, 1, 2, 1, 0, 1, 2, 1, 1, 0, 2, 0, 1, 0, 2, 0, 1, 0, 2, 0, 1, 0, 2, 1, 0, 1, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 1, 2, 1, 1, 1, 2, 1, 1, 0, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 0, 1, 2, 1, 1, 1, 2, 1, 0, 0, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 1, 2, 0, 0, 0, 2, 1, 0, 0, 2, 1, 1, 1, 2, 1, 1, 1, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 1, 1, 0, 2, 1, 0, 0, 2, 0, 1, 1, 2, 0, 1, 0, 2, 0, 0, 0, 2, 0, 1, 0, 2, 1, 1, 1, 2, 1, 1, 0, 2, 0, 1, 1, 2, 1, 1, 0, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 0, 1, 2, 1, 1, 1, 2, 0, 0, 1, 2, 1, 0, 1, 2, 1, 0, 0, 2, 1, 1, 1, 2, 1, 1, 0, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 0, 1, 1, 2, 1, 1, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 1, 1, 2, 0, 1, 1, 2, 1, 1, 0, 2, 0, 0, 0, 2, 2, 2, 2, 2, 2, 0, 0, 0, 2, 0, 1, 0, 2, 1, 0, 1, 2, 1, 1, 1, 2, 1, 1, 0, 2, 0, 0, 1, 2, 1, 1, 0, 2, 1, 0, 0, 2, 1, 0, 0, 2, 0, 0, 1, 2, 0, 1, 0, 2, 0, 1, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1, 0, 2, 1, 0, 1, 2, 0, 1, 0, 2, 0, 0, 1, 2, 0, 0, 1, 2, 1, 0, 1, 2, 1, 0, 0, 2, 1, 0, 0, 2, 0, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 0, 1, 0, 2, 0, 1, 0, 2, 0, 1, 0, 2, 1, 1, 1, 2, 0, 1, 0, 2, 0, 0, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 0, 2, 1, 1, 1, 2, 1, 1, 0, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 0, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 0, 1, 2, 1, 0, 0, 2, 1, 1, 1, 2, 1, 1, 0, 2, 0, 1, 1, 2, 1, 1, 1, 2, 0, 1, 0, 2, 1, 1, 1, 2, 0, 1, 1, 2, 1, 1, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 1, 1, 2, 1, 0, 0, 2, 0, 1, 0, 2, 0, 0, 1, 2, 1, 0, 1, 2, 0, 0, 0, 2, 0, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 0, 2, 1, 0, 1, 2, 1, 0, 0, 2, 1, 0, 0, 2, 1, 0, 0, 2, 1, 0, 1, 2, 0, 1, 0, 2, 0, 0, 1, 2, 1, 0, 1, 2, 1, 0, 0, 2, 1, 1, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 0, 2, 0, 1, 0, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 0, 0, 1, 2, 0, 1, 0, 2, 0, 1, 0, 2, 0, 0, 1, 2, 2, 2, 2, 2, 2, 0, 0, 0, 2, 0, 1, 0, 2, 0, 0, 0, 2, 1, 0, 1, 2, 1, 1, 1, 2, 0, 1, 0, 2, 1, 1, 0, 2, 0, 0, 0, 2, 1, 0, 0, 2, 0, 0, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 0, 0, 0, 2, 1, 1, 1, 2, 0, 0, 0, 2, 0, 1, 0, 2, 1, 0, 1, 2, 0, 1, 0, 2, 1, 1, 1, 2, 0, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 0, 0, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 0, 0, 0, 2, 0, 0, 0, 2, 1, 0, 0, 2, 0, 0, 0, 2, 0, 0, 1, 2, 0, 1, 1, 2, 1, 1, 1, 2, 1, 0, 1, 2, 1, 1, 0, 2, 1, 0, 0, 2, 1, 0, 1, 2, 1, 1, 0, 2, 1, 1, 0, 2, 1, 0, 0, 2, 1, 0, 1, 2, 0, 1, 0, 2, 0, 1, 0, 2, 1, 1, 0, 2, 1, 0, 0, 2, 1, 1, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 0, 2, 0, 1, 0, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 0, 1, 0, 2, 1, 1, 1, 2, 0, 0, 1, 2, 1, 0, 0, 2, 0, 1, 0, 2, 0, 0, 1, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 0, 0, 2, 1, 0, 1, 2, 1, 1, 0, 2, 1, 1, 0, 2, 1, 0, 1, 2, 1, 1, 1, 2, 0, 1, 0, 2, 0, 0, 1, 2, 1, 1, 0, 2, 1, 0, 0, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 1, 1, 2, 1, 0, 1, 2, 1, 1, 0, 2, 1, 1, 1, 2, 0, 1, 0, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 1, 1, 2, 0, 1, 0, 2, 1, 1, 1, 2, 0, 1, 0, 2, 1, 1, 0, 2, 0, 1, 1, 2, 1, 1, 1, 2, 2, 2, 2, 2, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 1, 1, 1, 2, 0, 1, 1, 2, 1, 0, 0, 2, 1, 0, 1, 2, 0, 0, 0, 2, 1, 0, 0, 2, 0, 0, 1, 2, 0, 1, 0, 2, 0, 1, 0, 2, 0, 1, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1, 0, 2, 1, 0, 1, 2, 0, 1, 0, 2, 1, 0, 0, 2, 0, 0, 1, 2, 0, 0, 1, 2, 0, 0, 1, 2, 1, 0, 1, 2, 0, 0, 1, 2, 1, 0, 1, 2, 0, 0, 1, 2, 0, 1, 0, 2, 0, 1, 0, 2, 0, 1, 0, 2, 1, 1, 1, 2, 0, 1, 0, 2, 0, 0, 0, 2, 1, 0, 0, 2, 1, 1, 1, 2, 1, 0, 1, 2, 1, 0, 0, 2, 1, 0, 1, 2, 1, 0, 0, 2, 1, 0, 0, 2, 1, 0, 1, 2, 1, 1, 1, 2, 0, 1, 0, 2, 0, 1, 0, 2, 1, 0, 1, 2, 1, 0, 0, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 1, 1, 2, 1, 1, 0, 2, 1, 1, 0, 2, 0, 0, 1, 2, 0, 1, 0, 2, 1, 0, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 0, 1, 2, 0, 0, 1, 2, 1, 0, 0, 2, 1, 0, 0, 2, 0, 1, 0, 2, 0, 0, 1, 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 0, 2, 1, 0, 1, 2, 1, 0, 0, 2, 1, 0, 0, 2, 1, 0, 1, 2, 1, 0, 1, 2, 0, 1, 0, 2, 0, 0, 1, 2, 1, 0, 1, 2, 1, 0, 0, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 0, 0, 2, 1, 1, 0, 2, 1, 0, 1, 2, 0, 0, 1, 2, 0, 1, 0, 2, 1, 0, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 0, 1, 2, 0, 0, 1, 2, 1, 0, 0, 2, 0, 1, 0, 2, 0, 1, 0, 2, 1, 0, 0, 2, 2, 2, 2, 2, 2, 0, 0, 0, 2, 0, 1, 0, 2, 0, 0, 0, 2, 1, 0, 1, 2, 1, 1, 1, 2, 1, 0, 1, 2, 1, 1, 1, 2, 0, 0, 0, 2, 0, 1, 0, 2, 0, 1, 0, 2, 1, 0, 1, 2, 0, 0, 0, 2, 1, 0, 0, 2, 0, 0, 0, 2, 0, 1, 0, 2, 1, 0, 0, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 0, 0, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 0, 0, 1, 2, 1, 1, 1, 2, 0, 0, 1, 2, 0, 0, 0, 2, 1, 0, 0, 2, 0, 0, 1, 2, 0, 0, 0, 2, 1, 0, 0, 2, 0, 1, 0, 2, 1, 1, 1, 2, 1, 0, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 0, 2, 1, 1, 1, 2, 1, 0, 0, 2, 1, 1, 1, 2, 1, 0, 1, 2, 1, 1, 1, 2, 1, 1, 0, 2, 1, 0, 1, 2, 1, 1, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 1, 0, 2, 1, 0, 0, 2, 0, 1, 1, 2, 1, 0, 1, 2, 1, 1, 0, 2, 0, 1, 0, 2, 0, 1, 1, 2, 0, 1, 0, 2, 1, 1, 1, 2, 1, 0, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 1, 0, 2, 0, 0, 1, 2, 0, 1, 1, 2, 0, 0, 0, 2, 1, 1, 1, 2, 0, 0, 0, 2, 1, 0, 1, 2, 1, 1, 1, 2, 0, 1, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 0, 0, 2, 1, 1, 1, 2, 1, 0, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 1, 0, 1, 2, 1, 1, 1, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 1, 1, 2, 1, 0, 0, 2, 0, 1, 1, 2, 1, 0, 1, 2, 1, 1, 0, 2, 0, 1, 0, 2, 1, 1, 1, 2, 0, 1, 0, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 1, 1, 2, 1, 1, 1, 2, 0, 1, 1, 2, 1, 1, 0, 2, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2], spriteFlags: []};
 var mapFilterFlags_16380022 = [0];
-var buttonDown_16507040 = [false];
-var logCount_16507042 = [0];
-var logMax_16507045 = [1000];
-function HEX2EHEX2E_16507081(a_16507086, b_16507088) {
-  var result_16507090 = ({a: 0.0, b: 0.0});
+var logCount_16507067 = [0];
+var logMax_16507070 = [1000];
+function HEX2EHEX2E_16507106(a_16507111, b_16507113) {
+  var result_16507115 = ({a: 0.0, b: 0.0});
 
-    nimCopy(result_16507090, {a: a_16507086, b: b_16507088}, NTI16507078);
+    nimCopy(result_16507115, {a: a_16507111, b: b_16507113}, NTI16507103);
 
-  return result_16507090;
+  return result_16507115;
 
 }
-var gridSize_16507067 = [7];
-var gridCount_16507069 = [19];
-var votingTime_16507141 = [HEX2EHEX2E_16507081(1.0000000000000001e-01, 2.9999999999999999e-01)];
-var timeBetweenVoters_16507155 = [HEX2EHEX2E_16507081(0.0, 1.0000000000000001e-01)];
-var voterSpeed_16507169 = [HEX2EHEX2E_16507081(3.0000000000000000e+01, 4.0000000000000000e+01)];
-var targetWinnerPct_16507170 = [5.9999999999999998e-01];
-var totalVotes_16507173 = [100];
-var patrolIdleTime_16507183 = [HEX2EHEX2E_16507081(2.0000000000000001e-01, 2.0000000000000000e+00)];
-var patrolViewRadius_16507185 = [mulInt(3, gridSize_16507067[0])];
-var selectRadius_16507187 = [mulInt(2, gridSize_16507067[0])];
-var beltSpeed_16507188 = [3.0000000000000000e+01];
-var tolerance_div_16507189 = [8.0000000000000000e+00];
-var game_16507572 = [null];
+var gridSize_16507092 = [7];
+var gridCount_16507094 = [19];
+var votingTime_16507166 = [HEX2EHEX2E_16507106(1.0000000000000001e-01, 2.9999999999999999e-01)];
+var timeBetweenVoters_16507180 = [HEX2EHEX2E_16507106(0.0, 1.5000000000000000e+00)];
+var voterSpeed_16507194 = [HEX2EHEX2E_16507106(3.0000000000000000e+01, 4.0000000000000000e+01)];
+var timewarp_16507195 = [1.0000000000000000e+00];
+var timewarp_normal_16507196 = [1.0000000000000000e+00];
+var timewarp_fast_16507197 = [1.0000000000000000e+01];
+var targetWinnerPct_16507198 = [5.1000000000000001e-01];
+var totalVotes_16507201 = [101];
+var patrolIdleTime_16507211 = [HEX2EHEX2E_16507106(2.0000000000000001e-01, 2.0000000000000000e+00)];
+var patrolViewRadius_16507213 = [mulInt(2, gridSize_16507092[0])];
+var selectRadius_16507215 = [mulInt(2, gridSize_16507092[0])];
+var beltSpeed_16507216 = [1.0000000000000000e+01];
+var tolerance_div_16507217 = [4.0000000000000000e+00];
+var particle_vx_16507227 = [HEX2EHEX2E_16507106(-5.0000000000000000e+01, 5.0000000000000000e+01)];
+var particle_vy_16507237 = [HEX2EHEX2E_16507106(-1.0000000000000000e+02, -2.0000000000000000e+01)];
+var particle_ax_16507247 = [HEX2EHEX2E_16507106(0.0, 0.0)];
+var particle_ay_16507257 = [HEX2EHEX2E_16507106(1.5000000000000000e+02, 1.5000000000000000e+02)];
+var particle_lifetime_16507267 = [HEX2EHEX2E_16507106(2.0000000000000001e-01, 7.5000000000000000e-01)];
+var beam_lifetime_16507268 = [7.5000000000000000e-01];
+var game_16507740 = [null];
+var explosions_16507743 = [[]];
+var beams_16507746 = [[]];
 function newSeq_14605077(len_14605080) {
   var result_14605082 = [];
 
@@ -1640,19 +1729,19 @@ function init_14605070(org_14605072, app_14605073) {
     masterGain_14335046[0].connect(audioContext_14332019[0].destination);
     L3: do {
       var c_14610024 = null;
-      var i_16890924 = 0;
-      if ((i_16890924 <= 15)) {
+      var i_16995061 = 0;
+      if ((i_16995061 <= 15)) {
       L4: do {
           L5: while (true) {
           if (!true) break L5;
-            c_14610024 = audioChannels_14332102[0][chckIndx(i_16890924, 0, (audioChannels_14332102[0]).length-1)];
+            c_14610024 = audioChannels_14332102[0][chckIndx(i_16995061, 0, (audioChannels_14332102[0]).length-1)];
             c_14610024.gain = audioContext_14332019[0].createGain();
             c_14610024.gain.gain.value = 1.0000000000000000e+00;
-            if ((15 <= i_16890924)) {
+            if ((15 <= i_16995061)) {
             break L4;
             }
             
-            i_16890924 = addInt(i_16890924, 1);
+            i_16995061 = addInt(i_16995061, 1);
           }
       } while(false);
       }
@@ -1675,10 +1764,10 @@ function RGB_12795071(r_12795073, g_12795074, b_12795075) {
   var result_12795080 = {Field0: 0, Field1: 0, Field2: 0};
 
   BeforeRet: do {
-    var colontmp__16890930 = r_12795073;
-    var colontmp__16890931 = g_12795074;
-    var colontmp__16890932 = b_12795075;
-    nimCopy(result_12795080, {Field0: colontmp__16890930, Field1: colontmp__16890931, Field2: colontmp__16890932}, NTI12795076);
+    var colontmp__16995067 = r_12795073;
+    var colontmp__16995068 = g_12795074;
+    var colontmp__16995069 = b_12795075;
+    nimCopy(result_12795080, {Field0: colontmp__16995067, Field1: colontmp__16995068, Field2: colontmp__16995069}, NTI12795076);
     break BeforeRet;
   } while (false);
 
@@ -2080,13 +2169,13 @@ function enlarge_16135172(t_16135178) {
     var n_16135186 = [];
     n_16135186 = new Array(chckRange(mulInt((t_16135178.data).length, 2), 0, 2147483647)); for (var i=0;i<chckRange(mulInt((t_16135178.data).length, 2), 0, 2147483647);++i) {n_16135186[i]={Field0: 0, Field1: 0, Field2: {Field0: 0, Field1: 0, Field2: 0, Field3: 0}};}    var Tmp1 = t_16135178.data; t_16135178.data = n_16135186; n_16135186 = Tmp1;    L2: do {
       var i_16135358 = 0;
-      var colontmp__16891001 = 0;
-      colontmp__16891001 = ((n_16135186).length-1);
-      var res_16891006 = 0;
+      var colontmp__16995138 = 0;
+      colontmp__16995138 = ((n_16135186).length-1);
+      var res_16995143 = 0;
       L3: do {
           L4: while (true) {
-          if (!(res_16891006 <= colontmp__16891001)) break L4;
-            i_16135358 = res_16891006;
+          if (!(res_16995143 <= colontmp__16995138)) break L4;
+            i_16135358 = res_16995143;
             var eh_16135518 = n_16135186[chckIndx(i_16135358, 0, (n_16135186).length-1)].Field0;
             if (isFilled_2393218(eh_16135518)) {
             var j_16135525 = (eh_16135518 & ((t_16135178.data).length-1));
@@ -2099,7 +2188,7 @@ function enlarge_16135172(t_16135178) {
             rawInsert_16136130(t_16135178, t_16135178, "data", n_16135186[chckIndx(i_16135358, 0, (n_16135186).length-1)].Field1, n_16135186[chckIndx(i_16135358, 0, (n_16135186).length-1)].Field2, eh_16135518, j_16135525);
             }
             
-            res_16891006 = addInt(res_16891006, 1);
+            res_16995143 = addInt(res_16995143, 1);
           }
       } while(false);
     } while(false);
@@ -2188,13 +2277,13 @@ function createFontFromSurface_15790297(surface_15790299, chars_15790300) {
     var transparentColorRGBA_15795004 = {Field0: surface_15790299.data[chckIndx(4, 0, (surface_15790299.data).length-1)], Field1: surface_15790299.data[chckIndx(5, 0, (surface_15790299.data).length-1)], Field2: surface_15790299.data[chckIndx(6, 0, (surface_15790299.data).length-1)], Field3: surface_15790299.data[chckIndx(7, 0, (surface_15790299.data).length-1)]};
     L1: do {
       var i_15795012 = 0;
-      var colontmp__16890940 = 0;
-      colontmp__16890940 = mulInt(font_15790436.w, font_15790436.h);
-      var i_16890941 = 0;
+      var colontmp__16995077 = 0;
+      colontmp__16995077 = mulInt(font_15790436.w, font_15790436.h);
+      var i_16995078 = 0;
       L2: do {
           L3: while (true) {
-          if (!(i_16890941 < colontmp__16890940)) break L3;
-            i_15795012 = i_16890941;
+          if (!(i_16995078 < colontmp__16995077)) break L3;
+            i_15795012 = i_16995078;
             var col_15795014 = {Field0: surface_15790299.data[chckIndx(addInt(mulInt(i_15795012, surface_15790299.channels), 0), 0, (surface_15790299.data).length-1)], Field1: surface_15790299.data[chckIndx(addInt(mulInt(i_15795012, surface_15790299.channels), 1), 0, (surface_15790299.data).length-1)], Field2: surface_15790299.data[chckIndx(addInt(mulInt(i_15795012, surface_15790299.channels), 2), 0, (surface_15790299.data).length-1)], Field3: surface_15790299.data[chckIndx(addInt(mulInt(i_15795012, surface_15790299.channels), 3), 0, (surface_15790299.data).length-1)]};
             if ((col_15795014["Field3"] == 0)) {
             font_15790436.data[chckIndx(i_15795012, 0, (font_15790436.data).length-1)] = transparentColor_15790455;
@@ -2207,7 +2296,7 @@ function createFontFromSurface_15790297(surface_15790299, chars_15790300) {
               font_15790436.data[chckIndx(i_15795012, 0, (font_15790436.data).length-1)] = solidColor_15790454;
             }
             }
-            i_16890941 = addInt(i_16890941, 1);
+            i_16995078 = addInt(i_16995078, 1);
           }
       } while(false);
     } while(false);
@@ -2217,15 +2306,15 @@ function createFontFromSurface_15790297(surface_15790299, chars_15790300) {
     console.log("loading font from indexed", toJSStr(surface_15790299.filename));
     L4: do {
       var i_15805008 = 0;
-      var colontmp__16890944 = 0;
-      colontmp__16890944 = mulInt(font_15790436.w, font_15790436.h);
-      var i_16890945 = 0;
+      var colontmp__16995081 = 0;
+      colontmp__16995081 = mulInt(font_15790436.w, font_15790436.h);
+      var i_16995082 = 0;
       L5: do {
           L6: while (true) {
-          if (!(i_16890945 < colontmp__16890944)) break L6;
-            i_15805008 = i_16890945;
+          if (!(i_16995082 < colontmp__16995081)) break L6;
+            i_15805008 = i_16995082;
             font_15790436.data[chckIndx(i_15805008, 0, (font_15790436.data).length-1)] = surface_15790299.data[chckIndx(i_15805008, 0, (surface_15790299.data).length-1)];
-            i_16890945 = addInt(i_16890945, 1);
+            i_16995082 = addInt(i_16995082, 1);
           }
       } while(false);
     } while(false);
@@ -2238,11 +2327,11 @@ function createFontFromSurface_15790297(surface_15790299, chars_15790300) {
     var charPos_15815640 = 0;
     L7: do {
       var x_15815648 = 0;
-      var i_16890980 = 0;
+      var i_16995117 = 0;
       L8: do {
           L9: while (true) {
-          if (!(i_16890980 < font_15790436.w)) break L9;
-            x_15815648 = i_16890980;
+          if (!(i_16995117 < font_15790436.w)) break L9;
+            x_15815648 = i_16995117;
             var color_15815649 = font_15790436.data[chckIndx(x_15815648, 0, (font_15790436.data).length-1)];
             if ((color_15815649 == borderColor_15790453)) {
             currentRect_15815636.Field2 = subInt(x_15815648, currentRect_15815636.Field0);
@@ -2250,17 +2339,17 @@ function createFontFromSurface_15790297(surface_15790299, chars_15790300) {
             currentRect_15815636.Field3 = subInt(font_15790436.h, 1);
             L10: do {
               var y_15820008 = 0;
-              var i_16890949 = 0;
+              var i_16995086 = 0;
               L11: do {
                   L12: while (true) {
-                  if (!(i_16890949 < font_15790436.h)) break L12;
-                    y_15820008 = i_16890949;
+                  if (!(i_16995086 < font_15790436.h)) break L12;
+                    y_15820008 = i_16995086;
                     var color_15820009 = font_15790436.data[chckIndx(addInt(mulInt(y_15820008, font_15790436.w), x_15815648), 0, (font_15790436.data).length-1)];
                     if ((color_15820009 == borderColor_15790453)) {
                     currentRect_15815636.Field3 = y_15820008;
                     }
                     
-                    i_16890949 = addInt(i_16890949, 1);
+                    i_16995086 = addInt(i_16995086, 1);
                   }
               } while(false);
             } while(false);
@@ -2346,7 +2435,7 @@ function createFontFromSurface_15790297(surface_15790299, chars_15790300) {
             currentRect_15815636.Field0 = addInt(x_15815648, 1);
             }
             
-            i_16890980 = addInt(i_16890980, 1);
+            i_16995117 = addInt(i_16995117, 1);
           }
       } while(false);
     } while(false);
@@ -2512,17 +2601,17 @@ function find_14370134(a_14370138, item_14370139) {
     L1: do {
       var i_14370173 = null;
       var i_14370173_Idx = 0;
-      var i_16891067 = 0;
+      var i_16995204 = 0;
       L2: do {
           L3: while (true) {
-          if (!(i_16891067 < (a_14370138).length)) break L3;
-            i_14370173 = a_14370138; i_14370173_Idx = chckIndx(i_16891067, 0, (a_14370138).length-1);
+          if (!(i_16995204 < (a_14370138).length)) break L3;
+            i_14370173 = a_14370138; i_14370173_Idx = chckIndx(i_16995204, 0, (a_14370138).length-1);
             if ((i_14370173[i_14370173_Idx] == item_14370139)) {
             break BeforeRet;
             }
             
             result_14370140 = addInt(result_14370140, 1);
-            i_16891067 = addInt(i_16891067, 1);
+            i_16995204 = addInt(i_16995204, 1);
           }
       } while(false);
     } while(false);
@@ -2721,13 +2810,13 @@ function enlarge_14455161(t_14455167) {
     var n_14455175 = [];
     n_14455175 = new Array(chckRange(mulInt((t_14455167.data).length, 2), 0, 2147483647)); for (var i=0;i<chckRange(mulInt((t_14455167.data).length, 2), 0, 2147483647);++i) {n_14455175[i]={Field0: 0, Field1: 0, Field2: 0};}    var Tmp1 = t_14455167.data; t_14455167.data = n_14455175; n_14455175 = Tmp1;    L2: do {
       var i_14455335 = 0;
-      var colontmp__16891126 = 0;
-      colontmp__16891126 = ((n_14455175).length-1);
-      var res_16891127 = 0;
+      var colontmp__16995263 = 0;
+      colontmp__16995263 = ((n_14455175).length-1);
+      var res_16995264 = 0;
       L3: do {
           L4: while (true) {
-          if (!(res_16891127 <= colontmp__16891126)) break L4;
-            i_14455335 = res_16891127;
+          if (!(res_16995264 <= colontmp__16995263)) break L4;
+            i_14455335 = res_16995264;
             var eh_14455491 = n_14455175[chckIndx(i_14455335, 0, (n_14455175).length-1)].Field0;
             if (isFilled_2393218(eh_14455491)) {
             var j_14455498 = (eh_14455491 & ((t_14455167.data).length-1));
@@ -2740,7 +2829,7 @@ function enlarge_14455161(t_14455167) {
             rawInsert_14456122(t_14455167, t_14455167, "data", n_14455175[chckIndx(i_14455335, 0, (n_14455175).length-1)].Field1, n_14455175[chckIndx(i_14455335, 0, (n_14455175).length-1)].Field2, eh_14455491, j_14455498);
             }
             
-            res_16891127 = addInt(res_16891127, 1);
+            res_16995264 = addInt(res_16995264, 1);
           }
       } while(false);
     } while(false);
@@ -2864,17 +2953,17 @@ function createWindow_14345310(title_14345312, w_14345313, h_14345314, scale_143
         L1: do {
           var t_14355214 = null;
           var t_14355214_Idx = 0;
-          var i_16891024 = 0;
-          var L_16891025 = (e_14345499.changedTouches).length;
+          var i_16995161 = 0;
+          var L_16995162 = (e_14345499.changedTouches).length;
           L2: do {
               L3: while (true) {
-              if (!(i_16891024 < L_16891025)) break L3;
-                t_14355214 = e_14345499.changedTouches; t_14355214_Idx = chckIndx(i_16891024, 0, (e_14345499.changedTouches).length-1);
+              if (!(i_16995161 < L_16995162)) break L3;
+                t_14355214 = e_14345499.changedTouches; t_14355214_Idx = chckIndx(i_16995161, 0, (e_14345499.changedTouches).length-1);
                 var sx_14355215 = subInt(t_14355214[t_14355214_Idx].pageX, e_14345499.target.offsetLeft);
                 var sy_14355216 = subInt(t_14355214[t_14355214_Idx].pageY, e_14345499.target.offsetTop);
                 touches_12755142[0].push({state: 0, id: t_14355214[t_14355214_Idx].identifier, sx: sx_14355215, sy: sy_14355216, x: (((sx_14355215 / scale_14345500))|0), y: (((sy_14355216 / scale_14345500))|0), xrel: 0.0, yrel: 0.0, xrelraw: 0.0, yrelraw: 0.0});;
-                i_16891024 = addInt(i_16891024, 1);
-                if (!(((e_14345499.changedTouches).length == L_16891025))) {
+                i_16995161 = addInt(i_16995161, 1);
+                if (!(((e_14345499.changedTouches).length == L_16995162))) {
                 failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
                 }
                 
@@ -2896,20 +2985,20 @@ function createWindow_14345310(title_14345312, w_14345313, h_14345314, scale_143
         L1: do {
           var t_14355342 = null;
           var t_14355342_Idx = 0;
-          var i_16891062 = 0;
-          var L_16891063 = (e_14355333.changedTouches).length;
+          var i_16995199 = 0;
+          var L_16995200 = (e_14355333.changedTouches).length;
           L2: do {
               L3: while (true) {
-              if (!(i_16891062 < L_16891063)) break L3;
-                t_14355342 = e_14355333.changedTouches; t_14355342_Idx = chckIndx(i_16891062, 0, (e_14355333.changedTouches).length-1);
+              if (!(i_16995199 < L_16995200)) break L3;
+                t_14355342 = e_14355333.changedTouches; t_14355342_Idx = chckIndx(i_16995199, 0, (e_14355333.changedTouches).length-1);
                 L4: do {
                   var et_14365215 = null;
-                  var i_16891059 = 0;
-                  var L_16891060 = (touches_12755142[0]).length;
+                  var i_16995196 = 0;
+                  var L_16995197 = (touches_12755142[0]).length;
                   L5: do {
                       L6: while (true) {
-                      if (!(i_16891059 < L_16891060)) break L6;
-                        et_14365215 = touches_12755142[0][chckIndx(i_16891059, 0, (touches_12755142[0]).length-1)];
+                      if (!(i_16995196 < L_16995197)) break L6;
+                        et_14365215 = touches_12755142[0][chckIndx(i_16995196, 0, (touches_12755142[0]).length-1)];
                         if ((et_14365215.id == t_14355342[t_14355342_Idx].identifier)) {
                         if (!(contains_14370120([0, 3, 4], et_14365215.state))) {
                         et_14365215.state = 2;
@@ -2928,16 +3017,16 @@ function createWindow_14345310(title_14345312, w_14345313, h_14345314, scale_143
                         break L4;
                         }
                         
-                        i_16891059 = addInt(i_16891059, 1);
-                        if (!(((touches_12755142[0]).length == L_16891060))) {
+                        i_16995196 = addInt(i_16995196, 1);
+                        if (!(((touches_12755142[0]).length == L_16995197))) {
                         failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
                         }
                         
                       }
                   } while(false);
                 } while(false);
-                i_16891062 = addInt(i_16891062, 1);
-                if (!(((e_14355333.changedTouches).length == L_16891063))) {
+                i_16995199 = addInt(i_16995199, 1);
+                if (!(((e_14355333.changedTouches).length == L_16995200))) {
                 failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
                 }
                 
@@ -2958,20 +3047,20 @@ function createWindow_14345310(title_14345312, w_14345313, h_14345314, scale_143
         L1: do {
           var t_14370312 = null;
           var t_14370312_Idx = 0;
-          var i_16891080 = 0;
-          var L_16891081 = (e_14370303.changedTouches).length;
+          var i_16995217 = 0;
+          var L_16995218 = (e_14370303.changedTouches).length;
           L2: do {
               L3: while (true) {
-              if (!(i_16891080 < L_16891081)) break L3;
-                t_14370312 = e_14370303.changedTouches; t_14370312_Idx = chckIndx(i_16891080, 0, (e_14370303.changedTouches).length-1);
+              if (!(i_16995217 < L_16995218)) break L3;
+                t_14370312 = e_14370303.changedTouches; t_14370312_Idx = chckIndx(i_16995217, 0, (e_14370303.changedTouches).length-1);
                 L4: do {
                   var et_14370323 = null;
-                  var i_16891077 = 0;
-                  var L_16891078 = (touches_12755142[0]).length;
+                  var i_16995214 = 0;
+                  var L_16995215 = (touches_12755142[0]).length;
                   L5: do {
                       L6: while (true) {
-                      if (!(i_16891077 < L_16891078)) break L6;
-                        et_14370323 = touches_12755142[0][chckIndx(i_16891077, 0, (touches_12755142[0]).length-1)];
+                      if (!(i_16995214 < L_16995215)) break L6;
+                        et_14370323 = touches_12755142[0][chckIndx(i_16995214, 0, (touches_12755142[0]).length-1)];
                         if ((et_14370323.id == t_14370312[t_14370312_Idx].identifier)) {
                         et_14370323.state = 3;
                         var sx_14370324 = subInt(t_14370312[t_14370312_Idx].pageX, e_14370303.target.offsetLeft);
@@ -2987,16 +3076,16 @@ function createWindow_14345310(title_14345312, w_14345313, h_14345314, scale_143
                         break L4;
                         }
                         
-                        i_16891077 = addInt(i_16891077, 1);
-                        if (!(((touches_12755142[0]).length == L_16891078))) {
+                        i_16995214 = addInt(i_16995214, 1);
+                        if (!(((touches_12755142[0]).length == L_16995215))) {
                         failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
                         }
                         
                       }
                   } while(false);
                 } while(false);
-                i_16891080 = addInt(i_16891080, 1);
-                if (!(((e_14370303.changedTouches).length == L_16891081))) {
+                i_16995217 = addInt(i_16995217, 1);
+                if (!(((e_14370303.changedTouches).length == L_16995218))) {
                 failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
                 }
                 
@@ -3017,20 +3106,20 @@ function createWindow_14345310(title_14345312, w_14345313, h_14345314, scale_143
         L1: do {
           var t_14370352 = null;
           var t_14370352_Idx = 0;
-          var i_16891098 = 0;
-          var L_16891099 = (e_14370343.changedTouches).length;
+          var i_16995235 = 0;
+          var L_16995236 = (e_14370343.changedTouches).length;
           L2: do {
               L3: while (true) {
-              if (!(i_16891098 < L_16891099)) break L3;
-                t_14370352 = e_14370343.changedTouches; t_14370352_Idx = chckIndx(i_16891098, 0, (e_14370343.changedTouches).length-1);
+              if (!(i_16995235 < L_16995236)) break L3;
+                t_14370352 = e_14370343.changedTouches; t_14370352_Idx = chckIndx(i_16995235, 0, (e_14370343.changedTouches).length-1);
                 L4: do {
                   var et_14370363 = null;
-                  var i_16891095 = 0;
-                  var L_16891096 = (touches_12755142[0]).length;
+                  var i_16995232 = 0;
+                  var L_16995233 = (touches_12755142[0]).length;
                   L5: do {
                       L6: while (true) {
-                      if (!(i_16891095 < L_16891096)) break L6;
-                        et_14370363 = touches_12755142[0][chckIndx(i_16891095, 0, (touches_12755142[0]).length-1)];
+                      if (!(i_16995232 < L_16995233)) break L6;
+                        et_14370363 = touches_12755142[0][chckIndx(i_16995232, 0, (touches_12755142[0]).length-1)];
                         if ((et_14370363.id == t_14370352[t_14370352_Idx].identifier)) {
                         et_14370363.state = 4;
                         var sx_14370364 = subInt(t_14370352[t_14370352_Idx].pageX, e_14370343.target.offsetLeft);
@@ -3044,16 +3133,16 @@ function createWindow_14345310(title_14345312, w_14345313, h_14345314, scale_143
                         break L4;
                         }
                         
-                        i_16891095 = addInt(i_16891095, 1);
-                        if (!(((touches_12755142[0]).length == L_16891096))) {
+                        i_16995232 = addInt(i_16995232, 1);
+                        if (!(((touches_12755142[0]).length == L_16995233))) {
                         failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
                         }
                         
                       }
                   } while(false);
                 } while(false);
-                i_16891098 = addInt(i_16891098, 1);
-                if (!(((e_14370343.changedTouches).length == L_16891099))) {
+                i_16995235 = addInt(i_16995235, 1);
+                if (!(((e_14370343.changedTouches).length == L_16995236))) {
                 failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
                 }
                 
@@ -3071,22 +3160,22 @@ function createWindow_14345310(title_14345312, w_14345313, h_14345314, scale_143
         L1: do {
           var btn_14375088 = 0;
           var keys_14375089 = [];
-          var i_16891113 = 0;
-          if ((i_16891113 <= 15)) {
+          var i_16995250 = 0;
+          if ((i_16995250 <= 15)) {
           L2: do {
               L3: while (true) {
               if (!true) break L3;
-                btn_14375088 = i_16891113;
-                keys_14375089 = keymap_12755232[0][chckIndx(i_16891113, 0, (keymap_12755232[0]).length-1)];
+                btn_14375088 = i_16995250;
+                keys_14375089 = keymap_12755232[0][chckIndx(i_16995250, 0, (keymap_12755232[0]).length-1)];
                 L4: do {
                   var key_14385214 = null;
                   var key_14385214_Idx = 0;
-                  var i_16891106 = 0;
-                  var L_16891107 = (keys_14375089).length;
+                  var i_16995243 = 0;
+                  var L_16995244 = (keys_14375089).length;
                   L5: do {
                       L6: while (true) {
-                      if (!(i_16891106 < L_16891107)) break L6;
-                        key_14385214 = keys_14375089; key_14385214_Idx = chckIndx(i_16891106, 0, (keys_14375089).length-1);
+                      if (!(i_16995243 < L_16995244)) break L6;
+                        key_14385214 = keys_14375089; key_14385214_Idx = chckIndx(i_16995243, 0, (keys_14375089).length-1);
                         if ((event_14375013.keyCode == key_14385214[key_14385214_Idx])) {
                         if ((controllers_12755242[0][chckIndx(0, 0, (controllers_12755242[0]).length-1)].buttons[chckIndx(btn_14375088, 0, (controllers_12755242[0][chckIndx(0, 0, (controllers_12755242[0]).length-1)].buttons).length-1)] <= 0)) {
                         setButtonState_12665015(controllers_12755242[0][chckIndx(0, 0, (controllers_12755242[0]).length-1)], btn_14375088, true);
@@ -3095,19 +3184,19 @@ function createWindow_14345310(title_14345312, w_14345313, h_14345314, scale_143
                         event_14375013.preventDefault();
                         }
                         
-                        i_16891106 = addInt(i_16891106, 1);
-                        if (!(((keys_14375089).length == L_16891107))) {
+                        i_16995243 = addInt(i_16995243, 1);
+                        if (!(((keys_14375089).length == L_16995244))) {
                         failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
                         }
                         
                       }
                   } while(false);
                 } while(false);
-                if ((15 <= i_16891113)) {
+                if ((15 <= i_16995250)) {
                 break L2;
                 }
                 
-                i_16891113 = addInt(i_16891113, 1);
+                i_16995250 = addInt(i_16995250, 1);
               }
           } while(false);
           }
@@ -3125,40 +3214,40 @@ function createWindow_14345310(title_14345312, w_14345313, h_14345314, scale_143
         L1: do {
           var btn_14460737 = 0;
           var keys_14460738 = [];
-          var i_16891138 = 0;
-          if ((i_16891138 <= 15)) {
+          var i_16995275 = 0;
+          if ((i_16995275 <= 15)) {
           L2: do {
               L3: while (true) {
               if (!true) break L3;
-                btn_14460737 = i_16891138;
-                keys_14460738 = keymap_12755232[0][chckIndx(i_16891138, 0, (keymap_12755232[0]).length-1)];
+                btn_14460737 = i_16995275;
+                keys_14460738 = keymap_12755232[0][chckIndx(i_16995275, 0, (keymap_12755232[0]).length-1)];
                 L4: do {
                   var key_14460746 = null;
                   var key_14460746_Idx = 0;
-                  var i_16891135 = 0;
-                  var L_16891136 = (keys_14460738).length;
+                  var i_16995272 = 0;
+                  var L_16995273 = (keys_14460738).length;
                   L5: do {
                       L6: while (true) {
-                      if (!(i_16891135 < L_16891136)) break L6;
-                        key_14460746 = keys_14460738; key_14460746_Idx = chckIndx(i_16891135, 0, (keys_14460738).length-1);
+                      if (!(i_16995272 < L_16995273)) break L6;
+                        key_14460746 = keys_14460738; key_14460746_Idx = chckIndx(i_16995272, 0, (keys_14460738).length-1);
                         if ((event_14460726.keyCode == key_14460746[key_14460746_Idx])) {
                         setButtonState_12665015(controllers_12755242[0][chckIndx(0, 0, (controllers_12755242[0]).length-1)], btn_14460737, false);
                         event_14460726.preventDefault();
                         }
                         
-                        i_16891135 = addInt(i_16891135, 1);
-                        if (!(((keys_14460738).length == L_16891136))) {
+                        i_16995272 = addInt(i_16995272, 1);
+                        if (!(((keys_14460738).length == L_16995273))) {
                         failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
                         }
                         
                       }
                   } while(false);
                 } while(false);
-                if ((15 <= i_16891138)) {
+                if ((15 <= i_16995275)) {
                 break L2;
                 }
                 
-                i_16891138 = addInt(i_16891138, 1);
+                i_16995275 = addInt(i_16995275, 1);
               }
           } while(false);
           }
@@ -3211,19 +3300,19 @@ function present_14335377() {
       var i_14345245 = 0;
       var v_14345246 = null;
       var v_14345246_Idx = 0;
-      var i_16891183 = 0;
-      var L_16891184 = (swCanvas_12755196[0].data).length;
+      var i_16995320 = 0;
+      var L_16995321 = (swCanvas_12755196[0].data).length;
       L2: do {
           L3: while (true) {
-          if (!(i_16891183 < L_16891184)) break L3;
-            i_14345245 = i_16891183;
-            v_14345246 = swCanvas_12755196[0].data; v_14345246_Idx = chckIndx(i_16891183, 0, (swCanvas_12755196[0].data).length-1);
+          if (!(i_16995320 < L_16995321)) break L3;
+            i_14345245 = i_16995320;
+            v_14345246 = swCanvas_12755196[0].data; v_14345246_Idx = chckIndx(i_16995320, 0, (swCanvas_12755196[0].data).length-1);
             swCanvas32_14332015[0].data[chckIndx(mulInt(i_14345245, 4), 0, (swCanvas32_14332015[0].data).length-1)] = currentPalette_12755140[0].Field1[chckIndx(paletteMapDisplay_12755304[0][chckIndx(v_14345246[v_14345246_Idx], 0, (paletteMapDisplay_12755304[0]).length-1)], 0, (currentPalette_12755140[0].Field1).length-1)]["Field0"];
             swCanvas32_14332015[0].data[chckIndx(addInt(mulInt(i_14345245, 4), 1), 0, (swCanvas32_14332015[0].data).length-1)] = currentPalette_12755140[0].Field1[chckIndx(paletteMapDisplay_12755304[0][chckIndx(v_14345246[v_14345246_Idx], 0, (paletteMapDisplay_12755304[0]).length-1)], 0, (currentPalette_12755140[0].Field1).length-1)]["Field1"];
             swCanvas32_14332015[0].data[chckIndx(addInt(mulInt(i_14345245, 4), 2), 0, (swCanvas32_14332015[0].data).length-1)] = currentPalette_12755140[0].Field1[chckIndx(paletteMapDisplay_12755304[0][chckIndx(v_14345246[v_14345246_Idx], 0, (paletteMapDisplay_12755304[0]).length-1)], 0, (currentPalette_12755140[0].Field1).length-1)]["Field2"];
             swCanvas32_14332015[0].data[chckIndx(addInt(mulInt(i_14345245, 4), 3), 0, (swCanvas32_14332015[0].data).length-1)] = 255;
-            i_16891183 = addInt(i_16891183, 1);
-            if (!(((swCanvas_12755196[0].data).length == L_16891184))) {
+            i_16995320 = addInt(i_16995320, 1);
+            if (!(((swCanvas_12755196[0].data).length == L_16995321))) {
             failedAssertImpl_1305480(makeNimstrLit("iterators.nim(147, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
             
@@ -3240,11 +3329,11 @@ function update_12575262(self_12575264) {
 
     L1: do {
       var i_12575436 = 0;
-      var res_16891190 = 0;
+      var res_16995327 = 0;
       L2: do {
           L3: while (true) {
-          if (!(res_16891190 <= 15)) break L3;
-            i_12575436 = chckRange(res_16891190, 0, 15);
+          if (!(res_16995327 <= 15)) break L3;
+            i_12575436 = chckRange(res_16995327, 0, 15);
             if ((self_12575264.kind == 1)) {
             if ((i_12575436 == 9)) {
             if ((self_12575264.deadzone < self_12575264.axes[chckIndx(4, 0, (self_12575264.axes).length-1)].Field0)) {
@@ -3280,17 +3369,17 @@ function update_12575262(self_12575264) {
             self_12575264.buttons[chckIndx(i_12575436, 0, (self_12575264.buttons).length-1)] = addInt(self_12575264.buttons[chckIndx(i_12575436, 0, (self_12575264.buttons).length-1)], 1);
             }
             
-            res_16891190 = addInt(res_16891190, 1);
+            res_16995327 = addInt(res_16995327, 1);
           }
       } while(false);
     } while(false);
     L4: do {
       var i_12590236 = 0;
-      var res_16891198 = 0;
+      var res_16995335 = 0;
       L5: do {
           L6: while (true) {
-          if (!(res_16891198 <= 5)) break L6;
-            i_12590236 = chckRange(res_16891198, 0, 5);
+          if (!(res_16995335 <= 5)) break L6;
+            i_12590236 = chckRange(res_16995335, 0, 5);
               if (!(self_12575264.axes[chckIndx(i_12590236, 0, (self_12575264.axes).length-1)].Field1 < -(self_12575264.deadzone))) Tmp7 = false; else {                Tmp7 = (self_12575264.axes[chckIndx(i_12590236, 0, (self_12575264.axes).length-1)].Field0 < -(self_12575264.deadzone));              }            if (Tmp7) {
             self_12575264.axes[chckIndx(i_12590236, 0, (self_12575264.axes).length-1)].Field2 = addInt(self_12575264.axes[chckIndx(i_12590236, 0, (self_12575264.axes).length-1)].Field2, 1);
             }
@@ -3302,7 +3391,7 @@ function update_12575262(self_12575264) {
               self_12575264.axes[chckIndx(i_12590236, 0, (self_12575264.axes).length-1)].Field2 = 0;
             }
             }
-            res_16891198 = addInt(res_16891198, 1);
+            res_16995335 = addInt(res_16995335, 1);
           }
       } while(false);
     } while(false);
@@ -3367,11 +3456,11 @@ function initNoiseBuffer_14610156(samples_14610158, freq_14610159) {
     var lfsr_14610168 = 65261;
     L1: do {
       var i_14610176 = 0;
-      var i_16891231 = 0;
+      var i_16995368 = 0;
       L2: do {
           L3: while (true) {
-          if (!(i_16891231 < samples_14610158)) break L3;
-            i_14610176 = i_16891231;
+          if (!(i_16995368 < samples_14610158)) break L3;
+            i_14610176 = i_16995368;
             var lsb_14610177 = (lfsr_14610168 & 1);
             lfsr_14610168 = (lfsr_14610168 >> 1);
             if ((lsb_14610177 == 1)) {
@@ -3392,7 +3481,7 @@ function initNoiseBuffer_14610156(samples_14610158, freq_14610159) {
             }
             
             data_14610162[chckIndx(i_14610176, 0, (data_14610162).length-1)] = outputValue_14610165;
-            i_16891231 = addInt(i_16891231, 1);
+            i_16995368 = addInt(i_16995368, 1);
           }
       } while(false);
     } while(false);
@@ -3474,14 +3563,14 @@ function synthSetOsc_14332224(self_14332227, newShape_14332228, trigger_14332229
       imag_14665062[chckIndx(0, 0, (imag_14665062).length-1)] = 0.0;
       L4: do {
         var i_14665071 = 0;
-        var i_16891220 = 1;
+        var i_16995357 = 1;
         L5: do {
             L6: while (true) {
-            if (!(i_16891220 < 32)) break L6;
-              i_14665071 = i_16891220;
+            if (!(i_16995357 < 32)) break L6;
+              i_14665071 = i_16995357;
               real_14665058[chckIndx(i_14665071, 0, (real_14665058).length-1)] = ((2.0000000000000000e+00 / (i_14665071 * 3.1415926535897931e+00)) * Math.sin(((i_14665071 * 3.1415926535897931e+00) * d_14665054)));
               imag_14665062[chckIndx(i_14665071, 0, (imag_14665062).length-1)] = 0.0;
-              i_16891220 = addInt(i_16891220, 1);
+              i_16995357 = addInt(i_16995357, 1);
             }
         } while(false);
       } while(false);
@@ -3497,14 +3586,14 @@ function synthSetOsc_14332224(self_14332227, newShape_14332228, trigger_14332229
       imag_14665099[chckIndx(0, 0, (imag_14665099).length-1)] = 0.0;
       L7: do {
         var i_14665108 = 0;
-        var i_16891225 = 1;
+        var i_16995362 = 1;
         L8: do {
             L9: while (true) {
-            if (!(i_16891225 < 32)) break L9;
-              i_14665108 = i_16891225;
+            if (!(i_16995362 < 32)) break L9;
+              i_14665108 = i_16995362;
               real_14665095[chckIndx(i_14665108, 0, (real_14665095).length-1)] = ((2.0000000000000000e+00 / (i_14665108 * 3.1415926535897931e+00)) * Math.sin(((i_14665108 * 3.1415926535897931e+00) * d_14665091)));
               imag_14665099[chckIndx(i_14665108, 0, (imag_14665099).length-1)] = 0.0;
-              i_16891225 = addInt(i_16891225, 1);
+              i_16995362 = addInt(i_16995362, 1);
             }
         } while(false);
       } while(false);
@@ -3723,18 +3812,18 @@ function audioClock_14525136() {
     masterGain_14335046[0].gain.value = masterVolume_12755144[0];
     L1: do {
       var channel_14530059 = null;
-      var i_16891203 = 0;
-      if ((i_16891203 <= 15)) {
+      var i_16995340 = 0;
+      if ((i_16995340 <= 15)) {
       L2: do {
           L3: while (true) {
           if (!true) break L3;
-            channel_14530059 = audioChannels_14332102[0][chckIndx(i_16891203, 0, (audioChannels_14332102[0]).length-1)];
+            channel_14530059 = audioChannels_14332102[0][chckIndx(i_16995340, 0, (audioChannels_14332102[0]).length-1)];
             audioClock_14475052(channel_14530059);
-            if ((15 <= i_16891203)) {
+            if ((15 <= i_16995340)) {
             break L2;
             }
             
-            i_16891203 = addInt(i_16891203, 1);
+            i_16995340 = addInt(i_16995340, 1);
           }
       } while(false);
       }
@@ -3762,13 +3851,13 @@ function step_14530097() {
     L1: do {
       var i_14540071 = 0;
       var b_14540072 = false;
-      var i_16891150 = 0;
-      if ((i_16891150 <= 2)) {
+      var i_16995287 = 0;
+      if ((i_16995287 <= 2)) {
       L2: do {
           L3: while (true) {
           if (!true) break L3;
-            i_14540071 = i_16891150;
-            b_14540072 = mouseButtonsDown_12755352[0][chckIndx(i_16891150, 0, (mouseButtonsDown_12755352[0]).length-1)];
+            i_14540071 = i_16995287;
+            b_14540072 = mouseButtonsDown_12755352[0][chckIndx(i_16995287, 0, (mouseButtonsDown_12755352[0]).length-1)];
             if (b_14540072) {
             mouseButtons_12755356[0][chckIndx(i_14540071, 0, (mouseButtons_12755356[0]).length-1)] = addInt(mouseButtons_12755356[0][chckIndx(i_14540071, 0, (mouseButtons_12755356[0]).length-1)], 1);
             }
@@ -3782,11 +3871,11 @@ function step_14530097() {
               
             }
             
-            if ((2 <= i_16891150)) {
+            if ((2 <= i_16995287)) {
             break L2;
             }
             
-            i_16891150 = addInt(i_16891150, 1);
+            i_16995287 = addInt(i_16995287, 1);
           }
       } while(false);
       }
@@ -3795,15 +3884,15 @@ function step_14530097() {
     L4: do {
       var controller_14555214 = null;
       var controller_14555214_Idx = 0;
-      var i_16891154 = 0;
-      var L_16891155 = (controllers_12755242[0]).length;
+      var i_16995291 = 0;
+      var L_16995292 = (controllers_12755242[0]).length;
       L5: do {
           L6: while (true) {
-          if (!(i_16891154 < L_16891155)) break L6;
-            controller_14555214 = controllers_12755242[0]; controller_14555214_Idx = chckIndx(i_16891154, 0, (controllers_12755242[0]).length-1);
+          if (!(i_16995291 < L_16995292)) break L6;
+            controller_14555214 = controllers_12755242[0]; controller_14555214_Idx = chckIndx(i_16995291, 0, (controllers_12755242[0]).length-1);
             update_12575262(controller_14555214[controller_14555214_Idx]);
-            i_16891154 = addInt(i_16891154, 1);
-            if (!(((controllers_12755242[0]).length == L_16891155))) {
+            i_16995291 = addInt(i_16995291, 1);
+            if (!(((controllers_12755242[0]).length == L_16995292))) {
             failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
             
@@ -3821,30 +3910,30 @@ function step_14530097() {
     L7: do {
       var k_14575229 = 0;
       var v_14575230 = 0;
-      var L_16891165 = len_14565139(keysDown_12685629[0]);
+      var L_16995302 = len_14565139(keysDown_12685629[0]);
       L8: do {
-        var h_16891167 = 0;
-        var colontmp__16891168 = 0;
-        colontmp__16891168 = ((keysDown_12685629[0].data).length-1);
-        var res_16891169 = 0;
+        var h_16995304 = 0;
+        var colontmp__16995305 = 0;
+        colontmp__16995305 = ((keysDown_12685629[0].data).length-1);
+        var res_16995306 = 0;
         L9: do {
             L10: while (true) {
-            if (!(res_16891169 <= colontmp__16891168)) break L10;
-              h_16891167 = res_16891169;
-              if (isFilled_2393218(keysDown_12685629[0].data[chckIndx(h_16891167, 0, (keysDown_12685629[0].data).length-1)].Field0)) {
-              k_14575229 = keysDown_12685629[0].data[chckIndx(h_16891167, 0, (keysDown_12685629[0].data).length-1)].Field1;
-              v_14575230 = keysDown_12685629[0].data[chckIndx(h_16891167, 0, (keysDown_12685629[0].data).length-1)].Field2;
+            if (!(res_16995306 <= colontmp__16995305)) break L10;
+              h_16995304 = res_16995306;
+              if (isFilled_2393218(keysDown_12685629[0].data[chckIndx(h_16995304, 0, (keysDown_12685629[0].data).length-1)].Field0)) {
+              k_14575229 = keysDown_12685629[0].data[chckIndx(h_16995304, 0, (keysDown_12685629[0].data).length-1)].Field1;
+              v_14575230 = keysDown_12685629[0].data[chckIndx(h_16995304, 0, (keysDown_12685629[0].data).length-1)].Field2;
               if ((0 < chckRange(v_14575230, -2147483648, 2147483647))) {
               (Tmp11 = HEX5BHEX5D_14395821(keysDown_12685629[0], k_14575229), Tmp11)[0][Tmp11[1]] = ((Tmp11[0][Tmp11[1]] + 1) >>> 0);
               }
               
-              if (!((len_14565139(keysDown_12685629[0]) == L_16891165))) {
+              if (!((len_14565139(keysDown_12685629[0]) == L_16995302))) {
               failedAssertImpl_1305480(makeNimstrLit("tables.nim(663, 13) `len(t) == L` the length of the table changed while iterating over it"));
               }
               
               }
               
-              res_16891169 = addInt(res_16891169, 1);
+              res_16995306 = addInt(res_16995306, 1);
             }
         } while(false);
       } while(false);
@@ -3853,18 +3942,18 @@ function step_14530097() {
     lastMouseRawY_12755348[0] = mouseRawY_12755342[0];
     L12: do {
       var touch_14580188 = null;
-      var i_16891174 = 0;
-      var L_16891175 = (touches_12755142[0]).length;
+      var i_16995311 = 0;
+      var L_16995312 = (touches_12755142[0]).length;
       L13: do {
           L14: while (true) {
-          if (!(i_16891174 < L_16891175)) break L14;
-            touch_14580188 = touches_12755142[0][chckIndx(i_16891174, 0, (touches_12755142[0]).length-1)];
+          if (!(i_16995311 < L_16995312)) break L14;
+            touch_14580188 = touches_12755142[0][chckIndx(i_16995311, 0, (touches_12755142[0]).length-1)];
               if ((touch_14580188.state == 0)) Tmp15 = true; else {                Tmp15 = (touch_14580188.state == 2);              }            if (Tmp15) {
             touch_14580188.state = 1;
             }
             
-            i_16891174 = addInt(i_16891174, 1);
-            if (!(((touches_12755142[0]).length == L_16891175))) {
+            i_16995311 = addInt(i_16995311, 1);
+            if (!(((touches_12755142[0]).length == L_16995312))) {
             failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
             
@@ -3874,13 +3963,13 @@ function step_14530097() {
     var posHEX60gensym50_14585002 = 0;
     L16: do {
       var iHEX60gensym50_14585015 = 0;
-      var colontmp__16891178 = 0;
-      colontmp__16891178 = (touches_12755142[0]).length;
-      var i_16891179 = 0;
+      var colontmp__16995315 = 0;
+      colontmp__16995315 = (touches_12755142[0]).length;
+      var i_16995316 = 0;
       L17: do {
           L18: while (true) {
-          if (!(i_16891179 < colontmp__16891178)) break L18;
-            iHEX60gensym50_14585015 = i_16891179;
+          if (!(i_16995316 < colontmp__16995315)) break L18;
+            iHEX60gensym50_14585015 = i_16995316;
             var it_14585020 = nimCopy(null, touches_12755142[0][chckIndx(iHEX60gensym50_14585015, 0, (touches_12755142[0]).length-1)], NTI12571064);
             if (!(contains_14370120([3, 4], it_14585020.state))) {
             if (!((posHEX60gensym50_14585002 == iHEX60gensym50_14585015))) {
@@ -3890,7 +3979,7 @@ function step_14530097() {
             posHEX60gensym50_14585002 = addInt(posHEX60gensym50_14585002, 1);
             }
             
-            i_16891179 = addInt(i_16891179, 1);
+            i_16995316 = addInt(i_16995316, 1);
           }
       } while(false);
     } while(false);
@@ -4082,6 +4171,95 @@ function loadFont_16155014(index_16155016, filename_16155017) {
 
   
 }
+function loadMusic_14615042(musicId_14615044, filename_14615045) {
+    musicId_14615044 = nimCopy(null, musicId_14615044, NTI12685654);
+    function HEX3Aanonymous_14615061(e_14615064) {
+        function HEX3Aanonymous_14615077(buffer_14615079) {
+            musicData_14335042[0][chckIndx(musicId_14615044, 0, (musicData_14335042[0]).length-1)] = buffer_14615079;
+
+          
+        }
+        function HEX3Aanonymous_14615093() {
+            console.log("loaded music");
+
+          
+        }
+
+        if ((xhr_14615060.readyState == 4)) {
+        loading_12755191[0] = subInt(loading_12755191[0], 1);
+        if ((xhr_14615060.status == 200)) {
+        audioContext_14332019[0].decodeAudioData(xhr_14615060.response, HEX3Aanonymous_14615077, HEX3Aanonymous_14615093);
+        }
+        
+        }
+        
+
+      
+    }
+
+  BeforeRet: do {
+    if ((audioContext_14332019[0] == null)) {
+    break BeforeRet;
+    }
+    
+    loading_12755191[0] = addInt(loading_12755191[0], 1);
+    var xhr_14615060 = new XMLHttpRequest();
+    xhr_14615060.open("GET", toJSStr((assetPath_12755257[0] || []).concat(filename_14615045 || [])), true, null, null);
+    xhr_14615060.responseType = "arraybuffer";
+    xhr_14615060.onreadystatechange = HEX3Aanonymous_14615061;
+    xhr_14615060.send();
+  } while (false);
+
+  
+}
+function loadSfx_14610221(sfxId_14610223, filename_14610224) {
+    sfxId_14610223 = nimCopy(null, sfxId_14610223, NTI12685656);
+    function HEX3Aanonymous_14610240(e_14610243) {
+        function HEX3Aanonymous_14610256(buffer_14610258) {
+            sfxData_14335038[0][chckIndx(sfxId_14610223, 0, (sfxData_14335038[0]).length-1)] = buffer_14610258;
+
+          
+        }
+        function HEX3Aanonymous_14610287() {
+            console.log("loaded sfx");
+
+          
+        }
+
+        if ((xhr_14610239.readyState == 4)) {
+        loading_12755191[0] = subInt(loading_12755191[0], 1);
+        if ((xhr_14610239.status == 200)) {
+        audioContext_14332019[0].decodeAudioData(xhr_14610239.response, HEX3Aanonymous_14610256, HEX3Aanonymous_14610287);
+        }
+        
+        }
+        
+
+      
+    }
+
+  BeforeRet: do {
+    if ((audioContext_14332019[0] == null)) {
+    break BeforeRet;
+    }
+    
+    loading_12755191[0] = addInt(loading_12755191[0], 1);
+    var xhr_14610239 = new XMLHttpRequest();
+    xhr_14610239.open("GET", toJSStr((assetPath_12755257[0] || []).concat(filename_14610224 || [])), true, null, null);
+    xhr_14610239.responseType = "arraybuffer";
+    xhr_14610239.onreadystatechange = HEX3Aanonymous_14610240;
+    xhr_14610239.send();
+  } while (false);
+
+  
+}
+function newSeq_16765124(len_16765127) {
+  var result_16765129 = [];
+
+    result_16765129 = new Array(len_16765127); for (var i=0;i<len_16765127;++i) {result_16765129[i]=null;}
+  return result_16765129;
+
+}
 function loadPalettePico8Extra_15065142() {
   var result_15065144 = {Field0: 0, Field1: arrayConstr(256, {Field0: 0, Field1: 0, Field2: 0}, NTI12571080)};
 
@@ -4122,194 +4300,21 @@ function loadPalettePico8Extra_15065142() {
   return result_15065144;
 
 }
-function newSeq_16890184(len_16890187) {
-  var result_16890189 = [];
-
-    result_16890189 = new Array(len_16890187); for (var i=0;i<len_16890187;++i) {result_16890189[i]=({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0});}
-  return result_16890189;
-
-}
-function newSeq_16890221(len_16890224) {
-  var result_16890226 = [];
-
-    result_16890226 = new Array(len_16890224); for (var i=0;i<len_16890224;++i) {result_16890226[i]=null;}
-  return result_16890226;
-
-}
-function newSeq_16890258(len_16890261) {
-  var result_16890263 = [];
-
-    result_16890263 = new Array(len_16890261); for (var i=0;i<len_16890261;++i) {result_16890263[i]=({x: 0.0, y: 0.0, vote: 0, index: 0, flipped: false});}
-  return result_16890263;
-
-}
-function newSeq_16890295(len_16890298) {
-  var result_16890300 = [];
-
-    result_16890300 = new Array(len_16890298); for (var i=0;i<len_16890298;++i) {result_16890300[i]=({dir: 0, tl: {Field0: 0, Field1: 0}, br: {Field0: 0, Field1: 0}, offset: 0.0, speed: 0.0});}
-  return result_16890300;
-
-}
-function newSeq_16890347(len_16890350) {
-  var result_16890352 = [];
-
-    result_16890352 = new Array(len_16890350); for (var i=0;i<len_16890350;++i) {result_16890352[i]=null;}
-  return result_16890352;
-
-}
-function newSeq_16890384(len_16890387) {
-  var result_16890389 = [];
-
-    result_16890389 = new Array(len_16890387); for (var i=0;i<len_16890387;++i) {result_16890389[i]=({creature: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), state: 0, stateSecondsLeft: 0.0, waypointId: 0, waypoints: []});}
-  return result_16890389;
-
-}
-function newSeq_16890436(len_16890439) {
-  var result_16890441 = [];
-
-    result_16890441 = new Array(len_16890439); for (var i=0;i<len_16890439;++i) {result_16890441[i]=0;}
-  return result_16890441;
-
-}
-function toInt_1216693(f_1216695) {
-    var Tmp1;
-
-  var result_1216696 = 0;
-
-    if ((0.0 <= f_1216695)) {
-    Tmp1 = (((f_1216695 + 5.0000000000000000e-01))|0);
-    }
-    else {
-    Tmp1 = (((f_1216695 - 5.0000000000000000e-01))|0);
-    }
-    
-    result_1216696 = Tmp1;
-
-  return result_1216696;
-
-}
-function grid_16507368(x_16507370) {
-  var result_16507371 = 0;
-
-    result_16507371 = mulInt(x_16507370, gridSize_16507067[0]);
-
-  return result_16507371;
-
-}
-function gameInit_16890173() {
-    function boothAt_16890486(game_16890489, x_16890490, y_16890491, belt_y_16890492) {
-        game_16890489.booths.push({x: x_16890490, y: y_16890491, game: game_16890489, voter: ({val: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), has: false}), vote: 0, voterState: 0, stateSecondsLeft: 0.0});;
-        game_16890489.belts.push({dir: 0, tl: nimCopy(null, {Field0: addInt(x_16890490, 1), Field1: belt_y_16890492}, NTI16507345), br: nimCopy(null, {Field0: addInt(x_16890490, 5), Field1: y_16890491}, NTI16507345), speed: beltSpeed_16507188[0], offset: 0.0});;
-        game_16890489.counters.push({x: x_16890490, y: subInt(belt_y_16890492, 7), lastBallot: -1, game: game_16890489, animOffset: 0.0, broken: false});;
-
-      
-    }
-
+function gameInit_16990363() {
     loadFont_16155014(0, makeNimstrLit("font.png"));
+    loadMusic_14615042(0, makeNimstrLit("exampleMusic.ogg"));
+    loadSfx_14610221(1, makeNimstrLit("button.ogg"));
+    loadSfx_14610221(2, makeNimstrLit("breakmachine.wav"));
+    loadSfx_14610221(3, makeNimstrLit("fixmachine.wav"));
+    loadSfx_14610221(4, makeNimstrLit("votecounted.wav"));
+    loadSfx_14610221(5, makeNimstrLit("votestolen.wav"));
+    loadSfx_14610221(6, makeNimstrLit("win.wav"));
+    loadSfx_14610221(7, makeNimstrLit("lose.wav"));
+    explosions_16507743[0] = nimCopy(null, newSeq_16765124(0), NTI16765128);
     setPalette_15065034(loadPalettePico8Extra_15065142());
-    game_16507572[0] = ({state: 0, player1: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), player1_selected: ({distance: 0.0, kind: 0, booth: null, ballot: ({x: 0.0, y: 0.0, vote: 0, index: 0, flipped: false}), countingMachine: null, patroller: ({creature: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), state: 0, stateSecondsLeft: 0.0, waypointId: 0, waypoints: []})}), player2: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), creatures: [], booths: [], ballots: [], belts: [], counters: [], patrollers: [], winnerVotes: 0, loserVotes: 0, true_votes: [], counted_votes: [], game_over_msg: [], pre_audit_winner: 0, target_ballot: 0, audit_s_value: 0.0, audit_tol_value: 0.0, audit_T_value: 0.0, audited_ballots: []});
-    nimCopy(game_16507572[0].player1, {color: 12, speed: 2.0000000000000000e+01, x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, facing: 0, blinkLeft: 0.0}, NTI16507420);
-    nimCopy(game_16507572[0].player2, {color: 9, speed: 2.0000000000000000e+01, x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, facing: 0, blinkLeft: 0.0}, NTI16507420);
-    game_16507572[0].creatures = nimCopy(null, newSeq_16890184(0), NTI16890188);
-    game_16507572[0].booths = nimCopy(null, newSeq_16890221(0), NTI16890225);
-    game_16507572[0].ballots = nimCopy(null, newSeq_16890258(0), NTI16890262);
-    game_16507572[0].belts = nimCopy(null, newSeq_16890295(0), NTI16890299);
-    game_16507572[0].counters = nimCopy(null, newSeq_16890347(0), NTI16890351);
-    game_16507572[0].patrollers = nimCopy(null, newSeq_16890384(0), NTI16890388);
-    game_16507572[0].true_votes = nimCopy(null, newSeq_16890436(0), NTI16890440);
-    game_16507572[0].counted_votes = nimCopy(null, newSeq_16890436(0), NTI16890440);
-    game_16507572[0].winnerVotes = toInt_1216693((toFloat_1216659(totalVotes_16507173[0]) * targetWinnerPct_16507170[0]));
-    game_16507572[0].loserVotes = subInt(totalVotes_16507173[0], game_16507572[0].winnerVotes);
-    var booth_y_16890578 = subInt(subInt(subInt(screenHeight_12755223[0], 1), 5), 5);
-    boothAt_16890486(game_16507572[0], grid_16507368(1), subInt(screenHeight_12755223[0], grid_16507368(2)), grid_16507368(5));
-    boothAt_16890486(game_16507572[0], grid_16507368(3), subInt(screenHeight_12755223[0], grid_16507368(3)), grid_16507368(7));
-    boothAt_16890486(game_16507572[0], grid_16507368(6), subInt(screenHeight_12755223[0], grid_16507368(6)), grid_16507368(6));
-    boothAt_16890486(game_16507572[0], 70, subInt(booth_y_16890578, 30), subInt(divInt(screenHeight_12755223[0], 2), 10));
-    boothAt_16890486(game_16507572[0], 90, subInt(booth_y_16890578, 5), addInt(divInt(screenHeight_12755223[0], 2), 15));
-    boothAt_16890486(game_16507572[0], 110, subInt(booth_y_16890578, 17), subInt(divInt(screenHeight_12755223[0], 2), 12));
-    game_16507572[0].patrollers.push({creature: {color: 2, speed: 2.9999999999999999e-01, x: toFloat_1216659(grid_16507368(1)), y: toFloat_1216659(grid_16507368(1)), vx: 0.0, vy: 0.0, facing: 0, blinkLeft: 0.0}, waypoints: [nimCopy(null, {Field0: addInt(grid_16507368(0), 2), Field1: addInt(grid_16507368(3), 1)}, NTI16890594), nimCopy(null, {Field0: addInt(grid_16507368(2), 2), Field1: addInt(grid_16507368(3), 1)}, NTI16890594), nimCopy(null, {Field0: addInt(grid_16507368(4), 2), Field1: addInt(grid_16507368(5), 1)}, NTI16890594), nimCopy(null, {Field0: addInt(grid_16507368(6), 2), Field1: addInt(grid_16507368(3), 1)}, NTI16890594)], state: 0, stateSecondsLeft: 0.0, waypointId: 0});;
+    game_16507740[0] = ({state: 0, player1: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), player1_selected: ({distance: 0.0, kind: 0, booth: null, ballot: ({x: 0.0, y: 0.0, vote: 0, index: 0, flipped: false}), countingMachine: null, patroller: ({creature: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), state: 0, stateSecondsLeft: 0.0, waypointId: 0, waypoints: []}), button: null}), player2: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), creatures: [], booths: [], ballots: [], belts: [], counters: [], patrollers: [], buttons: [], winnerVotes: 0, loserVotes: 0, true_votes: [], counted_votes: [], game_over_msg: [], pre_audit_winner: 0, target_ballot: 0, audit_s_value: 0.0, audit_tol_value: 0.0, audit_T_value: 0.0, audited_ballots: []});
 
   
-}
-function axis_12600056(self_12600058, axis_12600059) {
-  var result_12600060 = 0.0;
-
-  BeforeRet: do {
-    result_12600060 = self_12600058.axes[chckIndx(axis_12600059, 0, (self_12600058.axes).length-1)].Field0;
-    break BeforeRet;
-  } while (false);
-
-  return result_12600060;
-
-}
-function btn_12615014(self_12615016, button_12615017) {
-    var Tmp1;
-    var Tmp2;
-    var Tmp3;
-    var Tmp4;
-
-  var result_12615018 = false;
-
-  BeforeRet: do {
-    if ((button_12615017 == 0)) {
-    if ((0 < self_12615016.buttons[chckIndx(button_12615017, 0, (self_12615016.buttons).length-1)])) Tmp1 = true; else {      Tmp1 = (axis_12600056(self_12615016, 0) < -(self_12615016.deadzone));    }    result_12615018 = Tmp1;
-    break BeforeRet;
-    }
-    else {
-    if ((button_12615017 == 1)) {
-    if ((0 < self_12615016.buttons[chckIndx(button_12615017, 0, (self_12615016.buttons).length-1)])) Tmp2 = true; else {      Tmp2 = (self_12615016.deadzone < axis_12600056(self_12615016, 0));    }    result_12615018 = Tmp2;
-    break BeforeRet;
-    }
-    else {
-    if ((button_12615017 == 2)) {
-    if ((0 < self_12615016.buttons[chckIndx(button_12615017, 0, (self_12615016.buttons).length-1)])) Tmp3 = true; else {      Tmp3 = (axis_12600056(self_12615016, 1) < -(self_12615016.deadzone));    }    result_12615018 = Tmp3;
-    break BeforeRet;
-    }
-    else {
-    if ((button_12615017 == 3)) {
-    if ((0 < self_12615016.buttons[chckIndx(button_12615017, 0, (self_12615016.buttons).length-1)])) Tmp4 = true; else {      Tmp4 = (self_12615016.deadzone < axis_12600056(self_12615016, 1));    }    result_12615018 = Tmp4;
-    break BeforeRet;
-    }
-    }}}
-    result_12615018 = (0 < self_12615016.buttons[chckIndx(button_12615017, 0, (self_12615016.buttons).length-1)]);
-    break BeforeRet;
-  } while (false);
-
-  return result_12615018;
-
-}
-function btn_15010021(b_15010023) {
-  var result_15070022 = false;
-
-  BeforeRet: do {
-    L1: do {
-      var c_15070030 = null;
-      var c_15070030_Idx = 0;
-      var i_16891254 = 0;
-      var L_16891255 = (controllers_12755242[0]).length;
-      L2: do {
-          L3: while (true) {
-          if (!(i_16891254 < L_16891255)) break L3;
-            c_15070030 = controllers_12755242[0]; c_15070030_Idx = chckIndx(i_16891254, 0, (controllers_12755242[0]).length-1);
-            if (btn_12615014(c_15070030[c_15070030_Idx], b_15010023)) {
-            result_15070022 = true;
-            break BeforeRet;
-            }
-            
-            i_16891254 = addInt(i_16891254, 1);
-            if (!(((controllers_12755242[0]).length == L_16891255))) {
-            failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-            }
-            
-          }
-      } while(false);
-    } while(false);
-    result_15070022 = false;
-    break BeforeRet;
-  } while (false);
-
-  return result_15070022;
-
 }
 function abs_1265247(x_1265249) {
     var Tmp1;
@@ -4398,19 +4403,19 @@ function btnp_15010024(b_15010026) {
     L1: do {
       var c_15085031 = null;
       var c_15085031_Idx = 0;
-      var i_16891258 = 0;
-      var L_16891259 = (controllers_12755242[0]).length;
+      var i_16995382 = 0;
+      var L_16995383 = (controllers_12755242[0]).length;
       L2: do {
           L3: while (true) {
-          if (!(i_16891258 < L_16891259)) break L3;
-            c_15085031 = controllers_12755242[0]; c_15085031_Idx = chckIndx(i_16891258, 0, (controllers_12755242[0]).length-1);
+          if (!(i_16995382 < L_16995383)) break L3;
+            c_15085031 = controllers_12755242[0]; c_15085031_Idx = chckIndx(i_16995382, 0, (controllers_12755242[0]).length-1);
             if (btnp_12650014(c_15085031[c_15085031_Idx], b_15010026)) {
             result_15085023 = true;
             break BeforeRet;
             }
             
-            i_16891258 = addInt(i_16891258, 1);
-            if (!(((controllers_12755242[0]).length == L_16891259))) {
+            i_16995382 = addInt(i_16995382, 1);
+            if (!(((controllers_12755242[0]).length == L_16995383))) {
             failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
             
@@ -4424,45 +4429,351 @@ function btnp_15010024(b_15010026) {
   return result_15085023;
 
 }
-function distance_16507309(f_16507315, t_16507320) {
-  var result_16507321 = 0.0;
+function music_14635066(channel_14635068, musicId_14635069, loop_14635072) {
+      var Tmp1;
 
   BeforeRet: do {
-    var dx_16507322 = (t_16507320.Field0 - f_16507315.Field0);
-    var dy_16507323 = (t_16507320.Field1 - f_16507315.Field1);
-    result_16507321 = Math.sqrt(((dx_16507322 * dx_16507322) + (dy_16507323 * dy_16507323)));
+    if ((audioContext_14332019[0] == null)) {
+    break BeforeRet;
+    }
+    
+    if (!((audioChannels_14332102[0][chckIndx(channel_14635068, 0, (audioChannels_14332102[0]).length-1)].source == null))) {
+    console.log("stopping music on channel ", channel_14635068);
+    audioChannels_14332102[0][chckIndx(channel_14635068, 0, (audioChannels_14332102[0]).length-1)].source.stop();
+    audioChannels_14332102[0][chckIndx(channel_14635068, 0, (audioChannels_14332102[0]).length-1)].source = null;
+    audioChannels_14332102[0][chckIndx(channel_14635068, 0, (audioChannels_14332102[0]).length-1)].musicId = -1;
+    }
+    
+      if (!!((musicId_14635069 == -1))) Tmp1 = false; else {        Tmp1 = !((musicData_14335042[0][chckIndx(musicId_14635069, 0, (musicData_14335042[0]).length-1)] == null));      }    if (Tmp1) {
+    var source_14655009 = audioContext_14332019[0].createBufferSource();
+    source_14655009.buffer = musicData_14335042[0][chckIndx(musicId_14635069, 0, (musicData_14335042[0]).length-1)];
+    source_14655009.loop = true;
+    source_14655009.connect(musicGain_14335045[0]);
+    source_14655009.start();
+    audioChannels_14332102[0][chckIndx(channel_14635068, 0, (audioChannels_14332102[0]).length-1)].source = source_14655009;
+    audioChannels_14332102[0][chckIndx(channel_14635068, 0, (audioChannels_14332102[0]).length-1)].musicId = musicId_14635069;
+    }
+    
+  } while (false);
+
+  
+}
+function newSeq_16720191(len_16720194) {
+  var result_16720196 = [];
+
+    result_16720196 = new Array(len_16720194); for (var i=0;i<len_16720194;++i) {result_16720196[i]=({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0});}
+  return result_16720196;
+
+}
+function newSeq_16720243(len_16720246) {
+  var result_16720248 = [];
+
+    result_16720248 = new Array(len_16720246); for (var i=0;i<len_16720246;++i) {result_16720248[i]=null;}
+  return result_16720248;
+
+}
+function newSeq_16720295(len_16720298) {
+  var result_16720300 = [];
+
+    result_16720300 = new Array(len_16720298); for (var i=0;i<len_16720298;++i) {result_16720300[i]=({x: 0.0, y: 0.0, vote: 0, index: 0, flipped: false});}
+  return result_16720300;
+
+}
+function newSeq_16720347(len_16720350) {
+  var result_16720352 = [];
+
+    result_16720352 = new Array(len_16720350); for (var i=0;i<len_16720350;++i) {result_16720352[i]=({dir: 0, tl: {Field0: 0, Field1: 0}, br: {Field0: 0, Field1: 0}, offset: 0.0, speed: 0.0});}
+  return result_16720352;
+
+}
+function newSeq_16720414(len_16720417) {
+  var result_16720419 = [];
+
+    result_16720419 = new Array(len_16720417); for (var i=0;i<len_16720417;++i) {result_16720419[i]=null;}
+  return result_16720419;
+
+}
+function newSeq_16720466(len_16720469) {
+  var result_16720471 = [];
+
+    result_16720471 = new Array(len_16720469); for (var i=0;i<len_16720469;++i) {result_16720471[i]=({creature: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), state: 0, stateSecondsLeft: 0.0, waypointId: 0, waypoints: []});}
+  return result_16720471;
+
+}
+function newSeq_16720519(len_16720522) {
+  var result_16720524 = [];
+
+    result_16720524 = new Array(len_16720522); for (var i=0;i<len_16720522;++i) {result_16720524[i]=null;}
+  return result_16720524;
+
+}
+function toInt_1216693(f_1216695) {
+    var Tmp1;
+
+  var result_1216696 = 0;
+
+    if ((0.0 <= f_1216695)) {
+    Tmp1 = (((f_1216695 + 5.0000000000000000e-01))|0);
+    }
+    else {
+    Tmp1 = (((f_1216695 - 5.0000000000000000e-01))|0);
+    }
+    
+    result_1216696 = Tmp1;
+
+  return result_1216696;
+
+}
+function newSeq_16720570(len_16720573) {
+  var result_16720575 = [];
+
+    result_16720575 = new Array(len_16720573); for (var i=0;i<len_16720573;++i) {result_16720575[i]=0;}
+  return result_16720575;
+
+}
+function newSeq_16720607(len_16720610) {
+  var result_16720612 = [];
+
+    result_16720612 = new Array(len_16720610); for (var i=0;i<len_16720610;++i) {result_16720612[i]={Field0: 0, Field1: false};}
+  return result_16720612;
+
+}
+function grid_16507455(x_16507457) {
+  var result_16507458 = 0;
+
+    result_16507458 = mulInt(x_16507457, gridSize_16507092[0]);
+
+  return result_16507458;
+
+}
+function newSeq_16745006(len_16745009) {
+  var result_16745011 = [];
+
+    result_16745011 = new Array(len_16745009); for (var i=0;i<len_16745009;++i) {result_16745011[i]={Field0: 0, Field1: 0};}
+  return result_16745011;
+
+}
+function start_16720184(game_16720187) {
+    function boothAt_16720672(game_16720675, x_16720676, y_16720677, belt_y_16720678) {
+        game_16720675.booths.push({x: x_16720676, y: y_16720677, game: game_16720675, voter: ({val: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), has: false}), vote: 0, voterState: 0, stateSecondsLeft: 0.0});;
+        game_16720675.belts.push({dir: 0, tl: nimCopy(null, {Field0: addInt(x_16720676, 1), Field1: belt_y_16720678}, NTI16507432), br: nimCopy(null, {Field0: addInt(x_16720676, 5), Field1: y_16720677}, NTI16507432), speed: beltSpeed_16507216[0], offset: 0.0});;
+        game_16720675.counters.push({x: x_16720676, y: subInt(belt_y_16720678, 7), lastBallot: -1, game: game_16720675, animOffset: 0.0, broken: false});;
+
+      
+    }
+    function addPatroller_16720783(waypoints_16720790) {
+        L1: do {
+          var iHEX60gensym45_16740003 = 0;
+          var resultHEX60gensym45_16745032 = newSeq_16745006(chckRange((waypoints_16720790).length, 0, 2147483647));
+          L2: do {
+            var it_16750008 = null;
+            var i_16995394 = 0;
+            var L_16995395 = (waypoints_16720790).length;
+            L3: do {
+                L4: while (true) {
+                if (!(i_16995394 < L_16995395)) break L4;
+                  it_16750008 = waypoints_16720790[chckIndx(i_16995394, 0, (waypoints_16720790).length-1)];
+                  var colontmp__16995391 = addInt(it_16750008.Field0, 2);
+                  var colontmp__16995392 = addInt(it_16750008.Field1, 1);
+                  nimCopy(resultHEX60gensym45_16745032[chckIndx(iHEX60gensym45_16740003, 0, (resultHEX60gensym45_16745032).length-1)], {Field0: colontmp__16995391, Field1: colontmp__16995392}, NTI16735215);
+                  iHEX60gensym45_16740003 = addInt(iHEX60gensym45_16740003, 1);
+                  i_16995394 = addInt(i_16995394, 1);
+                  if (!(((waypoints_16720790).length == L_16995395))) {
+                  failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                  }
+                  
+                }
+            } while(false);
+          } while(false);
+        } while(false);
+        game_16720187.patrollers.push({creature: {color: 2, speed: 2.9999999999999999e-01, x: toFloat_1216659(grid_16507455(5)), y: toFloat_1216659(grid_16507455(0)), vx: 0.0, vy: 0.0, facing: 0, blinkLeft: 0.0}, waypoints: nimCopy(null, resultHEX60gensym45_16745032, NTI16745010), state: 0, stateSecondsLeft: 0.0, waypointId: 0});;
+
+      
+    }
+    function HEX3Aanonymous_16750147(btn_16750150) {
+        if (btn_16750150.isPushed) {
+        timewarp_16507195[0] = timewarp_fast_16507197[0];
+        }
+        else {
+          timewarp_16507195[0] = timewarp_normal_16507196[0];
+        }
+        
+
+      
+    }
+
+    music_14635066(15, 0, -1);
+    timewarp_16507195[0] = timewarp_normal_16507196[0];
+    game_16720187.state = 1;
+    nimCopy(game_16720187.player1, {color: 12, speed: 2.0000000000000000e+01, x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, facing: 0, blinkLeft: 0.0}, NTI16507507);
+    nimCopy(game_16720187.player2, {color: 9, speed: 2.0000000000000000e+01, x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, facing: 0, blinkLeft: 0.0}, NTI16507507);
+    game_16720187.creatures = nimCopy(null, newSeq_16720191(0), NTI16720195);
+    game_16720187.booths = nimCopy(null, newSeq_16720243(0), NTI16720247);
+    game_16720187.ballots = nimCopy(null, newSeq_16720295(0), NTI16720299);
+    game_16720187.belts = nimCopy(null, newSeq_16720347(0), NTI16720351);
+    game_16720187.counters = nimCopy(null, newSeq_16720414(0), NTI16720418);
+    game_16720187.patrollers = nimCopy(null, newSeq_16720466(0), NTI16720470);
+    game_16720187.buttons = nimCopy(null, newSeq_16720519(0), NTI16720523);
+    game_16720187.winnerVotes = toInt_1216693((toFloat_1216659(totalVotes_16507201[0]) * targetWinnerPct_16507198[0]));
+    game_16720187.loserVotes = subInt(totalVotes_16507201[0], game_16720187.winnerVotes);
+    game_16720187.true_votes = nimCopy(null, newSeq_16720570(0), NTI16720574);
+    game_16720187.counted_votes = nimCopy(null, newSeq_16720607(0), NTI16720611);
+    game_16720187.game_over_msg = nimCopy(null, [], NTI1188013);
+    game_16720187.pre_audit_winner = 0;
+    game_16720187.target_ballot = 0;
+    game_16720187.audit_s_value = 0.0;
+    game_16720187.audit_tol_value = 0.0;
+    game_16720187.audit_T_value = 0.0;
+    game_16720187.audited_ballots = nimCopy(null, newSeq_16720570(0), NTI16720574);
+    var booth_y_16720764 = subInt(subInt(subInt(screenHeight_12755223[0], 1), 5), 5);
+    boothAt_16720672(game_16720187, grid_16507455(1), subInt(screenHeight_12755223[0], grid_16507455(2)), grid_16507455(5));
+    boothAt_16720672(game_16720187, grid_16507455(3), subInt(screenHeight_12755223[0], grid_16507455(3)), grid_16507455(7));
+    boothAt_16720672(game_16720187, grid_16507455(6), subInt(screenHeight_12755223[0], grid_16507455(6)), grid_16507455(6));
+    boothAt_16720672(game_16720187, grid_16507455(10), subInt(screenHeight_12755223[0], grid_16507455(4)), grid_16507455(4));
+    boothAt_16720672(game_16720187, grid_16507455(13), subInt(screenHeight_12755223[0], grid_16507455(8)), grid_16507455(5));
+    boothAt_16720672(game_16720187, grid_16507455(17), subInt(screenHeight_12755223[0], grid_16507455(2)), grid_16507455(5));
+    addPatroller_16720783([nimCopy(null, {Field0: grid_16507455(2), Field1: grid_16507455(3)}, NTI16750055), nimCopy(null, {Field0: grid_16507455(2), Field1: grid_16507455(6)}, NTI16750055), nimCopy(null, {Field0: grid_16507455(2), Field1: grid_16507455(subInt(gridCount_16507094[0], 2))}, NTI16750055)]);
+    addPatroller_16720783([nimCopy(null, {Field0: grid_16507455(1), Field1: grid_16507455(3)}, NTI16750074), nimCopy(null, {Field0: grid_16507455(6), Field1: grid_16507455(4)}, NTI16750074), nimCopy(null, {Field0: grid_16507455(10), Field1: grid_16507455(2)}, NTI16750074), nimCopy(null, {Field0: grid_16507455(17), Field1: grid_16507455(3)}, NTI16750074), nimCopy(null, {Field0: grid_16507455(10), Field1: grid_16507455(2)}, NTI16750074), nimCopy(null, {Field0: grid_16507455(3), Field1: addInt(grid_16507455(4), 5)}, NTI16750074), nimCopy(null, {Field0: grid_16507455(6), Field1: grid_16507455(1)}, NTI16750074)]);
+    addPatroller_16720783([nimCopy(null, {Field0: grid_16507455(11), Field1: grid_16507455(3)}, NTI16750106), nimCopy(null, {Field0: grid_16507455(12), Field1: grid_16507455(4)}, NTI16750106), nimCopy(null, {Field0: grid_16507455(11), Field1: grid_16507455(5)}, NTI16750106), nimCopy(null, {Field0: grid_16507455(12), Field1: grid_16507455(6)}, NTI16750106), nimCopy(null, {Field0: grid_16507455(11), Field1: grid_16507455(7)}, NTI16750106), nimCopy(null, {Field0: grid_16507455(11), Field1: grid_16507455(7)}, NTI16750106), nimCopy(null, {Field0: grid_16507455(12), Field1: grid_16507455(10)}, NTI16750106)]);
+    var warp_16750138 = null;
+    warp_16750138 = ({loc: {Field0: 0, Field1: 0}, isPushed: false, onPress: null, kind: 0, animSecondsLeft: 0.0});
+    var colontmp__16995397 = grid_16507455(subInt(gridCount_16507094[0], 1));
+    var colontmp__16995398 = 0;
+    nimCopy(warp_16750138.loc, {Field0: colontmp__16995397, Field1: colontmp__16995398}, NTI16507432);
+    warp_16750138.kind = 1;
+    warp_16750138.onPress = HEX3Aanonymous_16750147;
+    game_16720187.buttons.push(warp_16750138);;
+
+  
+}
+function btnpr_12650070(self_12650072, button_12650073, repeat_12650074) {
+      var Tmp1;
+        var Tmp2;
+
+  var result_12650076 = false;
+
+  BeforeRet: do {
+    var v_12650077 = self_12650072.buttons[chckIndx(button_12650073, 0, (self_12650072.buttons).length-1)];
+      if ((v_12650077 == 2)) Tmp1 = true; else {        if (!(2 < v_12650077)) Tmp2 = false; else {          Tmp2 = (modInt(subInt(v_12650077, 2), repeat_12650074) == 0);        }        Tmp1 = Tmp2;      }    if (Tmp1) {
+    result_12650076 = true;
+    break BeforeRet;
+    }
+    
+    if ((button_12650073 == 0)) {
+    if ((self_12650072.axes[chckIndx(0, 0, (self_12650072.axes).length-1)].Field0 < -(self_12650072.deadzone))) {
+    var v_12655006 = self_12650072.axes[chckIndx(0, 0, (self_12650072.axes).length-1)].Field2;
+    result_12650076 = (modInt(v_12655006, repeat_12650074) == 0);
+    break BeforeRet;
+    }
+    
+    }
+    else {
+    if ((button_12650073 == 1)) {
+    if ((self_12650072.deadzone < self_12650072.axes[chckIndx(0, 0, (self_12650072.axes).length-1)].Field0)) {
+    var v_12660001 = self_12650072.axes[chckIndx(0, 0, (self_12650072.axes).length-1)].Field2;
+    result_12650076 = (modInt(v_12660001, repeat_12650074) == 0);
+    break BeforeRet;
+    }
+    
+    }
+    else {
+    if ((button_12650073 == 2)) {
+    if ((self_12650072.axes[chckIndx(1, 0, (self_12650072.axes).length-1)].Field0 < -(self_12650072.deadzone))) {
+    var v_12660007 = self_12650072.axes[chckIndx(1, 0, (self_12650072.axes).length-1)].Field2;
+    result_12650076 = (modInt(v_12660007, repeat_12650074) == 0);
+    break BeforeRet;
+    }
+    
+    }
+    else {
+    if ((button_12650073 == 3)) {
+    if ((self_12650072.deadzone < self_12650072.axes[chckIndx(1, 0, (self_12650072.axes).length-1)].Field0)) {
+    var v_12665001 = self_12650072.axes[chckIndx(1, 0, (self_12650072.axes).length-1)].Field2;
+    result_12650076 = (modInt(v_12665001, repeat_12650074) == 0);
+    break BeforeRet;
+    }
+    
+    }
+    }}}
+    result_12650076 = false;
     break BeforeRet;
   } while (false);
 
-  return result_16507321;
+  return result_12650076;
 
 }
-function center_16545203(c_16545205) {
-  var result_16545210 = {Field0: 0.0, Field1: 0.0};
+function btnpr_15010030(b_15010032, repeat_15010033) {
+  var result_15090025 = false;
 
-    var colontmp__16891262 = (c_16545205.x + 1.0000000000000000e+00);
-    var colontmp__16891263 = (c_16545205.y + 2.0000000000000000e+00);
-    nimCopy(result_16545210, {Field0: colontmp__16891262, Field1: colontmp__16891263}, NTI16507262);
+  BeforeRet: do {
+    L1: do {
+      var c_15090033 = null;
+      var c_15090033_Idx = 0;
+      var i_16995405 = 0;
+      var L_16995406 = (controllers_12755242[0]).length;
+      L2: do {
+          L3: while (true) {
+          if (!(i_16995405 < L_16995406)) break L3;
+            c_15090033 = controllers_12755242[0]; c_15090033_Idx = chckIndx(i_16995405, 0, (controllers_12755242[0]).length-1);
+            if (btnpr_12650070(c_15090033[c_15090033_Idx], b_15010032, repeat_15010033)) {
+            result_15090025 = true;
+            break BeforeRet;
+            }
+            
+            i_16995405 = addInt(i_16995405, 1);
+            if (!(((controllers_12755242[0]).length == L_16995406))) {
+            failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            }
+            
+          }
+      } while(false);
+    } while(false);
+    result_15090025 = false;
+    break BeforeRet;
+  } while (false);
 
-  return result_16545210;
+  return result_15090025;
 
 }
-function center_16620218(pat_16620220) {
-  var result_16620225 = {Field0: 0.0, Field1: 0.0};
+function distance_16507396(f_16507402, t_16507407) {
+  var result_16507408 = 0.0;
 
-    nimCopy(result_16620225, center_16545203(pat_16620220.creature), NTI16507262);
+  BeforeRet: do {
+    var dx_16507409 = (t_16507407.Field0 - f_16507402.Field0);
+    var dy_16507410 = (t_16507407.Field1 - f_16507402.Field1);
+    result_16507408 = Math.sqrt(((dx_16507409 * dx_16507409) + (dy_16507410 * dy_16507410)));
+    break BeforeRet;
+  } while (false);
 
-  return result_16620225;
+  return result_16507408;
 
 }
-function center_16590087(m_16590089) {
-  var result_16590094 = {Field0: 0.0, Field1: 0.0};
+function center_16625189(c_16625191) {
+  var result_16625196 = {Field0: 0.0, Field1: 0.0};
 
-    var colontmp__16891264 = (toFloat_1216659(m_16590089.x) + 3.0000000000000000e+00);
-    var colontmp__16891265 = (toFloat_1216659(m_16590089.y) + 3.0000000000000000e+00);
-    nimCopy(result_16590094, {Field0: colontmp__16891264, Field1: colontmp__16891265}, NTI16507262);
+    var colontmp__16995409 = (c_16625191.x + 1.0000000000000000e+00);
+    var colontmp__16995410 = (c_16625191.y + 2.0000000000000000e+00);
+    nimCopy(result_16625196, {Field0: colontmp__16995409, Field1: colontmp__16995410}, NTI16507349);
 
-  return result_16590094;
+  return result_16625196;
+
+}
+function center_16710214(pat_16710216) {
+  var result_16710221 = {Field0: 0.0, Field1: 0.0};
+
+    nimCopy(result_16710221, center_16625189(pat_16710216.creature), NTI16507349);
+
+  return result_16710221;
+
+}
+function center_16670087(m_16670089) {
+  var result_16670094 = {Field0: 0.0, Field1: 0.0};
+
+    var colontmp__16995411 = (toFloat_1216659(m_16670089.x) + 3.0000000000000000e+00);
+    var colontmp__16995412 = (toFloat_1216659(m_16670089.y) + 3.0000000000000000e+00);
+    nimCopy(result_16670094, {Field0: colontmp__16995411, Field1: colontmp__16995412}, NTI16507349);
+
+  return result_16670094;
 
 }
 function toPint_12755083(x_12755085) {
@@ -4476,30 +4787,501 @@ function toPint_12755083(x_12755085) {
   return result_12755086;
 
 }
-function canSee_16605220(pat_16605223, thing_16605224) {
-  var result_16620257 = false;
+function canSee_16685220(pat_16685223, thing_16685224) {
+  var result_16710253 = false;
 
-    var distance_16620258 = distance_16507309(center_16620218(pat_16605223), center_16590087(thing_16605224));
-    result_16620257 = (toPint_12755083(distance_16620258) <= toPint_14370366(patrolViewRadius_16507185[0]));
+    var distance_16710254 = distance_16507396(center_16710214(pat_16685223), center_16670087(thing_16685224));
+    result_16710253 = (toPint_12755083(distance_16710254) <= toPint_14370366(patrolViewRadius_16507213[0]));
 
-  return result_16620257;
+  return result_16710253;
 
 }
-function game_over_16630148(game_16630151, msg_16630152) {
-    game_16630151.state = 1;
-    game_16630151.game_over_msg = nimCopy(null, msg_16630152, NTI1188013);
+function sfx_14625022(channel_14625024, sfxId_14625025, loop_14625026) {
+  BeforeRet: do {
+    if ((audioContext_14332019[0] == null)) {
+    break BeforeRet;
+    }
+    
+    if ((sfxId_14625025 == -1)) {
+    resetChannel_14470160(audioChannels_14332102[0][chckIndx(channel_14625024, 0, (audioChannels_14332102[0]).length-1)]);
+    break BeforeRet;
+    }
+    
+    if (!((sfxData_14335038[0][chckIndx(sfxId_14625025, 0, (sfxData_14335038[0]).length-1)] == null))) {
+    if (!((audioChannels_14332102[0][chckIndx(channel_14625024, 0, (audioChannels_14332102[0]).length-1)].source == null))) {
+    resetChannel_14470160(audioChannels_14332102[0][chckIndx(channel_14625024, 0, (audioChannels_14332102[0]).length-1)]);
+    }
+    
+    var source_14635010 = audioContext_14332019[0].createBufferSource();
+    source_14635010.buffer = sfxData_14335038[0][chckIndx(sfxId_14625025, 0, (sfxData_14335038[0]).length-1)];
+    source_14635010.connect(sfxGain_14335044[0]);
+    source_14635010.start();
+    audioChannels_14332102[0][chckIndx(channel_14625024, 0, (audioChannels_14332102[0]).length-1)].source = source_14635010;
+    }
+    
+  } while (false);
 
   
 }
-function fixBox_16605293(m_16605296, m_16605296_Idx) {
-    m_16605296[m_16605296_Idx].broken = false;
+function game_over_16750290(game_16750293, msg_16750294) {
+    game_16750293.state = 2;
+    game_16750293.game_over_msg = nimCopy(null, msg_16750294, NTI1188013);
+    sfx_14625022(7, 7, 0);
 
   
 }
-function breakBox_16605276(m_16605279, m_16605279_Idx) {
-    m_16605279[m_16605279_Idx].broken = true;
+function addFloat_1555219(result_1555222, result_1555222_Idx, x_1555223) {
+    result_1555222[result_1555222_Idx].push.apply(result_1555222[result_1555222_Idx], cstrToNimstr(nimFloatToString(x_1555223)));;
 
   
+}
+function addQuoted_16550401(s_16550404, s_16550404_Idx, x_16550405) {
+    addFloat_1555219(s_16550404, s_16550404_Idx, x_16550405);
+
+  
+}
+function HEX24_16550029(x_16550032) {
+  var result_16550033 = [[]];
+
+    result_16550033[0] = nimCopy(null, makeNimstrLit("("), NTI1188013);
+    var count_16550046 = 0;
+    if ((0 < count_16550046)) {
+    result_16550033[0].push.apply(result_16550033[0], makeNimstrLit(", "));;
+    }
+    
+    result_16550033[0].push.apply(result_16550033[0], makeNimstrLit("x"));;
+    result_16550033[0].push.apply(result_16550033[0], makeNimstrLit(": "));;
+    count_16550046 += 1;
+    addQuoted_16550401(result_16550033, 0, x_16550032["Field0"]);
+    if ((0 < count_16550046)) {
+    result_16550033[0].push.apply(result_16550033[0], makeNimstrLit(", "));;
+    }
+    
+    result_16550033[0].push.apply(result_16550033[0], makeNimstrLit("y"));;
+    result_16550033[0].push.apply(result_16550033[0], makeNimstrLit(": "));;
+    count_16550046 += 1;
+    addQuoted_16550401(result_16550033, 0, x_16550032["Field1"]);
+    result_16550033[0].push.apply(result_16550033[0], makeNimstrLit(")"));;
+
+  return result_16550033[0];
+
+}
+function newBeam_16545064(pos_16545070) {
+    var beam_16545072 = null;
+    beam_16545072 = ({pos: {Field0: 0.0, Field1: 0.0}, secondsLeft: 0.0});
+    nimCopy(beam_16545072.pos, pos_16545070, NTI16507349);
+    beam_16545072.secondsLeft = beam_lifetime_16507268[0];
+    beams_16507746[0].push(beam_16545072);;
+    if ((logCount_16507067[0] < logMax_16507070[0])) {
+    rawEcho(cstrToNimstr((logCount_16507067[0])+""), makeNimstrLit(": "), makeNimstrLit("added new beam: "), HEX24_16550029(pos_16545070));
+    logCount_16507067[0] = addInt(logCount_16507067[0], 1);
+    if ((logMax_16507070[0] <= logCount_16507067[0])) {
+    rawEcho(makeNimstrLit("STOPPING LOGGING"));
+    }
+    
+    }
+    
+
+  
+}
+function fixBox_16670164(m_16670167, m_16670167_Idx) {
+    m_16670167[m_16670167_Idx].broken = false;
+    sfx_14625022(3, 3, 0);
+    var center_16670168 = center_16670087(m_16670167[m_16670167_Idx]);
+    newBeam_16545064({Field0: center_16670168.Field0, Field1: toFloat_1216659(m_16670167[m_16670167_Idx].y)});
+
+  
+}
+function rand_14715087(r_14715090, max_14715113) {
+  var result_14715114 = 0.0;
+
+    var x_14715115 = next_14713658(r_14715090);
+    result_14715114 = ((x_14715115 / 4294967295) * max_14715113);
+
+  return result_14715114;
+
+}
+function rand_14715235(max_14715237) {
+  var result_14715238 = 0.0;
+
+    result_14715238 = rand_14715087(state_14713405[0], chckRange(max_14715237, 0.0, Infinity));
+
+  return result_14715238;
+
+}
+function rnd_16545005(min_16545008, max_16545009) {
+  var result_16545010 = 0.0;
+
+  BeforeRet: do {
+    result_16545010 = (rand_14715235((max_16545009 - min_16545008)) + min_16545008);
+    break BeforeRet;
+  } while (false);
+
+  return result_16545010;
+
+}
+function boom_16585258(point_16585264) {
+    var explosion_16585266 = null;
+    explosion_16585266 = ({pos: {Field0: 0.0, Field1: 0.0}, particles: []});
+    nimCopy(explosion_16585266.pos, point_16585264, NTI16507349);
+    L1: do {
+      var p_16585282 = 0;
+      var res_16995416 = 0;
+      L2: do {
+          L3: while (true) {
+          if (!(res_16995416 <= 20)) break L3;
+            p_16585282 = res_16995416;
+            explosion_16585266.particles.push({pos: nimCopy(null, {Field0: (point_16585264.Field0 + rnd_16545005(-2.0000000000000000e+00, 2.0000000000000000e+00)), Field1: (point_16585264.Field1 + rnd_16545005(-2.0000000000000000e+00, 2.0000000000000000e+00))}, NTI16507349), v: nimCopy(null, {Field0: rnd_16545005(particle_vx_16507227[0].a, particle_vx_16507227[0].b), Field1: rnd_16545005(particle_vy_16507237[0].a, particle_vy_16507237[0].b)}, NTI16507349), a: nimCopy(null, {Field0: rnd_16545005(particle_ax_16507247[0].a, particle_ax_16507247[0].b), Field1: rnd_16545005(particle_ay_16507257[0].a, particle_ay_16507257[0].b)}, NTI16507349), floor: point_16585264.Field1, secondsLeft: rnd_16545005(particle_lifetime_16507267[0].a, particle_lifetime_16507267[0].b)});;
+            res_16995416 = addInt(res_16995416, 1);
+          }
+      } while(false);
+    } while(false);
+    explosions_16507743[0].push(explosion_16585266);;
+
+  
+}
+function breakBox_16670141(m_16670144, m_16670144_Idx) {
+    m_16670144[m_16670144_Idx].broken = true;
+    sfx_14625022(2, 2, 0);
+    var center_16670145 = center_16670087(m_16670144[m_16670144_Idx]);
+    boom_16585258({Field0: center_16670145.Field0, Field1: toFloat_1216659(((addInt(toPint_12755083(center_16670145.Field1), toPint_14370366(divInt(gridSize_16507092[0], 2))))|0))});
+
+  
+}
+function click_16695108(btn_16695111) {
+    switch (btn_16695111.kind) {
+    case 1:
+      if (btn_16695111.isPushed) {
+      btn_16695111.isPushed = false;
+      }
+      else {
+        btn_16695111.isPushed = true;
+      }
+      
+      btn_16695111.onPress(btn_16695111);
+      break;
+    case 0:
+      btn_16695111.onPress(btn_16695111);
+      btn_16695111.animSecondsLeft = 2.5000000000000000e-01;
+      break;
+    }
+    sfx_14625022(0, 1, 0);
+
+  
+}
+function axis_12600056(self_12600058, axis_12600059) {
+  var result_12600060 = 0.0;
+
+  BeforeRet: do {
+    result_12600060 = self_12600058.axes[chckIndx(axis_12600059, 0, (self_12600058.axes).length-1)].Field0;
+    break BeforeRet;
+  } while (false);
+
+  return result_12600060;
+
+}
+function btn_12615014(self_12615016, button_12615017) {
+    var Tmp1;
+    var Tmp2;
+    var Tmp3;
+    var Tmp4;
+
+  var result_12615018 = false;
+
+  BeforeRet: do {
+    if ((button_12615017 == 0)) {
+    if ((0 < self_12615016.buttons[chckIndx(button_12615017, 0, (self_12615016.buttons).length-1)])) Tmp1 = true; else {      Tmp1 = (axis_12600056(self_12615016, 0) < -(self_12615016.deadzone));    }    result_12615018 = Tmp1;
+    break BeforeRet;
+    }
+    else {
+    if ((button_12615017 == 1)) {
+    if ((0 < self_12615016.buttons[chckIndx(button_12615017, 0, (self_12615016.buttons).length-1)])) Tmp2 = true; else {      Tmp2 = (self_12615016.deadzone < axis_12600056(self_12615016, 0));    }    result_12615018 = Tmp2;
+    break BeforeRet;
+    }
+    else {
+    if ((button_12615017 == 2)) {
+    if ((0 < self_12615016.buttons[chckIndx(button_12615017, 0, (self_12615016.buttons).length-1)])) Tmp3 = true; else {      Tmp3 = (axis_12600056(self_12615016, 1) < -(self_12615016.deadzone));    }    result_12615018 = Tmp3;
+    break BeforeRet;
+    }
+    else {
+    if ((button_12615017 == 3)) {
+    if ((0 < self_12615016.buttons[chckIndx(button_12615017, 0, (self_12615016.buttons).length-1)])) Tmp4 = true; else {      Tmp4 = (self_12615016.deadzone < axis_12600056(self_12615016, 1));    }    result_12615018 = Tmp4;
+    break BeforeRet;
+    }
+    }}}
+    result_12615018 = (0 < self_12615016.buttons[chckIndx(button_12615017, 0, (self_12615016.buttons).length-1)]);
+    break BeforeRet;
+  } while (false);
+
+  return result_12615018;
+
+}
+function btn_15010021(b_15010023) {
+  var result_15070022 = false;
+
+  BeforeRet: do {
+    L1: do {
+      var c_15070030 = null;
+      var c_15070030_Idx = 0;
+      var i_16995425 = 0;
+      var L_16995426 = (controllers_12755242[0]).length;
+      L2: do {
+          L3: while (true) {
+          if (!(i_16995425 < L_16995426)) break L3;
+            c_15070030 = controllers_12755242[0]; c_15070030_Idx = chckIndx(i_16995425, 0, (controllers_12755242[0]).length-1);
+            if (btn_12615014(c_15070030[c_15070030_Idx], b_15010023)) {
+            result_15070022 = true;
+            break BeforeRet;
+            }
+            
+            i_16995425 = addInt(i_16995425, 1);
+            if (!(((controllers_12755242[0]).length == L_16995426))) {
+            failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            }
+            
+          }
+      } while(false);
+    } while(false);
+    result_15070022 = false;
+    break BeforeRet;
+  } while (false);
+
+  return result_15070022;
+
+}
+function HEX2DHEX3D_16507874(x_16507878, x_16507878_Idx, y_16507879) {
+    x_16507878[x_16507878_Idx] = (x_16507878[x_16507878_Idx] - y_16507879);
+
+  
+}
+function HEX2BHEX3D_10415021(x_10415025, x_10415025_Idx, y_10415026) {
+    x_10415025[x_10415025_Idx] = (x_10415025[x_10415025_Idx] + y_10415026);
+
+  
+}
+function min_1270014(x_1270016, y_1270017) {
+    var Tmp1;
+      var Tmp2;
+
+  var result_1270018 = 0.0;
+
+      if ((x_1270016 <= y_1270017)) Tmp2 = true; else {        Tmp2 = !((y_1270017 == y_1270017));      }    if (Tmp2) {
+    Tmp1 = x_1270016;
+    }
+    else {
+    Tmp1 = y_1270017;
+    }
+    
+    result_1270018 = Tmp1;
+
+  return result_1270018;
+
+}
+function update_16555048(p_16555051, dt_16555052) {
+  var result_16555053 = false;
+
+  BeforeRet: do {
+    HEX2DHEX3D_16507874(p_16555051, "secondsLeft", min_1270014(p_16555051.secondsLeft, dt_16555052));
+    HEX2BHEX3D_10415021(p_16555051.v, "Field0", (p_16555051.a.Field0 * dt_16555052));
+    HEX2BHEX3D_10415021(p_16555051.v, "Field1", (p_16555051.a.Field1 * dt_16555052));
+    HEX2BHEX3D_10415021(p_16555051.pos, "Field0", (p_16555051.v.Field0 * dt_16555052));
+    HEX2BHEX3D_10415021(p_16555051.pos, "Field1", (p_16555051.v.Field1 * dt_16555052));
+    if ((p_16555051.floor <= p_16555051.pos.Field1)) {
+    p_16555051.pos.Field1 = p_16555051.floor;
+    }
+    
+    result_16555053 = (0.0 < p_16555051.secondsLeft);
+    break BeforeRet;
+  } while (false);
+
+  return result_16555053;
+
+}
+function update_16565282(explosion_16565285, dt_16565286) {
+  var result_16565287 = false;
+
+    L1: do {
+      var p_16575215 = null;
+      var i_16995484 = 0;
+      var L_16995485 = (explosion_16565285.particles).length;
+      L2: do {
+          L3: while (true) {
+          if (!(i_16995484 < L_16995485)) break L3;
+            p_16575215 = explosion_16565285.particles[chckIndx(i_16995484, 0, (explosion_16565285.particles).length-1)];
+            if (update_16555048(p_16575215, dt_16565286)) {
+            result_16565287 = true;
+            }
+            
+            i_16995484 = addInt(i_16995484, 1);
+            if (!(((explosion_16565285.particles).length == L_16995485))) {
+            failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            }
+            
+          }
+      } while(false);
+    } while(false);
+
+  return result_16565287;
+
+}
+function newSeq_16775228(len_16775231) {
+  var result_16775233 = [];
+
+    result_16775233 = new Array(len_16775231); for (var i=0;i<len_16775231;++i) {result_16775233[i]=null;}
+  return result_16775233;
+
+}
+function update_16507868(b_16507871, dt_16507872) {
+  var result_16507873 = false;
+
+  BeforeRet: do {
+    HEX2DHEX3D_16507874(b_16507871, "secondsLeft", min_1270014(b_16507871.secondsLeft, dt_16507872));
+    result_16507873 = (0.0 < b_16507871.secondsLeft);
+    break BeforeRet;
+  } while (false);
+
+  return result_16507873;
+
+}
+function HEX2BHEX3D_15405035(x_15405039, x_15405039_Idx, y_15405040) {
+    x_15405039[x_15405039_Idx] = (x_15405039[x_15405039_Idx] + y_15405040);
+
+  
+}
+function HEX2DHEX3D_15405005(x_15405009, x_15405009_Idx, y_15405010) {
+    x_15405009[x_15405009_Idx] = (x_15405009[x_15405009_Idx] - y_15405010);
+
+  
+}
+function update_16710259(belt_16710262, dt_16710263) {
+    HEX2BHEX3D_15405035(belt_16710262, "offset", (belt_16710262.speed * dt_16710263));
+    if ((3.0000000000000000e+00 < belt_16710262.offset)) {
+    HEX2DHEX3D_15405005(belt_16710262, "offset", 3.0000000000000000e+00);
+    }
+    
+
+  
+}
+function overlaps_16715186(atl_16715190, abr_16715192, btl_16715194, bbr_16715196) {
+  var result_16715197 = false;
+
+    if ((abr_16715192.Field0 < btl_16715194.Field0)) {
+    result_16715197 = false;
+    }
+    else {
+    if ((bbr_16715196.Field0 < atl_16715190.Field0)) {
+    result_16715197 = false;
+    }
+    else {
+    if ((abr_16715192.Field1 < btl_16715194.Field1)) {
+    result_16715197 = false;
+    }
+    else {
+    if ((bbr_16715196.Field1 < atl_16715190.Field1)) {
+    result_16715197 = false;
+    }
+    else {
+      result_16715197 = true;
+    }
+    }}}
+
+  return result_16715197;
+
+}
+function moveAmount_16715168(belt_16715171, hitbox_16715176, dt_16715177) {
+  var result_16715182 = {Field0: 0.0, Field1: 0.0};
+
+  BeforeRet: do {
+    if (overlaps_16715186(belt_16715171.tl, belt_16715171.br, hitbox_16715176.Field0, hitbox_16715176.Field1)) {
+    switch (belt_16715171.dir) {
+    case 0:
+      var colontmp__16995487 = 0.0;
+      var colontmp__16995488 = (-(belt_16715171.speed) * dt_16715177);
+      nimCopy(result_16715182, {Field0: colontmp__16995487, Field1: colontmp__16995488}, NTI16507349);
+      break BeforeRet;
+      break;
+    case 2:
+      var colontmp__16995489 = 0.0;
+      var colontmp__16995490 = (belt_16715171.speed * dt_16715177);
+      nimCopy(result_16715182, {Field0: colontmp__16995489, Field1: colontmp__16995490}, NTI16507349);
+      break BeforeRet;
+      break;
+    case 3:
+      var colontmp__16995491 = (-(belt_16715171.speed) * dt_16715177);
+      var colontmp__16995492 = 0.0;
+      nimCopy(result_16715182, {Field0: colontmp__16995491, Field1: colontmp__16995492}, NTI16507349);
+      break BeforeRet;
+      break;
+    case 1:
+      var colontmp__16995493 = (belt_16715171.speed * dt_16715177);
+      var colontmp__16995494 = 0.0;
+      nimCopy(result_16715182, {Field0: colontmp__16995493, Field1: colontmp__16995494}, NTI16507349);
+      break BeforeRet;
+      break;
+    }
+    }
+    
+  } while (false);
+
+  return result_16715182;
+
+}
+function hitbox_16625139(c_16625141) {
+  var result_16625157 = {Field0: {Field0: 0, Field1: 0}, Field1: {Field0: 0, Field1: 0}};
+
+    var colontmp__16995495 = {Field0: ((c_16625141.x)|0), Field1: ((c_16625141.y)|0)};
+    var colontmp__16995498 = {Field0: subInt(addInt(((c_16625141.x)|0), 3), 1), Field1: subInt(addInt(((c_16625141.y)|0), 5), 1)};
+    nimCopy(result_16625157, {Field0: nimCopy(null, colontmp__16995495, NTI16507432), Field1: nimCopy(null, colontmp__16995498, NTI16507432)}, NTI16625148);
+
+  return result_16625157;
+
+}
+function move_16625211(game_16625214, c_16625216, amount_16625221) {
+    HEX2BHEX3D_10415021(c_16625216, "x", amount_16625221.Field0);
+    HEX2BHEX3D_10415021(c_16625216, "y", amount_16625221.Field1);
+
+  
+}
+function moveThing_16795216(game_16795219, belt_16795220, thing_16795222, dt_16795223) {
+      var Tmp1;
+
+    var amount_16795224 = moveAmount_16715168(belt_16795220, hitbox_16625139(thing_16795222), dt_16795223);
+      if (!((amount_16795224.Field0 == 0.0))) Tmp1 = true; else {        Tmp1 = !((amount_16795224.Field1 == 0.0));      }    if (Tmp1) {
+    move_16625211(game_16795219, thing_16795222, amount_16795224);
+    }
+    
+
+  
+}
+function HEX2AHEX3D_10415001(x_10415005, x_10415005_Idx, y_10415006) {
+    x_10415005[x_10415005_Idx] = (x_10415005[x_10415005_Idx] * y_10415006);
+
+  
+}
+function min_16625013(x_16625017) {
+  var result_16625018 = 0.0;
+
+    result_16625018 = x_16625017[chckIndx(0, 0, (x_16625017).length-1)];
+    L1: do {
+      var i_16625032 = 0;
+      var colontmp__16995502 = 0;
+      colontmp__16995502 = ((x_16625017).length-1);
+      var res_16995503 = 1;
+      L2: do {
+          L3: while (true) {
+          if (!(res_16995503 <= colontmp__16995502)) break L3;
+            i_16625032 = res_16995503;
+            if ((x_16625017[chckIndx(i_16625032, 0, (x_16625017).length-1)] < result_16625018)) {
+            result_16625018 = x_16625017[chckIndx(i_16625032, 0, (x_16625017).length-1)];
+            }
+            
+            res_16995503 = addInt(res_16995503, 1);
+          }
+      } while(false);
+    } while(false);
+
+  return result_16625018;
+
 }
 function rand_14715049(r_14715052, max_14715053) {
   var result_14715054 = 0;
@@ -4533,241 +5315,58 @@ function rand_14715069(max_14715071) {
   return result_14715072;
 
 }
-function rnd_16545057(min_16545060, max_16545061) {
-  var result_16545062 = 0;
+function rnd_16625057(min_16625060, max_16625061) {
+  var result_16625062 = 0;
 
   BeforeRet: do {
-    result_16545062 = addInt(rand_14715069(subInt(max_16545061, min_16545060)), min_16545060);
+    result_16625062 = addInt(rand_14715069(subInt(max_16625061, min_16625060)), min_16625060);
     break BeforeRet;
   } while (false);
 
-  return result_16545062;
+  return result_16625062;
 
 }
-function nextAuditBallot_16630181(game_16630184) {
-    game_16630184.target_ballot = rnd_16545057(0, subInt((game_16630184.ballots).length, 1));
-
-  
-}
-function HEX2DHEX3D_16580070(x_16580074, x_16580074_Idx, y_16580075) {
-    x_16580074[x_16580074_Idx] = (x_16580074[x_16580074_Idx] - y_16580075);
-
-  
-}
-function HEX2BHEX3D_10415021(x_10415025, x_10415025_Idx, y_10415026) {
-    x_10415025[x_10415025_Idx] = (x_10415025[x_10415025_Idx] + y_10415026);
-
-  
-}
-function HEX2BHEX3D_15405035(x_15405039, x_15405039_Idx, y_15405040) {
-    x_15405039[x_15405039_Idx] = (x_15405039[x_15405039_Idx] + y_15405040);
-
-  
-}
-function HEX2DHEX3D_15405005(x_15405009, x_15405009_Idx, y_15405010) {
-    x_15405009[x_15405009_Idx] = (x_15405009[x_15405009_Idx] - y_15405010);
-
-  
-}
-function update_16620263(belt_16620266, dt_16620267) {
-    HEX2BHEX3D_15405035(belt_16620266, "offset", (belt_16620266.speed * dt_16620267));
-    if ((3.0000000000000000e+00 < belt_16620266.offset)) {
-    HEX2DHEX3D_15405005(belt_16620266, "offset", 3.0000000000000000e+00);
+function update_16600036(c_16600039, dt_16600040) {
+    if (!((c_16600039.vy == 0.0))) {
+    HEX2AHEX3D_10415001(c_16600039, "vy", 7.5000000000000000e-01);
+    HEX2BHEX3D_10415021(c_16600039, "y", c_16600039.vy);
+    if ((abs_1265247(c_16600039.vy) < 1.0000000000000001e-01)) {
+    c_16600039.vy = 0.0;
     }
     
-
-  
-}
-function overlaps_16625186(atl_16625190, abr_16625192, btl_16625194, bbr_16625196) {
-  var result_16625197 = false;
-
-    if ((abr_16625192.Field0 < btl_16625194.Field0)) {
-    result_16625197 = false;
+    if ((0.0 < c_16600039.vy)) {
+    c_16600039.facing = 0;
     }
     else {
-    if ((bbr_16625196.Field0 < atl_16625190.Field0)) {
-    result_16625197 = false;
-    }
-    else {
-    if ((abr_16625192.Field1 < btl_16625194.Field1)) {
-    result_16625197 = false;
-    }
-    else {
-    if ((bbr_16625196.Field1 < atl_16625190.Field1)) {
-    result_16625197 = false;
-    }
-    else {
-      result_16625197 = true;
-    }
-    }}}
-
-  return result_16625197;
-
-}
-function moveAmount_16625168(belt_16625171, hitbox_16625176, dt_16625177) {
-  var result_16625182 = {Field0: 0.0, Field1: 0.0};
-
-  BeforeRet: do {
-    if (overlaps_16625186(belt_16625171.tl, belt_16625171.br, hitbox_16625176.Field0, hitbox_16625176.Field1)) {
-    switch (belt_16625171.dir) {
-    case 0:
-      var colontmp__16891323 = 0.0;
-      var colontmp__16891324 = (-(belt_16625171.speed) * dt_16625177);
-      nimCopy(result_16625182, {Field0: colontmp__16891323, Field1: colontmp__16891324}, NTI16507262);
-      break BeforeRet;
-      break;
-    case 2:
-      var colontmp__16891325 = 0.0;
-      var colontmp__16891326 = (belt_16625171.speed * dt_16625177);
-      nimCopy(result_16625182, {Field0: colontmp__16891325, Field1: colontmp__16891326}, NTI16507262);
-      break BeforeRet;
-      break;
-    case 3:
-      var colontmp__16891327 = (-(belt_16625171.speed) * dt_16625177);
-      var colontmp__16891328 = 0.0;
-      nimCopy(result_16625182, {Field0: colontmp__16891327, Field1: colontmp__16891328}, NTI16507262);
-      break BeforeRet;
-      break;
-    case 1:
-      var colontmp__16891329 = (belt_16625171.speed * dt_16625177);
-      var colontmp__16891330 = 0.0;
-      nimCopy(result_16625182, {Field0: colontmp__16891329, Field1: colontmp__16891330}, NTI16507262);
-      break BeforeRet;
-      break;
-    }
-    }
-    
-  } while (false);
-
-  return result_16625182;
-
-}
-function hitbox_16545153(c_16545155) {
-  var result_16545171 = {Field0: {Field0: 0, Field1: 0}, Field1: {Field0: 0, Field1: 0}};
-
-    var colontmp__16891331 = {Field0: ((c_16545155.x)|0), Field1: ((c_16545155.y)|0)};
-    var colontmp__16891334 = {Field0: subInt(addInt(((c_16545155.x)|0), 3), 1), Field1: subInt(addInt(((c_16545155.y)|0), 5), 1)};
-    nimCopy(result_16545171, {Field0: nimCopy(null, colontmp__16891331, NTI16507345), Field1: nimCopy(null, colontmp__16891334, NTI16507345)}, NTI16545162);
-
-  return result_16545171;
-
-}
-function move_16545225(game_16545228, c_16545230, amount_16545235) {
-    HEX2BHEX3D_10415021(c_16545230, "x", amount_16545235.Field0);
-    HEX2BHEX3D_10415021(c_16545230, "y", amount_16545235.Field1);
-
-  
-}
-function moveThing_16640216(game_16640219, belt_16640220, thing_16640222, dt_16640223) {
-      var Tmp1;
-
-    var amount_16640224 = moveAmount_16625168(belt_16640220, hitbox_16545153(thing_16640222), dt_16640223);
-      if (!((amount_16640224.Field0 == 0.0))) Tmp1 = true; else {        Tmp1 = !((amount_16640224.Field1 == 0.0));      }    if (Tmp1) {
-    move_16545225(game_16640219, thing_16640222, amount_16640224);
-    }
-    
-
-  
-}
-function HEX2AHEX3D_10415001(x_10415005, x_10415005_Idx, y_10415006) {
-    x_10415005[x_10415005_Idx] = (x_10415005[x_10415005_Idx] * y_10415006);
-
-  
-}
-function min_16545013(x_16545017) {
-  var result_16545018 = 0.0;
-
-    result_16545018 = x_16545017[chckIndx(0, 0, (x_16545017).length-1)];
-    L1: do {
-      var i_16545032 = 0;
-      var colontmp__16891338 = 0;
-      colontmp__16891338 = ((x_16545017).length-1);
-      var res_16891339 = 1;
-      L2: do {
-          L3: while (true) {
-          if (!(res_16891339 <= colontmp__16891338)) break L3;
-            i_16545032 = res_16891339;
-            if ((x_16545017[chckIndx(i_16545032, 0, (x_16545017).length-1)] < result_16545018)) {
-            result_16545018 = x_16545017[chckIndx(i_16545032, 0, (x_16545017).length-1)];
-            }
-            
-            res_16891339 = addInt(res_16891339, 1);
-          }
-      } while(false);
-    } while(false);
-
-  return result_16545018;
-
-}
-function rand_14715087(r_14715090, max_14715113) {
-  var result_14715114 = 0.0;
-
-    var x_14715115 = next_14713658(r_14715090);
-    result_14715114 = ((x_14715115 / 4294967295) * max_14715113);
-
-  return result_14715114;
-
-}
-function rand_14715235(max_14715237) {
-  var result_14715238 = 0.0;
-
-    result_14715238 = rand_14715087(state_14713405[0], chckRange(max_14715237, 0.0, Infinity));
-
-  return result_14715238;
-
-}
-function rnd_16545076(min_16545079, max_16545080) {
-  var result_16545081 = 0.0;
-
-  BeforeRet: do {
-    result_16545081 = (rand_14715235((max_16545080 - min_16545079)) + min_16545079);
-    break BeforeRet;
-  } while (false);
-
-  return result_16545081;
-
-}
-function update_16520036(c_16520039, dt_16520040) {
-    if (!((c_16520039.vy == 0.0))) {
-    HEX2AHEX3D_10415001(c_16520039, "vy", 7.5000000000000000e-01);
-    HEX2BHEX3D_10415021(c_16520039, "y", c_16520039.vy);
-    if ((abs_1265247(c_16520039.vy) < 1.0000000000000001e-01)) {
-    c_16520039.vy = 0.0;
-    }
-    
-    if ((0.0 < c_16520039.vy)) {
-    c_16520039.facing = 0;
-    }
-    else {
-    if ((c_16520039.vy < 0.0)) {
-    c_16520039.facing = 2;
+    if ((c_16600039.vy < 0.0)) {
+    c_16600039.facing = 2;
     }
     }
     }
     
-    if (!((c_16520039.vx == 0.0))) {
-    HEX2AHEX3D_10415001(c_16520039, "vx", 7.5000000000000000e-01);
-    HEX2BHEX3D_10415021(c_16520039, "x", c_16520039.vx);
-    if ((abs_1265247(c_16520039.vx) < 1.0000000000000001e-01)) {
-    c_16520039.vx = 0.0;
+    if (!((c_16600039.vx == 0.0))) {
+    HEX2AHEX3D_10415001(c_16600039, "vx", 7.5000000000000000e-01);
+    HEX2BHEX3D_10415021(c_16600039, "x", c_16600039.vx);
+    if ((abs_1265247(c_16600039.vx) < 1.0000000000000001e-01)) {
+    c_16600039.vx = 0.0;
     }
     
-    if ((0.0 < c_16520039.vx)) {
-    c_16520039.facing = 3;
+    if ((0.0 < c_16600039.vx)) {
+    c_16600039.facing = 3;
     }
     else {
-    if ((c_16520039.vx < 0.0)) {
-    c_16520039.facing = 1;
+    if ((c_16600039.vx < 0.0)) {
+    c_16600039.facing = 1;
     }
     }
     }
     
-    if ((0.0 < c_16520039.blinkLeft)) {
-    HEX2DHEX3D_15405005(c_16520039, "blinkLeft", min_16545013([dt_16520040, c_16520039.blinkLeft]));
+    if ((0.0 < c_16600039.blinkLeft)) {
+    HEX2DHEX3D_15405005(c_16600039, "blinkLeft", min_16625013([dt_16600040, c_16600039.blinkLeft]));
     }
     else {
-      if ((rnd_16545057(0, 2000) < 5)) {
-      c_16520039.blinkLeft = rnd_16545076(1.0000000000000001e-01, 2.0000000000000001e-01);
+      if ((rnd_16625057(0, 2000) < 5)) {
+      c_16600039.blinkLeft = rnd_16545005(1.0000000000000001e-01, 2.0000000000000001e-01);
       }
       
     }
@@ -4775,127 +5374,127 @@ function update_16520036(c_16520039, dt_16520040) {
 
   
 }
-function isSome_16545510(self_16545514) {
-  var result_16545515 = false;
+function isSome_16625496(self_16625500) {
+  var result_16625501 = false;
 
-    result_16545515 = self_16545514.has;
+    result_16625501 = self_16625500.has;
 
-  return result_16545515;
-
-}
-function isNone_16545682(self_16545686) {
-  var result_16545687 = false;
-
-    result_16545687 = !(self_16545686.has);
-
-  return result_16545687;
+  return result_16625501;
 
 }
-function get_16545659(self_16545664) {
-  var result_16545666 = null;
+function isNone_16625682(self_16625686) {
+  var result_16625687 = false;
+
+    result_16625687 = !(self_16625686.has);
+
+  return result_16625687;
+
+}
+function get_16625659(self_16625664) {
+  var result_16625666 = null;
 
   BeforeRet: do {
-    if (isNone_16545682(self_16545664)) {
+    if (isNone_16625682(self_16625664)) {
     raiseException({message: makeNimstrLit("Can\'t obtain a value from a `none`"), parent: null, m_type: NTI10600204, name: null, trace: [], up: null}, "UnpackDefect");
     }
     
-    result_16545666 = self_16545664.val;
+    result_16625666 = self_16625664.val;
     break BeforeRet;
   } while (false);
 
-  return result_16545666;
+  return result_16625666;
 
 }
-function some_16555176(val_16555179) {
-  var result_16555181 = ({val: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), has: false});
+function some_16635176(val_16635179) {
+  var result_16635181 = ({val: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), has: false});
 
-    result_16555181.has = true;
-    nimCopy(result_16555181.val, val_16555179, NTI16507420);
+    result_16635181.has = true;
+    nimCopy(result_16635181.val, val_16635179, NTI16507507);
 
-  return result_16555181;
+  return result_16635181;
 
 }
-function update_16555089(b_16555092, b_16555092_Idx, dt_16555093) {
+function update_16635089(b_16635092, b_16635092_Idx, dt_16635093) {
         var Tmp1;
       var Tmp2;
 
-    HEX2DHEX3D_15405005(b_16555092[b_16555092_Idx], "stateSecondsLeft", min_1265281(b_16555092[b_16555092_Idx].stateSecondsLeft, dt_16555093));
-    if (isSome_16545510(b_16555092[b_16555092_Idx].voter)) {
-    var voter_16555174 = [nimCopy(null, get_16545659(b_16555092[b_16555092_Idx].voter), NTI16507420)];
-    update_16520036(voter_16555174[0], dt_16555093);
-    nimCopy(b_16555092[b_16555092_Idx].voter, some_16555176(voter_16555174[0]), NTI16507461);
+    HEX2DHEX3D_15405005(b_16635092[b_16635092_Idx], "stateSecondsLeft", min_1265281(b_16635092[b_16635092_Idx].stateSecondsLeft, dt_16635093));
+    if (isSome_16625496(b_16635092[b_16635092_Idx].voter)) {
+    var voter_16635174 = [nimCopy(null, get_16625659(b_16635092[b_16635092_Idx].voter), NTI16507507)];
+    update_16600036(voter_16635174[0], dt_16635093);
+    nimCopy(b_16635092[b_16635092_Idx].voter, some_16635176(voter_16635174[0]), NTI16507562);
     }
     
-    switch (b_16555092[b_16555092_Idx].voterState) {
+    switch (b_16635092[b_16635092_Idx].voterState) {
     case 0:
-      if ((b_16555092[b_16555092_Idx].stateSecondsLeft == 0.0)) {
-      if ((0 < addInt(game_16507572[0].winnerVotes, game_16507572[0].loserVotes))) {
-      b_16555092[b_16555092_Idx].voterState = 1;
-      nimCopy(b_16555092[b_16555092_Idx].voter, some_16555176({x: addInt(b_16555092[b_16555092_Idx].x, 2), y: addInt(screenHeight_12755223[0], 1), facing: 2, color: rnd_16545057(3, 15), speed: rnd_16545076(voterSpeed_16507169[0].a, voterSpeed_16507169[0].b), vx: 0.0, vy: 0.0, blinkLeft: 0.0}), NTI16507461);
-        if (!(0 < game_16507572[0].winnerVotes)) Tmp1 = false; else {          Tmp1 = (0 < game_16507572[0].loserVotes);        }      if (Tmp1) {
-      if ((rnd_16545076(0.0, 1.0000000000000000e+00) <= targetWinnerPct_16507170[0])) {
+      if ((b_16635092[b_16635092_Idx].stateSecondsLeft == 0.0)) {
+      if ((0 < addInt(game_16507740[0].winnerVotes, game_16507740[0].loserVotes))) {
+      b_16635092[b_16635092_Idx].voterState = 1;
+      nimCopy(b_16635092[b_16635092_Idx].voter, some_16635176({x: addInt(b_16635092[b_16635092_Idx].x, 2), y: addInt(screenHeight_12755223[0], 1), facing: 2, color: rnd_16625057(3, 15), speed: rnd_16545005(voterSpeed_16507194[0].a, voterSpeed_16507194[0].b), vx: 0.0, vy: 0.0, blinkLeft: 0.0}), NTI16507562);
+        if (!(0 < game_16507740[0].winnerVotes)) Tmp1 = false; else {          Tmp1 = (0 < game_16507740[0].loserVotes);        }      if (Tmp1) {
+      if ((rnd_16545005(0.0, 1.0000000000000000e+00) <= targetWinnerPct_16507198[0])) {
       Tmp2 = 0;
       }
       else {
       Tmp2 = 1;
       }
       
-      b_16555092[b_16555092_Idx].vote = Tmp2;
-      if ((b_16555092[b_16555092_Idx].vote == 0)) {
-      game_16507572[0].winnerVotes = subInt(game_16507572[0].winnerVotes, 1);
+      b_16635092[b_16635092_Idx].vote = Tmp2;
+      if ((b_16635092[b_16635092_Idx].vote == 0)) {
+      game_16507740[0].winnerVotes = subInt(game_16507740[0].winnerVotes, 1);
       }
       else {
-      game_16507572[0].loserVotes = subInt(game_16507572[0].loserVotes, 1);
+      game_16507740[0].loserVotes = subInt(game_16507740[0].loserVotes, 1);
       }
       
       }
       else {
-      if ((0 < game_16507572[0].winnerVotes)) {
-      b_16555092[b_16555092_Idx].vote = 0;
-      game_16507572[0].winnerVotes = subInt(game_16507572[0].winnerVotes, 1);
+      if ((0 < game_16507740[0].winnerVotes)) {
+      b_16635092[b_16635092_Idx].vote = 0;
+      game_16507740[0].winnerVotes = subInt(game_16507740[0].winnerVotes, 1);
       }
       else {
-      if ((0 < game_16507572[0].loserVotes)) {
-      b_16555092[b_16555092_Idx].vote = 1;
-      game_16507572[0].loserVotes = subInt(game_16507572[0].loserVotes, 1);
+      if ((0 < game_16507740[0].loserVotes)) {
+      b_16635092[b_16635092_Idx].vote = 1;
+      game_16507740[0].loserVotes = subInt(game_16507740[0].loserVotes, 1);
       }
       }}
       }
       else {
-        b_16555092[b_16555092_Idx].voterState = 4;
+        b_16635092[b_16635092_Idx].voterState = 4;
       }
       
       }
       
       break;
     case 1:
-      var voter_16580069 = nimCopy(null, get_16545659(b_16555092[b_16555092_Idx].voter), NTI16507420);
-      HEX2DHEX3D_16580070(voter_16580069, "y", (dt_16555093 * voter_16580069.speed));
-      if ((toPint_12755083(voter_16580069.y) <= toPint_14370366(addInt(b_16555092[b_16555092_Idx].y, 3)))) {
-      b_16555092[b_16555092_Idx].voterState = 2;
-      b_16555092[b_16555092_Idx].stateSecondsLeft = rnd_16545076(votingTime_16507141[0].a, votingTime_16507141[0].b);
+      var voter_16660069 = nimCopy(null, get_16625659(b_16635092[b_16635092_Idx].voter), NTI16507507);
+      HEX2DHEX3D_16507874(voter_16660069, "y", (dt_16635093 * voter_16660069.speed));
+      if ((toPint_12755083(voter_16660069.y) <= toPint_14370366(addInt(b_16635092[b_16635092_Idx].y, 3)))) {
+      b_16635092[b_16635092_Idx].voterState = 2;
+      b_16635092[b_16635092_Idx].stateSecondsLeft = rnd_16545005(votingTime_16507166[0].a, votingTime_16507166[0].b);
       }
       
-      nimCopy(b_16555092[b_16555092_Idx].voter, some_16555176(voter_16580069), NTI16507461);
+      nimCopy(b_16635092[b_16635092_Idx].voter, some_16635176(voter_16660069), NTI16507562);
       break;
     case 2:
-      if ((b_16555092[b_16555092_Idx].stateSecondsLeft == 0.0)) {
-      b_16555092[b_16555092_Idx].game.ballots.push({vote: b_16555092[b_16555092_Idx].vote, x: (toFloat_1216659(b_16555092[b_16555092_Idx].x) + 2.0000000000000000e+00), y: (toFloat_1216659(b_16555092[b_16555092_Idx].y) - 4.0000000000000000e+00), index: 0, flipped: false});;
-      b_16555092[b_16555092_Idx].game.true_votes.push(b_16555092[b_16555092_Idx].vote);;
-      b_16555092[b_16555092_Idx].voterState = 3;
+      if ((b_16635092[b_16635092_Idx].stateSecondsLeft == 0.0)) {
+      b_16635092[b_16635092_Idx].game.ballots.push({vote: b_16635092[b_16635092_Idx].vote, x: (toFloat_1216659(b_16635092[b_16635092_Idx].x) + 2.0000000000000000e+00), y: (toFloat_1216659(b_16635092[b_16635092_Idx].y) - 4.0000000000000000e+00), index: 0, flipped: false});;
+      b_16635092[b_16635092_Idx].game.true_votes.push(b_16635092[b_16635092_Idx].vote);;
+      b_16635092[b_16635092_Idx].voterState = 3;
       }
       
       break;
     case 3:
-      var voter_16580173 = nimCopy(null, get_16545659(b_16555092[b_16555092_Idx].voter), NTI16507420);
-      voter_16580173.facing = 0;
-      HEX2BHEX3D_10415021(voter_16580173, "y", (dt_16555093 * voter_16580173.speed));
-      if ((toPint_14370366(screenHeight_12755223[0]) < toPint_12755083(voter_16580173.y))) {
-      b_16555092[b_16555092_Idx].voterState = 0;
-      b_16555092[b_16555092_Idx].stateSecondsLeft = rnd_16545076(timeBetweenVoters_16507155[0].a, timeBetweenVoters_16507155[0].b);
+      var voter_16660160 = nimCopy(null, get_16625659(b_16635092[b_16635092_Idx].voter), NTI16507507);
+      voter_16660160.facing = 0;
+      HEX2BHEX3D_10415021(voter_16660160, "y", (dt_16635093 * voter_16660160.speed));
+      if ((toPint_14370366(screenHeight_12755223[0]) < toPint_12755083(voter_16660160.y))) {
+      b_16635092[b_16635092_Idx].voterState = 0;
+      b_16635092[b_16635092_Idx].stateSecondsLeft = rnd_16545005(timeBetweenVoters_16507180[0].a, timeBetweenVoters_16507180[0].b);
       }
       
-      nimCopy(b_16555092[b_16555092_Idx].voter, some_16555176(voter_16580173), NTI16507461);
+      nimCopy(b_16635092[b_16635092_Idx].voter, some_16635176(voter_16660160), NTI16507562);
       break;
     case 4:
       break;
@@ -4903,95 +5502,98 @@ function update_16555089(b_16555092, b_16555092_Idx, dt_16555093) {
 
   
 }
-function update_16545279(b_16545281, dt_16545282) {
+function update_16625265(b_16625267, dt_16625268) {
   
 }
-function hitbox_16545296(b_16545298) {
-  var result_16545303 = {Field0: {Field0: 0, Field1: 0}, Field1: {Field0: 0, Field1: 0}};
+function hitbox_16625282(b_16625284) {
+  var result_16625289 = {Field0: {Field0: 0, Field1: 0}, Field1: {Field0: 0, Field1: 0}};
 
-    var colontmp__16891352 = {Field0: ((b_16545298.x)|0), Field1: ((b_16545298.y)|0)};
-    var colontmp__16891355 = {Field0: subInt(addInt(((b_16545298.x)|0), 3), 1), Field1: subInt(addInt(((b_16545298.y)|0), 3), 1)};
-    nimCopy(result_16545303, {Field0: nimCopy(null, colontmp__16891352, NTI16507345), Field1: nimCopy(null, colontmp__16891355, NTI16507345)}, NTI16545162);
+    var colontmp__16995516 = {Field0: ((b_16625284.x)|0), Field1: ((b_16625284.y)|0)};
+    var colontmp__16995519 = {Field0: subInt(addInt(((b_16625284.x)|0), 3), 1), Field1: subInt(addInt(((b_16625284.y)|0), 3), 1)};
+    nimCopy(result_16625289, {Field0: nimCopy(null, colontmp__16995516, NTI16507432), Field1: nimCopy(null, colontmp__16995519, NTI16507432)}, NTI16625148);
 
-  return result_16545303;
+  return result_16625289;
 
 }
-function move_16545320(game_16545323, b_16545325, amount_16545330) {
-    HEX2BHEX3D_15405035(b_16545325, "x", amount_16545330.Field0);
-    HEX2BHEX3D_15405035(b_16545325, "y", amount_16545330.Field1);
+function move_16625306(game_16625309, b_16625311, amount_16625316) {
+    HEX2BHEX3D_15405035(b_16625311, "x", amount_16625316.Field0);
+    HEX2BHEX3D_15405035(b_16625311, "y", amount_16625316.Field1);
 
   
 }
-function moveThing_16670228(game_16670231, belt_16670232, thing_16670234, dt_16670235) {
+function moveThing_16825228(game_16825231, belt_16825232, thing_16825234, dt_16825235) {
       var Tmp1;
 
-    var amount_16670236 = moveAmount_16625168(belt_16670232, hitbox_16545296(thing_16670234), dt_16670235);
-      if (!((amount_16670236.Field0 == 0.0))) Tmp1 = true; else {        Tmp1 = !((amount_16670236.Field1 == 0.0));      }    if (Tmp1) {
-    move_16545320(game_16670231, thing_16670234, amount_16670236);
+    var amount_16825236 = moveAmount_16715168(belt_16825232, hitbox_16625282(thing_16825234), dt_16825235);
+      if (!((amount_16825236.Field0 == 0.0))) Tmp1 = true; else {        Tmp1 = !((amount_16825236.Field1 == 0.0));      }    if (Tmp1) {
+    move_16625306(game_16825231, thing_16825234, amount_16825236);
     }
     
 
   
 }
-function overlaps_16625211(b1_16625215, b2_16625217) {
-  var result_16625218 = false;
+function overlaps_16715211(b1_16715215, b2_16715217) {
+  var result_16715218 = false;
 
-    result_16625218 = overlaps_16625186(b1_16625215.Field0, b1_16625215.Field1, b2_16625217.Field0, b2_16625217.Field1);
+    result_16715218 = overlaps_16715186(b1_16715215.Field0, b1_16715215.Field1, b2_16715217.Field0, b2_16715217.Field1);
 
-  return result_16625218;
-
-}
-function hitbox_16590038(m_16590040) {
-  var result_16590045 = {Field0: {Field0: 0, Field1: 0}, Field1: {Field0: 0, Field1: 0}};
-
-    var colontmp__16891358 = {Field0: m_16590040.x, Field1: m_16590040.y};
-    var colontmp__16891359 = {Field0: subInt(addInt(m_16590040.x, 7), 1), Field1: subInt(addInt(m_16590040.y, 7), 1)};
-    nimCopy(result_16590045, {Field0: nimCopy(null, colontmp__16891358, NTI16507345), Field1: nimCopy(null, colontmp__16891359, NTI16507345)}, NTI16545162);
-
-  return result_16590045;
+  return result_16715218;
 
 }
-function center_16545358(b_16545360) {
-  var result_16545365 = {Field0: 0.0, Field1: 0.0};
+function hitbox_16670038(m_16670040) {
+  var result_16670045 = {Field0: {Field0: 0, Field1: 0}, Field1: {Field0: 0, Field1: 0}};
 
-    var colontmp__16891364 = (b_16545360.x + 1.0000000000000000e+00);
-    var colontmp__16891365 = (b_16545360.y + 1.0000000000000000e+00);
-    nimCopy(result_16545365, {Field0: colontmp__16891364, Field1: colontmp__16891365}, NTI16507262);
+    var colontmp__16995522 = {Field0: m_16670040.x, Field1: m_16670040.y};
+    var colontmp__16995523 = {Field0: subInt(addInt(m_16670040.x, 7), 1), Field1: subInt(addInt(m_16670040.y, 7), 1)};
+    nimCopy(result_16670045, {Field0: nimCopy(null, colontmp__16995522, NTI16507432), Field1: nimCopy(null, colontmp__16995523, NTI16507432)}, NTI16625148);
 
-  return result_16545365;
-
-}
-function canSee_16605215(pat_16605218, thing_16605219) {
-  var result_16620251 = false;
-
-    var distance_16620252 = distance_16507309(center_16620218(pat_16605218), center_16545358(thing_16605219));
-    result_16620251 = (toPint_12755083(distance_16620252) <= toPint_14370366(patrolViewRadius_16507185[0]));
-
-  return result_16620251;
+  return result_16670045;
 
 }
-function countBallot_16590141(m_16590144, m_16590144_Idx, ballot_16590146) {
+function center_16625344(b_16625346) {
+  var result_16625351 = {Field0: 0.0, Field1: 0.0};
+
+    var colontmp__16995528 = (b_16625346.x + 1.0000000000000000e+00);
+    var colontmp__16995529 = (b_16625346.y + 1.0000000000000000e+00);
+    nimCopy(result_16625351, {Field0: colontmp__16995528, Field1: colontmp__16995529}, NTI16507349);
+
+  return result_16625351;
+
+}
+function canSee_16685215(pat_16685218, thing_16685219) {
+  var result_16710247 = false;
+
+    var distance_16710248 = distance_16507396(center_16710214(pat_16685218), center_16625344(thing_16685219));
+    result_16710247 = (toPint_12755083(distance_16710248) <= toPint_14370366(patrolViewRadius_16507213[0]));
+
+  return result_16710247;
+
+}
+function countBallot_16670183(m_16670186, m_16670186_Idx, ballot_16670188) {
       var Tmp1;
               var Tmp5;
 
-    var vote_16590147 = ballot_16590146.vote;
-      if (!m_16590144[m_16590144_Idx].broken) Tmp1 = false; else {        Tmp1 = !((ballot_16590146.vote == 1));      }    if (Tmp1) {
-    vote_16590147 = 1;
+    var vote_16670189 = ballot_16670188.vote;
+    var stolen_16670190 = false;
+      if (!m_16670186[m_16670186_Idx].broken) Tmp1 = false; else {        Tmp1 = !((ballot_16670188.vote == 1));      }    if (Tmp1) {
+    vote_16670189 = 1;
+    stolen_16670190 = true;
     L2: do {
-      var p_16605214 = null;
-      var i_16891361 = 0;
-      var L_16891362 = (m_16590144[m_16590144_Idx].game.patrollers).length;
+      var p_16685214 = null;
+      var i_16995525 = 0;
+      var L_16995526 = (m_16670186[m_16670186_Idx].game.patrollers).length;
       L3: do {
           L4: while (true) {
-          if (!(i_16891361 < L_16891362)) break L4;
-            p_16605214 = m_16590144[m_16590144_Idx].game.patrollers[chckIndx(i_16891361, 0, (m_16590144[m_16590144_Idx].game.patrollers).length-1)];
-              if (canSee_16605215(p_16605214, ballot_16590146)) Tmp5 = true; else {                Tmp5 = canSee_16605220(p_16605214, m_16590144[m_16590144_Idx]);              }            if (Tmp5) {
-            vote_16590147 = ballot_16590146.vote;
-            m_16590144[m_16590144_Idx].broken = false;
+          if (!(i_16995525 < L_16995526)) break L4;
+            p_16685214 = m_16670186[m_16670186_Idx].game.patrollers[chckIndx(i_16995525, 0, (m_16670186[m_16670186_Idx].game.patrollers).length-1)];
+              if (canSee_16685215(p_16685214, ballot_16670188)) Tmp5 = true; else {                Tmp5 = canSee_16685220(p_16685214, m_16670186[m_16670186_Idx]);              }            if (Tmp5) {
+            vote_16670189 = ballot_16670188.vote;
+            stolen_16670190 = false;
+            fixBox_16670164(m_16670186, m_16670186_Idx);
             }
             
-            i_16891361 = addInt(i_16891361, 1);
-            if (!(((m_16590144[m_16590144_Idx].game.patrollers).length == L_16891362))) {
+            i_16995525 = addInt(i_16995525, 1);
+            if (!(((m_16670186[m_16670186_Idx].game.patrollers).length == L_16995526))) {
             failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
             
@@ -5000,134 +5602,147 @@ function countBallot_16590141(m_16590144, m_16590144_Idx, ballot_16590146) {
     } while(false);
     }
     
-    m_16590144[m_16590144_Idx].lastBallot = vote_16590147;
-    m_16590144[m_16590144_Idx].game.counted_votes.push(vote_16590147);;
-    m_16590144[m_16590144_Idx].animOffset = 1.0000000000000000e+00;
-
-  
-}
-function update_16590109(m_16590112, m_16590112_Idx, dt_16590113) {
-    HEX2DHEX3D_15405005(m_16590112[m_16590112_Idx], "animOffset", min_1265281(m_16590112[m_16590112_Idx].animOffset, dt_16590113));
-    if ((m_16590112[m_16590112_Idx].animOffset == 0.0)) {
-    m_16590112[m_16590112_Idx].lastBallot = -1;
+    if (stolen_16670190) {
+    sfx_14625022(5, 5, 0);
+    }
+    else {
+    sfx_14625022(4, 4, 0);
     }
     
+    m_16670186[m_16670186_Idx].lastBallot = vote_16670189;
+    m_16670186[m_16670186_Idx].game.counted_votes.push({Field0: vote_16670189, Field1: stolen_16670190});;
+    m_16670186[m_16670186_Idx].animOffset = 1.0000000000000000e+00;
 
   
 }
-function selectIfNearer_16625306(game_16625309, selectable_16625310) {
+function update_16695083(b_16695086, dt_16695087) {
+    HEX2DHEX3D_16507874(b_16695086, "animSecondsLeft", min_1270014(b_16695086.animSecondsLeft, dt_16695087));
+
+  
+}
+function selectIfNearer_16715306(game_16715309, selectable_16715310) {
       var Tmp1;
 
   BeforeRet: do {
-    if ((toPint_14370366(selectRadius_16507187[0]) < toPint_12755100(selectable_16625310.distance))) {
+    if ((toPint_14370366(selectRadius_16507215[0]) < toPint_12755100(selectable_16715310.distance))) {
     break BeforeRet;
     }
     
-      if ((game_16625309.player1_selected.kind == 0)) Tmp1 = true; else {        Tmp1 = (selectable_16625310.distance < game_16625309.player1_selected.distance);      }    if (Tmp1) {
-    nimCopy(game_16625309.player1_selected, selectable_16625310, NTI16507434);
+      if ((game_16715309.player1_selected.kind == 0)) Tmp1 = true; else {        Tmp1 = (selectable_16715310.distance < game_16715309.player1_selected.distance);      }    if (Tmp1) {
+    nimCopy(game_16715309.player1_selected, selectable_16715310, NTI16507525);
     }
     
   } while (false);
 
   
 }
-function selectable_16630091(game_16630094, countingMachine_16630096, countingMachine_16630096_Idx) {
-  var result_16630097 = ({distance: 0.0, kind: 0, booth: null, ballot: ({x: 0.0, y: 0.0, vote: 0, index: 0, flipped: false}), countingMachine: null, patroller: ({creature: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), state: 0, stateSecondsLeft: 0.0, waypointId: 0, waypoints: []})});
+function center_16695060(b_16695063) {
+  var result_16695068 = {Field0: 0.0, Field1: 0.0};
 
-    var d_16630098 = distance_16507309(center_16590087(countingMachine_16630096[countingMachine_16630096_Idx]), center_16545203(game_16630094.player1));
-    nimCopy(result_16630097, {distance: d_16630098, kind: 3, countingMachine: countingMachine_16630096[countingMachine_16630096_Idx], booth: null, ballot: ({x: 0.0, y: 0.0, vote: 0, index: 0, flipped: false}), patroller: ({creature: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), state: 0, stateSecondsLeft: 0.0, waypointId: 0, waypoints: []})}, NTI16507434);
+    var colontmp__16995531 = toFloat_1216659(addInt(b_16695063.loc.Field0, divInt(gridSize_16507092[0], 2)));
+    var colontmp__16995532 = toFloat_1216659(addInt(b_16695063.loc.Field1, divInt(gridSize_16507092[0], 2)));
+    nimCopy(result_16695068, {Field0: colontmp__16995531, Field1: colontmp__16995532}, NTI16507349);
 
-  return result_16630097;
+  return result_16695068;
 
 }
-function min_1270014(x_1270016, y_1270017) {
-    var Tmp1;
-      var Tmp2;
+function selectable_16720148(game_16720151, button_16720153) {
+  var result_16720154 = ({distance: 0.0, kind: 0, booth: null, ballot: ({x: 0.0, y: 0.0, vote: 0, index: 0, flipped: false}), countingMachine: null, patroller: ({creature: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), state: 0, stateSecondsLeft: 0.0, waypointId: 0, waypoints: []}), button: null});
 
-  var result_1270018 = 0.0;
+    var d_16720155 = distance_16507396(center_16695060(button_16720153), center_16625189(game_16720151.player1));
+    nimCopy(result_16720154, {distance: d_16720155, kind: 5, button: button_16720153, booth: null, ballot: ({x: 0.0, y: 0.0, vote: 0, index: 0, flipped: false}), countingMachine: null, patroller: ({creature: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), state: 0, stateSecondsLeft: 0.0, waypointId: 0, waypoints: []})}, NTI16507525);
 
-      if ((x_1270016 <= y_1270017)) Tmp2 = true; else {        Tmp2 = !((y_1270017 == y_1270017));      }    if (Tmp2) {
-    Tmp1 = x_1270016;
-    }
-    else {
-    Tmp1 = y_1270017;
+  return result_16720154;
+
+}
+function update_16670109(m_16670112, m_16670112_Idx, dt_16670113) {
+    HEX2DHEX3D_15405005(m_16670112[m_16670112_Idx], "animOffset", min_1265281(m_16670112[m_16670112_Idx].animOffset, dt_16670113));
+    if ((m_16670112[m_16670112_Idx].animOffset == 0.0)) {
+    m_16670112[m_16670112_Idx].lastBallot = -1;
     }
     
-    result_1270018 = Tmp1;
 
-  return result_1270018;
+  
+}
+function selectable_16720091(game_16720094, countingMachine_16720096, countingMachine_16720096_Idx) {
+  var result_16720097 = ({distance: 0.0, kind: 0, booth: null, ballot: ({x: 0.0, y: 0.0, vote: 0, index: 0, flipped: false}), countingMachine: null, patroller: ({creature: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), state: 0, stateSecondsLeft: 0.0, waypointId: 0, waypoints: []}), button: null});
+
+    var d_16720098 = distance_16507396(center_16670087(countingMachine_16720096[countingMachine_16720096_Idx]), center_16625189(game_16720094.player1));
+    nimCopy(result_16720097, {distance: d_16720098, kind: 3, countingMachine: countingMachine_16720096[countingMachine_16720096_Idx], booth: null, ballot: ({x: 0.0, y: 0.0, vote: 0, index: 0, flipped: false}), patroller: ({creature: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), state: 0, stateSecondsLeft: 0.0, waypointId: 0, waypoints: []}), button: null}, NTI16507525);
+
+  return result_16720097;
 
 }
-function unitDirection_16507254(f_16507265, t_16507270) {
-  var result_16507275 = {Field0: 0.0, Field1: 0.0};
+function unitDirection_16507341(f_16507352, t_16507357) {
+  var result_16507362 = {Field0: 0.0, Field1: 0.0};
 
   BeforeRet: do {
-    var dx_16507276 = (t_16507270.Field0 - f_16507265.Field0);
-    var dy_16507277 = (t_16507270.Field1 - f_16507265.Field1);
-    var mag_16507278 = Math.sqrt(((dx_16507276 * dx_16507276) + (dy_16507277 * dy_16507277)));
-    if ((mag_16507278 == 0.0)) {
-    var colontmp__16891367 = 0.0;
-    var colontmp__16891368 = 0.0;
-    nimCopy(result_16507275, {Field0: colontmp__16891367, Field1: colontmp__16891368}, NTI16507262);
+    var dx_16507363 = (t_16507357.Field0 - f_16507352.Field0);
+    var dy_16507364 = (t_16507357.Field1 - f_16507352.Field1);
+    var mag_16507365 = Math.sqrt(((dx_16507363 * dx_16507363) + (dy_16507364 * dy_16507364)));
+    if ((mag_16507365 == 0.0)) {
+    var colontmp__16995534 = 0.0;
+    var colontmp__16995535 = 0.0;
+    nimCopy(result_16507362, {Field0: colontmp__16995534, Field1: colontmp__16995535}, NTI16507349);
     break BeforeRet;
     }
     else {
-      var colontmp__16891369 = (dx_16507276 / mag_16507278);
-      var colontmp__16891370 = (dy_16507277 / mag_16507278);
-      nimCopy(result_16507275, {Field0: colontmp__16891369, Field1: colontmp__16891370}, NTI16507262);
+      var colontmp__16995536 = (dx_16507363 / mag_16507365);
+      var colontmp__16995537 = (dy_16507364 / mag_16507365);
+      nimCopy(result_16507362, {Field0: colontmp__16995536, Field1: colontmp__16995537}, NTI16507349);
       break BeforeRet;
     }
     
   } while (false);
 
-  return result_16507275;
+  return result_16507362;
 
 }
-function toFloat_16507337(p_16507348) {
-  var result_16507353 = {Field0: 0.0, Field1: 0.0};
+function toFloat_16507424(p_16507435) {
+  var result_16507440 = {Field0: 0.0, Field1: 0.0};
 
-    var colontmp__16891371 = toFloat_1216659(p_16507348.Field0);
-    var colontmp__16891372 = toFloat_1216659(p_16507348.Field1);
-    nimCopy(result_16507353, {Field0: colontmp__16891371, Field1: colontmp__16891372}, NTI16507262);
+    var colontmp__16995538 = toFloat_1216659(p_16507435.Field0);
+    var colontmp__16995539 = toFloat_1216659(p_16507435.Field1);
+    nimCopy(result_16507440, {Field0: colontmp__16995538, Field1: colontmp__16995539}, NTI16507349);
 
-  return result_16507353;
+  return result_16507440;
 
 }
-function HEX3DHEX3D_16610023(x_16610026, y_16610027) {
-  var result_16610028 = false;
+function HEX3DHEX3D_16700023(x_16700026, y_16700027) {
+  var result_16700028 = false;
 
   BeforeRet: do {
-    if (!((x_16610026["Field0"] == y_16610027["Field0"]))) {
-    result_16610028 = false;
+    if (!((x_16700026["Field0"] == y_16700027["Field0"]))) {
+    result_16700028 = false;
     break BeforeRet;
     }
     
-    if (!((x_16610026["Field1"] == y_16610027["Field1"]))) {
-    result_16610028 = false;
+    if (!((x_16700026["Field1"] == y_16700027["Field1"]))) {
+    result_16700028 = false;
     break BeforeRet;
     }
     
-    result_16610028 = true;
+    result_16700028 = true;
     break BeforeRet;
   } while (false);
 
-  return result_16610028;
+  return result_16700028;
 
 }
-function rand_16610149(r_16610152, x_16610154) {
-  var result_16610155 = 0;
+function rand_16565096(r_16565099, x_16565101) {
+  var result_16565102 = 0;
 
-    result_16610155 = addInt(rand_14715049(r_16610152, chckRange(subInt(x_16610154.b, x_16610154.a), 0, 2147483647)), x_16610154.a);
+    result_16565102 = addInt(rand_14715049(r_16565099, chckRange(subInt(x_16565101.b, x_16565101.a), 0, 2147483647)), x_16565101.a);
 
-  return result_16610155;
+  return result_16565102;
 
 }
-function rand_16610124(x_16610128) {
-  var result_16610129 = 0;
+function rand_16565071(x_16565075) {
+  var result_16565076 = 0;
 
-    result_16610129 = rand_16610149(state_14713405[0], x_16610128);
+    result_16565076 = rand_16565096(state_14713405[0], x_16565075);
 
-  return result_16610129;
+  return result_16565076;
 
 }
 function HEX2EHEX2E_3370220(a_3370225, b_3370227) {
@@ -5138,81 +5753,81 @@ function HEX2EHEX2E_3370220(a_3370225, b_3370227) {
   return result_3370229;
 
 }
-function sample_16610080(a_16610084) {
-  var result_16610085 = 0;
+function sample_16700080(a_16700084) {
+  var result_16700085 = 0;
 
-    result_16610085 = a_16610084[chckIndx(rand_16610124(HEX2EHEX2E_3370220(0, ((a_16610084).length-1))), 0, (a_16610084).length-1)];
+    result_16700085 = a_16700084[chckIndx(rand_16565071(HEX2EHEX2E_3370220(0, ((a_16700084).length-1))), 0, (a_16700084).length-1)];
 
-  return result_16610085;
+  return result_16700085;
 
 }
-function rnd_16610074(a_16610078) {
-  var result_16610079 = 0;
+function rnd_16700074(a_16700078) {
+  var result_16700079 = 0;
 
   BeforeRet: do {
-    result_16610079 = sample_16610080(a_16610078);
+    result_16700079 = sample_16700080(a_16700078);
     break BeforeRet;
   } while (false);
 
-  return result_16610079;
+  return result_16700079;
 
 }
-function update_16605310(pat_16605313, dt_16605314) {
+function update_16695127(pat_16695130, dt_16695131) {
         var Tmp1;
 
-    update_16520036(pat_16605313.creature, dt_16605314);
-    HEX2DHEX3D_16580070(pat_16605313, "stateSecondsLeft", min_1270014(dt_16605314, pat_16605313.stateSecondsLeft));
-    switch (pat_16605313.state) {
+    update_16600036(pat_16695130.creature, dt_16695131);
+    HEX2DHEX3D_16507874(pat_16695130, "stateSecondsLeft", min_1270014(dt_16695131, pat_16695130.stateSecondsLeft));
+    switch (pat_16695130.state) {
     case 0:
-        if (!(pat_16605313.stateSecondsLeft == 0.0)) Tmp1 = false; else {          Tmp1 = (2 <= (pat_16605313.waypoints).length);        }      if (Tmp1) {
-      pat_16605313.state = 1;
+        if (!(pat_16695130.stateSecondsLeft == 0.0)) Tmp1 = false; else {          Tmp1 = (2 <= (pat_16695130.waypoints).length);        }      if (Tmp1) {
+      pat_16695130.state = 1;
       }
       
       break;
     case 1:
-      var target_16610014 = nimCopy(null, pat_16605313.waypoints[chckIndx(pat_16605313.waypointId, 0, (pat_16605313.waypoints).length-1)], NTI16507345);
-      var pos_16610020 = nimCopy(null, {Field0: pat_16605313.creature.x, Field1: pat_16605313.creature.y}, NTI16507262);
-      var dir_16610021 = unitDirection_16507254(pos_16610020, toFloat_16507337(target_16610014));
-      if (HEX3DHEX3D_16610023(dir_16610021, {Field0: 0.0, Field1: 0.0})) {
-      pat_16605313.waypointId = modInt(addInt(pat_16605313.waypointId, 1), (pat_16605313.waypoints).length);
-      pat_16605313.state = 0;
-      pat_16605313.stateSecondsLeft = rnd_16545076(patrolIdleTime_16507183[0].a, patrolIdleTime_16507183[0].b);
-      pat_16605313.creature.facing = rnd_16610074([0, 1, 3]);
+      var target_16700014 = nimCopy(null, pat_16695130.waypoints[chckIndx(pat_16695130.waypointId, 0, (pat_16695130.waypoints).length-1)], NTI16507432);
+      var pos_16700020 = nimCopy(null, {Field0: pat_16695130.creature.x, Field1: pat_16695130.creature.y}, NTI16507349);
+      var dir_16700021 = unitDirection_16507341(pos_16700020, toFloat_16507424(target_16700014));
+      if (HEX3DHEX3D_16700023(dir_16700021, {Field0: 0.0, Field1: 0.0})) {
+      pat_16695130.waypointId = modInt(addInt(pat_16695130.waypointId, 1), (pat_16695130.waypoints).length);
+      pat_16695130.state = 0;
+      pat_16695130.stateSecondsLeft = rnd_16545005(patrolIdleTime_16507211[0].a, patrolIdleTime_16507211[0].b);
+      pat_16695130.creature.facing = rnd_16700074([0, 1, 3]);
       }
       else {
-        var amountx_16610254 = (dir_16610021.Field0 * pat_16605313.creature.speed);
-        var amounty_16610255 = (dir_16610021.Field1 * pat_16605313.creature.speed);
-        var dx_16610256 = (toFloat_1216659(target_16610014.Field0) - pos_16610020.Field0);
-        var dy_16610257 = (toFloat_1216659(target_16610014.Field1) - pos_16610020.Field1);
-        if ((abs_1265247(dx_16610256) < abs_1265247(amountx_16610254))) {
-        amountx_16610254 = dx_16610256;
+        var amountx_16700155 = (dir_16700021.Field0 * pat_16695130.creature.speed);
+        var amounty_16700156 = (dir_16700021.Field1 * pat_16695130.creature.speed);
+        var dx_16700157 = (toFloat_1216659(target_16700014.Field0) - pos_16700020.Field0);
+        var dy_16700158 = (toFloat_1216659(target_16700014.Field1) - pos_16700020.Field1);
+        if ((abs_1265247(dx_16700157) < abs_1265247(amountx_16700155))) {
+        amountx_16700155 = dx_16700157;
         }
         
-        if ((abs_1265247(dy_16610257) < abs_1265247(amounty_16610255))) {
-        amounty_16610255 = dy_16610257;
+        if ((abs_1265247(dy_16700158) < abs_1265247(amounty_16700156))) {
+        amounty_16700156 = dy_16700158;
         }
         
-        if ((abs_1265247(amounty_16610255) < abs_1265247(amountx_16610254))) {
-        if ((0.0 < amountx_16610254)) {
-        pat_16605313.creature.facing = 3;
+        if ((abs_1265247(amounty_16700156) < abs_1265247(amountx_16700155))) {
+        if ((0.0 < amountx_16700155)) {
+        pat_16695130.creature.facing = 3;
         }
         else {
-          pat_16605313.creature.facing = 1;
+          pat_16695130.creature.facing = 1;
         }
         
         }
         else {
-          if ((amounty_16610255 < 0.0)) {
-          pat_16605313.creature.facing = 2;
+          if ((amounty_16700156 < 0.0)) {
+          pat_16695130.creature.facing = 2;
           }
           else {
-            pat_16605313.creature.facing = 0;
+            pat_16695130.creature.facing = 0;
           }
           
         }
         
-        HEX2BHEX3D_10415021(pat_16605313.creature, "x", amountx_16610254);
-        HEX2BHEX3D_10415021(pat_16605313.creature, "y", amounty_16610255);
+        HEX2BHEX3D_10415021(pat_16695130.creature, "x", amountx_16700155);
+        HEX2BHEX3D_10415021(pat_16695130.creature, "y", amounty_16700156);
       }
       
       break;
@@ -5220,338 +5835,405 @@ function update_16605310(pat_16605313, dt_16605314) {
 
   
 }
-function selectable_16630127(game_16630130, ballot_16630132) {
-  var result_16630133 = ({distance: 0.0, kind: 0, booth: null, ballot: ({x: 0.0, y: 0.0, vote: 0, index: 0, flipped: false}), countingMachine: null, patroller: ({creature: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), state: 0, stateSecondsLeft: 0.0, waypointId: 0, waypoints: []})});
+function nextAuditBallot_16750295(game_16750298) {
+    game_16750298.target_ballot = rnd_16625057(0, subInt((game_16750298.counted_votes).length, 1));
 
-    var d_16630134 = distance_16507309(center_16545358(ballot_16630132), center_16545203(game_16630130.player1));
-    nimCopy(result_16630133, {distance: d_16630134, kind: 2, ballot: nimCopy(null, ballot_16630132, NTI16507422), booth: null, countingMachine: null, patroller: ({creature: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), state: 0, stateSecondsLeft: 0.0, waypointId: 0, waypoints: []})}, NTI16507434);
-
-  return result_16630133;
-
+  
 }
-function update_16630211(game_16630214, dt_16630215) {
-  BeforeRet: do {
-    nimCopy(game_16630214.player1_selected, {kind: 0, distance: 0.0, booth: null, ballot: ({x: 0.0, y: 0.0, vote: 0, index: 0, flipped: false}), countingMachine: null, patroller: ({creature: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), state: 0, stateSecondsLeft: 0.0, waypointId: 0, waypoints: []})}, NTI16507434);
-    switch (game_16630214.state) {
-    case 1:
-      break;
-    case 0:
-      L1: do {
-        var b_16640215 = null;
-        var i_16891273 = 0;
-        var L_16891274 = (game_16630214.belts).length;
-        L2: do {
-            L3: while (true) {
-            if (!(i_16891273 < L_16891274)) break L3;
-              b_16640215 = game_16630214.belts[chckIndx(i_16891273, 0, (game_16630214.belts).length-1)];
-              update_16620263(b_16640215, dt_16630215);
-              moveThing_16640216(game_16630214, b_16640215, game_16630214.player1, dt_16630215);
-              i_16891273 = addInt(i_16891273, 1);
-              if (!(((game_16630214.belts).length == L_16891274))) {
-              failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-              }
-              
-            }
-        } while(false);
-      } while(false);
-      L4: do {
-        var c_16650215 = null;
-        var i_16891278 = 0;
-        var L_16891279 = (game_16630214.creatures).length;
-        L5: do {
-            L6: while (true) {
-            if (!(i_16891278 < L_16891279)) break L6;
-              c_16650215 = game_16630214.creatures[chckIndx(i_16891278, 0, (game_16630214.creatures).length-1)];
-              update_16520036(c_16650215, dt_16630215);
-              i_16891278 = addInt(i_16891278, 1);
-              if (!(((game_16630214.creatures).length == L_16891279))) {
-              failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-              }
-              
-            }
-        } while(false);
-      } while(false);
-      L7: do {
-        var booth_16660215 = null;
-        var booth_16660215_Idx = 0;
-        var i_16891283 = 0;
-        var L_16891284 = (game_16630214.booths).length;
-        L8: do {
-            L9: while (true) {
-            if (!(i_16891283 < L_16891284)) break L9;
-              booth_16660215 = game_16630214.booths; booth_16660215_Idx = chckIndx(i_16891283, 0, (game_16630214.booths).length-1);
-              update_16555089(booth_16660215, booth_16660215_Idx, dt_16630215);
-              i_16891283 = addInt(i_16891283, 1);
-              if (!(((game_16630214.booths).length == L_16891284))) {
-              failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-              }
-              
-            }
-        } while(false);
-      } while(false);
-      var tokeep_16660217 = [];
-      L10: do {
-        var ballot_16670215 = null;
-        var i_16891297 = 0;
-        var L_16891298 = (game_16630214.ballots).length;
-        L11: do {
-            L12: while (true) {
-            if (!(i_16891297 < L_16891298)) break L12;
-              ballot_16670215 = game_16630214.ballots[chckIndx(i_16891297, 0, (game_16630214.ballots).length-1)];
-              var keep_16670216 = true;
-              update_16545279(ballot_16670215, dt_16630215);
-              L13: do {
-                var belt_16670227 = null;
-                var i_16891288 = 0;
-                var L_16891289 = (game_16630214.belts).length;
-                L14: do {
-                    L15: while (true) {
-                    if (!(i_16891288 < L_16891289)) break L15;
-                      belt_16670227 = game_16630214.belts[chckIndx(i_16891288, 0, (game_16630214.belts).length-1)];
-                      moveThing_16670228(game_16630214, belt_16670227, ballot_16670215, dt_16630215);
-                      i_16891288 = addInt(i_16891288, 1);
-                      if (!(((game_16630214.belts).length == L_16891289))) {
-                      failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-                      }
-                      
-                    }
-                } while(false);
-              } while(false);
-              L16: do {
-                var machine_16680215 = null;
-                var machine_16680215_Idx = 0;
-                var i_16891293 = 0;
-                var L_16891294 = (game_16630214.counters).length;
-                L17: do {
-                    L18: while (true) {
-                    if (!(i_16891293 < L_16891294)) break L18;
-                      machine_16680215 = game_16630214.counters; machine_16680215_Idx = chckIndx(i_16891293, 0, (game_16630214.counters).length-1);
-                      if (overlaps_16625211(hitbox_16590038(machine_16680215[machine_16680215_Idx]), hitbox_16545296(ballot_16670215))) {
-                      countBallot_16590141(machine_16680215, machine_16680215_Idx, ballot_16670215);
-                      keep_16670216 = false;
-                      }
-                      
-                      i_16891293 = addInt(i_16891293, 1);
-                      if (!(((game_16630214.counters).length == L_16891294))) {
-                      failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-                      }
-                      
-                    }
-                } while(false);
-              } while(false);
-              if (keep_16670216) {
-              var Tmp19 = nimCopy(null, ballot_16670215, NTI16507422);
-              tokeep_16660217.push(Tmp19);;
-              }
-              
-              i_16891297 = addInt(i_16891297, 1);
-              if (!(((game_16630214.ballots).length == L_16891298))) {
-              failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-              }
-              
-            }
-        } while(false);
-      } while(false);
-      L20: do {
-        var machine_16680266 = null;
-        var machine_16680266_Idx = 0;
-        var i_16891301 = 0;
-        var L_16891302 = (game_16630214.counters).length;
-        L21: do {
-            L22: while (true) {
-            if (!(i_16891301 < L_16891302)) break L22;
-              machine_16680266 = game_16630214.counters; machine_16680266_Idx = chckIndx(i_16891301, 0, (game_16630214.counters).length-1);
-              update_16590109(machine_16680266, machine_16680266_Idx, dt_16630215);
-              selectIfNearer_16625306(game_16630214, selectable_16630091(game_16630214, machine_16680266, machine_16680266_Idx));
-              i_16891301 = addInt(i_16891301, 1);
-              if (!(((game_16630214.counters).length == L_16891302))) {
-              failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-              }
-              
-            }
-        } while(false);
-      } while(false);
-      L23: do {
-        var p_16690215 = null;
-        var i_16891306 = 0;
-        var L_16891307 = (game_16630214.patrollers).length;
-        L24: do {
-            L25: while (true) {
-            if (!(i_16891306 < L_16891307)) break L25;
-              p_16690215 = game_16630214.patrollers[chckIndx(i_16891306, 0, (game_16630214.patrollers).length-1)];
-              update_16605310(p_16690215, dt_16630215);
-              i_16891306 = addInt(i_16891306, 1);
-              if (!(((game_16630214.patrollers).length == L_16891307))) {
-              failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-              }
-              
-            }
-        } while(false);
-      } while(false);
-      game_16630214.ballots = nimCopy(null, tokeep_16660217, NTI16660216);
-      update_16520036(game_16630214.player1, dt_16630215);
-      if (((game_16630214.counted_votes).length == totalVotes_16507173[0])) {
-      game_16630214.state = 2;
-      var counted_votes0_16690223 = 0;
-      var counted_votes1_16690225 = 0;
-      L26: do {
-        var v_16690233 = null;
-        var v_16690233_Idx = 0;
-        var i_16891310 = 0;
-        var L_16891311 = (game_16630214.counted_votes).length;
-        L27: do {
-            L28: while (true) {
-            if (!(i_16891310 < L_16891311)) break L28;
-              v_16690233 = game_16630214.counted_votes; v_16690233_Idx = chckIndx(i_16891310, 0, (game_16630214.counted_votes).length-1);
-              if ((v_16690233[v_16690233_Idx] == 0)) {
-              counted_votes0_16690223 = addInt(counted_votes0_16690223, 1);
-              }
-              else {
-              if ((v_16690233[v_16690233_Idx] == 1)) {
-              counted_votes1_16690225 = addInt(counted_votes1_16690225, 1);
-              }
-              }
-              i_16891310 = addInt(i_16891310, 1);
-              if (!(((game_16630214.counted_votes).length == L_16891311))) {
-              failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-              }
-              
-            }
-        } while(false);
-      } while(false);
-      var winner_votes_16690247 = 0;
-      if ((counted_votes0_16690223 == counted_votes1_16690225)) {
-      game_over_16630148(game_16630214, makeNimstrLit("It\'s a tie!"));
-      break BeforeRet;
-      }
-      else {
-      if ((counted_votes1_16690225 < counted_votes0_16690223)) {
-      game_16630214.pre_audit_winner = 0;
-      winner_votes_16690247 = counted_votes0_16690223;
-      }
-      else {
-        game_16630214.pre_audit_winner = 1;
-        winner_votes_16690247 = counted_votes1_16690225;
-      }
-      }
-      game_16630214.audit_s_value = (toFloat_1216659(winner_votes_16690247) / toFloat_1216659((game_16630214.counted_votes).length));
-      game_16630214.audit_tol_value = ((game_16630214.audit_s_value - 5.0000000000000000e-01) / tolerance_div_16507189[0]);
-      L29: do {
-        var i_16705214 = 0;
-        var v_16705215 = 0;
-        var i_16891316 = 0;
-        var L_16891317 = (game_16630214.true_votes).length;
-        L30: do {
-            L31: while (true) {
-            if (!(i_16891316 < L_16891317)) break L31;
-              i_16705214 = i_16891316;
-              v_16705215 = game_16630214.true_votes[chckIndx(i_16891316, 0, (game_16630214.true_votes).length-1)];
-              var col_16705216 = modInt(i_16705214, gridCount_16507069[0]);
-              var row_16705218 = addInt(4, divInt(i_16705214, gridCount_16507069[0]));
-              game_16630214.ballots.push({vote: v_16705215, x: (toFloat_1216659(grid_16507368(col_16705216)) + 2.0000000000000000e+00), y: (toFloat_1216659(grid_16507368(row_16705218)) + 2.0000000000000000e+00), flipped: true, index: i_16705214});;
-              nextAuditBallot_16630181(game_16630214);
-              i_16891316 = addInt(i_16891316, 1);
-              if (!(((game_16630214.true_votes).length == L_16891317))) {
-              failedAssertImpl_1305480(makeNimstrLit("iterators.nim(137, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-              }
-              
-            }
-        } while(false);
-      } while(false);
-      }
+function startAudit_16750325(game_16750328) {
+    function HEX3Aanonymous_16765017(btn_16765020) {
+        var v_16765021 = game_16750328.true_votes[chckIndx(game_16750328.target_ballot, 0, (game_16750328.true_votes).length-1)];
+        var i_16765027 = (game_16750328.ballots).length;
+        var col_16765028 = modInt(i_16765027, gridCount_16507094[0]);
+        var row_16765030 = addInt(4, divInt(i_16765027, gridCount_16507094[0]));
+        game_16750328.ballots.push({vote: v_16765021, x: (toFloat_1216659(grid_16507455(col_16765028)) + 2.0000000000000000e+00), y: (toFloat_1216659(grid_16507455(row_16765030)) + 2.0000000000000000e+00), index: 0, flipped: false});;
+        game_16750328.audited_ballots.push(i_16765027);;
+        nextAuditBallot_16750295(game_16750328);
+
       
-      break;
-    case 2:
-      update_16520036(game_16630214.player1, dt_16630215);
-      L32: do {
-        var ballot_16705238 = null;
-        var i_16891320 = 0;
-        var L_16891321 = (game_16630214.ballots).length;
-        L33: do {
-            L34: while (true) {
-            if (!(i_16891320 < L_16891321)) break L34;
-              ballot_16705238 = game_16630214.ballots[chckIndx(i_16891320, 0, (game_16630214.ballots).length-1)];
-              selectIfNearer_16625306(game_16630214, selectable_16630127(game_16630214, ballot_16705238));
-              i_16891320 = addInt(i_16891320, 1);
-              if (!(((game_16630214.ballots).length == L_16891321))) {
-              failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-              }
-              
-            }
-        } while(false);
-      } while(false);
-      break;
     }
+
+  BeforeRet: do {
+    game_16750328.state = 3;
+    nimCopy(game_16750328.player1, {color: 12, speed: 2.0000000000000000e+01, x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, facing: 0, blinkLeft: 0.0}, NTI16507507);
+    nimCopy(game_16750328.player2, {color: 9, speed: 2.0000000000000000e+01, x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, facing: 0, blinkLeft: 0.0}, NTI16507507);
+    game_16750328.creatures = nimCopy(null, newSeq_16720191(0), NTI16720195);
+    game_16750328.booths = nimCopy(null, newSeq_16720243(0), NTI16720247);
+    game_16750328.ballots = nimCopy(null, newSeq_16720295(0), NTI16720299);
+    game_16750328.belts = nimCopy(null, newSeq_16720347(0), NTI16720351);
+    game_16750328.counters = nimCopy(null, newSeq_16720414(0), NTI16720418);
+    game_16750328.patrollers = nimCopy(null, newSeq_16720466(0), NTI16720470);
+    game_16750328.buttons = nimCopy(null, newSeq_16720519(0), NTI16720523);
+    game_16750328.target_ballot = 0;
+    game_16750328.audited_ballots = nimCopy(null, newSeq_16720570(0), NTI16720574);
+    var counted_votes0_16750458 = 0;
+    var counted_votes1_16750460 = 0;
+    L1: do {
+      var v_16760214 = null;
+      var i_16995550 = 0;
+      var L_16995551 = (game_16750328.counted_votes).length;
+      L2: do {
+          L3: while (true) {
+          if (!(i_16995550 < L_16995551)) break L3;
+            v_16760214 = game_16750328.counted_votes[chckIndx(i_16995550, 0, (game_16750328.counted_votes).length-1)];
+            if ((v_16760214["Field0"] == 0)) {
+            counted_votes0_16750458 = addInt(counted_votes0_16750458, 1);
+            }
+            else {
+            if ((v_16760214["Field0"] == 1)) {
+            counted_votes1_16750460 = addInt(counted_votes1_16750460, 1);
+            }
+            }
+            i_16995550 = addInt(i_16995550, 1);
+            if (!(((game_16750328.counted_votes).length == L_16995551))) {
+            failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            }
+            
+          }
+      } while(false);
+    } while(false);
+    var winner_votes_16760228 = 0;
+    if ((counted_votes0_16750458 == counted_votes1_16750460)) {
+    game_over_16750290(game_16750328, makeNimstrLit("It\'s a tie!"));
+    break BeforeRet;
+    }
+    else {
+    if ((counted_votes1_16750460 < counted_votes0_16750458)) {
+    game_16750328.pre_audit_winner = 0;
+    winner_votes_16760228 = counted_votes0_16750458;
+    }
+    else {
+      game_16750328.pre_audit_winner = 1;
+      winner_votes_16760228 = counted_votes1_16750460;
+    }
+    }
+    game_16750328.audit_s_value = (toFloat_1216659(winner_votes_16760228) / toFloat_1216659((game_16750328.counted_votes).length));
+    game_16750328.audit_tol_value = 0.0;
+    var next_16765007 = null;
+    next_16765007 = ({loc: {Field0: 0, Field1: 0}, isPushed: false, onPress: null, kind: 0, animSecondsLeft: 0.0});
+    var colontmp__16995553 = grid_16507455(1);
+    var colontmp__16995554 = grid_16507455(2);
+    nimCopy(next_16765007.loc, {Field0: colontmp__16995553, Field1: colontmp__16995554}, NTI16507432);
+    next_16765007.onPress = HEX3Aanonymous_16765017;
+    game_16750328.buttons.push(next_16765007);;
   } while (false);
 
   
 }
-function gameUpdate_16890684(dt_16890686) {
+function update_16765114(game_16765117, dt_16765118) {
+    nimCopy(game_16765117.player1_selected, {kind: 0, distance: 0.0, booth: null, ballot: ({x: 0.0, y: 0.0, vote: 0, index: 0, flipped: false}), countingMachine: null, patroller: ({creature: ({x: 0.0, y: 0.0, vx: 0.0, vy: 0.0, color: 0, facing: 0, blinkLeft: 0.0, speed: 0.0}), state: 0, stateSecondsLeft: 0.0, waypointId: 0, waypoints: []}), button: null}, NTI16507525);
+    var dt_16765119 = (dt_16765118 * timewarp_16507195[0]);
+    var tokeep_16765157 = newSeq_16765124(0);
+    L1: do {
+      var e_16775215 = null;
+      var e_16775215_Idx = 0;
+      var i_16995431 = 0;
+      var L_16995432 = (explosions_16507743[0]).length;
+      L2: do {
+          L3: while (true) {
+          if (!(i_16995431 < L_16995432)) break L3;
+            e_16775215 = explosions_16507743[0]; e_16775215_Idx = chckIndx(i_16995431, 0, (explosions_16507743[0]).length-1);
+            if (update_16565282(e_16775215[e_16775215_Idx], dt_16765119)) {
+            tokeep_16765157.push(e_16775215[e_16775215_Idx]);;
+            }
+            
+            i_16995431 = addInt(i_16995431, 1);
+            if (!(((explosions_16507743[0]).length == L_16995432))) {
+            failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            }
+            
+          }
+      } while(false);
+    } while(false);
+    explosions_16507743[0] = nimCopy(null, tokeep_16765157, NTI16765128);
+    var beams_tokeep_16775261 = newSeq_16775228(0);
+    L4: do {
+      var b_16785215 = null;
+      var b_16785215_Idx = 0;
+      var i_16995436 = 0;
+      var L_16995437 = (beams_16507746[0]).length;
+      L5: do {
+          L6: while (true) {
+          if (!(i_16995436 < L_16995437)) break L6;
+            b_16785215 = beams_16507746[0]; b_16785215_Idx = chckIndx(i_16995436, 0, (beams_16507746[0]).length-1);
+            if (update_16507868(b_16785215[b_16785215_Idx], dt_16765119)) {
+            beams_tokeep_16775261.push(b_16785215[b_16785215_Idx]);;
+            }
+            
+            i_16995436 = addInt(i_16995436, 1);
+            if (!(((beams_16507746[0]).length == L_16995437))) {
+            failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            }
+            
+          }
+      } while(false);
+    } while(false);
+    beams_16507746[0] = nimCopy(null, beams_tokeep_16775261, NTI16775232);
+    switch (game_16765117.state) {
+    case 0:
+      break;
+    case 2:
+      break;
+    case 1:
+    case 3:
+      L7: do {
+        var b_16795215 = null;
+        var i_16995441 = 0;
+        var L_16995442 = (game_16765117.belts).length;
+        L8: do {
+            L9: while (true) {
+            if (!(i_16995441 < L_16995442)) break L9;
+              b_16795215 = game_16765117.belts[chckIndx(i_16995441, 0, (game_16765117.belts).length-1)];
+              update_16710259(b_16795215, dt_16765119);
+              moveThing_16795216(game_16765117, b_16795215, game_16765117.player1, dt_16765119);
+              i_16995441 = addInt(i_16995441, 1);
+              if (!(((game_16765117.belts).length == L_16995442))) {
+              failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+              }
+              
+            }
+        } while(false);
+      } while(false);
+      L10: do {
+        var c_16805215 = null;
+        var i_16995446 = 0;
+        var L_16995447 = (game_16765117.creatures).length;
+        L11: do {
+            L12: while (true) {
+            if (!(i_16995446 < L_16995447)) break L12;
+              c_16805215 = game_16765117.creatures[chckIndx(i_16995446, 0, (game_16765117.creatures).length-1)];
+              update_16600036(c_16805215, dt_16765119);
+              i_16995446 = addInt(i_16995446, 1);
+              if (!(((game_16765117.creatures).length == L_16995447))) {
+              failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+              }
+              
+            }
+        } while(false);
+      } while(false);
+      L13: do {
+        var booth_16815215 = null;
+        var booth_16815215_Idx = 0;
+        var i_16995451 = 0;
+        var L_16995452 = (game_16765117.booths).length;
+        L14: do {
+            L15: while (true) {
+            if (!(i_16995451 < L_16995452)) break L15;
+              booth_16815215 = game_16765117.booths; booth_16815215_Idx = chckIndx(i_16995451, 0, (game_16765117.booths).length-1);
+              update_16635089(booth_16815215, booth_16815215_Idx, dt_16765119);
+              i_16995451 = addInt(i_16995451, 1);
+              if (!(((game_16765117.booths).length == L_16995452))) {
+              failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+              }
+              
+            }
+        } while(false);
+      } while(false);
+      var tokeep_16815217 = [];
+      L16: do {
+        var ballot_16825215 = null;
+        var i_16995465 = 0;
+        var L_16995466 = (game_16765117.ballots).length;
+        L17: do {
+            L18: while (true) {
+            if (!(i_16995465 < L_16995466)) break L18;
+              ballot_16825215 = game_16765117.ballots[chckIndx(i_16995465, 0, (game_16765117.ballots).length-1)];
+              var keep_16825216 = true;
+              update_16625265(ballot_16825215, dt_16765119);
+              L19: do {
+                var belt_16825227 = null;
+                var i_16995456 = 0;
+                var L_16995457 = (game_16765117.belts).length;
+                L20: do {
+                    L21: while (true) {
+                    if (!(i_16995456 < L_16995457)) break L21;
+                      belt_16825227 = game_16765117.belts[chckIndx(i_16995456, 0, (game_16765117.belts).length-1)];
+                      moveThing_16825228(game_16765117, belt_16825227, ballot_16825215, dt_16765119);
+                      i_16995456 = addInt(i_16995456, 1);
+                      if (!(((game_16765117.belts).length == L_16995457))) {
+                      failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                      }
+                      
+                    }
+                } while(false);
+              } while(false);
+              L22: do {
+                var machine_16835215 = null;
+                var machine_16835215_Idx = 0;
+                var i_16995461 = 0;
+                var L_16995462 = (game_16765117.counters).length;
+                L23: do {
+                    L24: while (true) {
+                    if (!(i_16995461 < L_16995462)) break L24;
+                      machine_16835215 = game_16765117.counters; machine_16835215_Idx = chckIndx(i_16995461, 0, (game_16765117.counters).length-1);
+                      if (overlaps_16715211(hitbox_16670038(machine_16835215[machine_16835215_Idx]), hitbox_16625282(ballot_16825215))) {
+                      countBallot_16670183(machine_16835215, machine_16835215_Idx, ballot_16825215);
+                      keep_16825216 = false;
+                      }
+                      
+                      i_16995461 = addInt(i_16995461, 1);
+                      if (!(((game_16765117.counters).length == L_16995462))) {
+                      failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                      }
+                      
+                    }
+                } while(false);
+              } while(false);
+              if (keep_16825216) {
+              var Tmp25 = nimCopy(null, ballot_16825215, NTI16507509);
+              tokeep_16815217.push(Tmp25);;
+              }
+              
+              i_16995465 = addInt(i_16995465, 1);
+              if (!(((game_16765117.ballots).length == L_16995466))) {
+              failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+              }
+              
+            }
+        } while(false);
+      } while(false);
+      L26: do {
+        var button_16845215 = null;
+        var button_16845215_Idx = 0;
+        var i_16995470 = 0;
+        var L_16995471 = (game_16765117.buttons).length;
+        L27: do {
+            L28: while (true) {
+            if (!(i_16995470 < L_16995471)) break L28;
+              button_16845215 = game_16765117.buttons; button_16845215_Idx = chckIndx(i_16995470, 0, (game_16765117.buttons).length-1);
+              update_16695083(button_16845215[button_16845215_Idx], dt_16765119);
+              selectIfNearer_16715306(game_16765117, selectable_16720148(game_16765117, button_16845215[button_16845215_Idx]));
+              i_16995470 = addInt(i_16995470, 1);
+              if (!(((game_16765117.buttons).length == L_16995471))) {
+              failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+              }
+              
+            }
+        } while(false);
+      } while(false);
+      L29: do {
+        var machine_16845226 = null;
+        var machine_16845226_Idx = 0;
+        var i_16995474 = 0;
+        var L_16995475 = (game_16765117.counters).length;
+        L30: do {
+            L31: while (true) {
+            if (!(i_16995474 < L_16995475)) break L31;
+              machine_16845226 = game_16765117.counters; machine_16845226_Idx = chckIndx(i_16995474, 0, (game_16765117.counters).length-1);
+              update_16670109(machine_16845226, machine_16845226_Idx, dt_16765119);
+              selectIfNearer_16715306(game_16765117, selectable_16720091(game_16765117, machine_16845226, machine_16845226_Idx));
+              i_16995474 = addInt(i_16995474, 1);
+              if (!(((game_16765117.counters).length == L_16995475))) {
+              failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+              }
+              
+            }
+        } while(false);
+      } while(false);
+      L32: do {
+        var p_16855215 = null;
+        var i_16995479 = 0;
+        var L_16995480 = (game_16765117.patrollers).length;
+        L33: do {
+            L34: while (true) {
+            if (!(i_16995479 < L_16995480)) break L34;
+              p_16855215 = game_16765117.patrollers[chckIndx(i_16995479, 0, (game_16765117.patrollers).length-1)];
+              update_16695127(p_16855215, dt_16765119);
+              i_16995479 = addInt(i_16995479, 1);
+              if (!(((game_16765117.patrollers).length == L_16995480))) {
+              failedAssertImpl_1305480(makeNimstrLit("iterators.nim(213, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+              }
+              
+            }
+        } while(false);
+      } while(false);
+      game_16765117.ballots = nimCopy(null, tokeep_16815217, NTI16815216);
+      update_16600036(game_16765117.player1, dt_16765119);
+      if ((game_16765117.state == 1)) {
+      if (((game_16765117.counted_votes).length == totalVotes_16507201[0])) {
+      startAudit_16750325(game_16765117);
+      }
+      
+      }
+      
+      break;
+    }
+
+  
+}
+function gameUpdate_16990417(dt_16990419) {
         var Tmp1;
         var Tmp5;
+        var Tmp6;
 
-  BeforeRet: do {
-    buttonDown_16507040[0] = btn_15010021(4);
-    if (btnp_15010024(4)) {
-    switch (game_16507572[0].state) {
-    case 1:
-      gameInit_16890173();
-      break BeforeRet;
-      break;
+    if (btnp_15010024(14)) {
+    switch (game_16507740[0].state) {
     case 0:
-      switch (game_16507572[0].player1_selected.kind) {
+    case 2:
+      start_16720184(game_16507740[0]);
+      break;
+    default: 
+      break;
+    }
+    }
+    
+    if (btnpr_15010030(4, 7)) {
+    switch (game_16507740[0].state) {
+    case 0:
+      break;
+    case 2:
+      break;
+    case 1:
+      switch (game_16507740[0].player1_selected.kind) {
       case 3:
-        var Tmp1 = game_16507572[0].player1_selected;
+        var Tmp1 = game_16507740[0].player1_selected;
         if (ConstSet3[Tmp1.kind]===undefined) { raiseFieldError(makeNimstrLit("\'countingMachine\' is not accessible using discriminant \'kind\' of type \'Selectable\'")); }
-        var m_16890688 = [Tmp1.countingMachine];
+        var m_16990421 = [Tmp1.countingMachine];
         L2: do {
-          var patroller_16890696 = null;
-          var i_16891250 = 0;
-          var L_16891251 = (game_16507572[0].patrollers).length;
+          var patroller_16990429 = null;
+          var i_16995378 = 0;
+          var L_16995379 = (game_16507740[0].patrollers).length;
           L3: do {
               L4: while (true) {
-              if (!(i_16891250 < L_16891251)) break L4;
-                patroller_16890696 = game_16507572[0].patrollers[chckIndx(i_16891250, 0, (game_16507572[0].patrollers).length-1)];
-                if (canSee_16605220(patroller_16890696, m_16890688[0])) {
-                rawEcho(makeNimstrLit("patroller can see"));
-                game_over_16630148(game_16507572[0], makeNimstrLit("You were caught!"));
-                }
-                else {
-                rawEcho(makeNimstrLit("pateroller didn\'t see"));
+              if (!(i_16995378 < L_16995379)) break L4;
+                patroller_16990429 = game_16507740[0].patrollers[chckIndx(i_16995378, 0, (game_16507740[0].patrollers).length-1)];
+                if (canSee_16685220(patroller_16990429, m_16990421[0])) {
+                game_over_16750290(game_16507740[0], makeNimstrLit("You were caught!"));
                 }
                 
-                i_16891250 = addInt(i_16891250, 1);
-                if (!(((game_16507572[0].patrollers).length == L_16891251))) {
+                i_16995378 = addInt(i_16995378, 1);
+                if (!(((game_16507740[0].patrollers).length == L_16995379))) {
                 failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
                 }
                 
               }
           } while(false);
         } while(false);
-        if (m_16890688[0].broken) {
-        fixBox_16605293(m_16890688, 0);
+        if (m_16990421[0].broken) {
+        fixBox_16670164(m_16990421, 0);
         }
         else {
-        breakBox_16605276(m_16890688, 0);
+        breakBox_16670141(m_16990421, 0);
         }
         
+        break;
+      case 5:
+        var Tmp5 = game_16507740[0].player1_selected;
+        if (ConstSet4[Tmp5.kind]===undefined) { raiseFieldError(makeNimstrLit("\'button\' is not accessible using discriminant \'kind\' of type \'Selectable\'")); }
+        var btn_16990438 = Tmp5.button;
+        click_16695108(btn_16990438);
         break;
       default: 
         break;
       }
       break;
-    case 2:
-      switch (game_16507572[0].player1_selected.kind) {
-      case 2:
-        var Tmp5 = game_16507572[0].player1_selected;
-        if (ConstSet4[Tmp5.kind]===undefined) { raiseFieldError(makeNimstrLit("\'ballot\' is not accessible using discriminant \'kind\' of type \'Selectable\'")); }
-        var ballot_16890713 = nimCopy(null, Tmp5.ballot, NTI16507422);
-        nimCopy(ballot_16890713, game_16507572[0].ballots[chckIndx(ballot_16890713.index, 0, (game_16507572[0].ballots).length-1)], NTI16507422);
-        ballot_16890713.flipped = false;
-        nimCopy(game_16507572[0].ballots[chckIndx(ballot_16890713.index, 0, (game_16507572[0].ballots).length-1)], ballot_16890713, NTI16507422);
-        rawEcho(makeNimstrLit("adding audited ballot: "), cstrToNimstr((ballot_16890713.index)+""));
-        game_16507572[0].audited_ballots.push(ballot_16890713.index);;
-        nextAuditBallot_16630181(game_16507572[0]);
+    case 3:
+      switch (game_16507740[0].player1_selected.kind) {
+      case 5:
+        var Tmp6 = game_16507740[0].player1_selected;
+        if (ConstSet5[Tmp6.kind]===undefined) { raiseFieldError(makeNimstrLit("\'button\' is not accessible using discriminant \'kind\' of type \'Selectable\'")); }
+        var btn_16990440 = Tmp6.button;
+        click_16695108(btn_16990440);
         break;
       default: 
         break;
@@ -5561,23 +6243,22 @@ function gameUpdate_16890684(dt_16890686) {
     }
     
     if (btn_15010021(0)) {
-    HEX2DHEX3D_16580070(game_16507572[0].player1, "vx", (game_16507572[0].player1.speed * dt_16890686));
+    HEX2DHEX3D_16507874(game_16507740[0].player1, "vx", (game_16507740[0].player1.speed * dt_16990419));
     }
     
     if (btn_15010021(1)) {
-    HEX2BHEX3D_10415021(game_16507572[0].player1, "vx", (game_16507572[0].player1.speed * dt_16890686));
+    HEX2BHEX3D_10415021(game_16507740[0].player1, "vx", (game_16507740[0].player1.speed * dt_16990419));
     }
     
     if (btn_15010021(2)) {
-    HEX2DHEX3D_16580070(game_16507572[0].player1, "vy", (game_16507572[0].player1.speed * dt_16890686));
+    HEX2DHEX3D_16507874(game_16507740[0].player1, "vy", (game_16507740[0].player1.speed * dt_16990419));
     }
     
     if (btn_15010021(3)) {
-    HEX2BHEX3D_10415021(game_16507572[0].player1, "vy", (game_16507572[0].player1.speed * dt_16890686));
+    HEX2BHEX3D_10415021(game_16507740[0].player1, "vy", (game_16507740[0].player1.speed * dt_16990419));
     }
     
-    update_16630211(game_16507572[0], dt_16890686);
-  } while (false);
+    update_16765114(game_16507740[0], dt_16990419);
 
   
 }
@@ -5695,24 +6376,24 @@ function psetRaw_15010768(x_15010770, y_15010771, c_15010772) {
 function cls_15110143() {
     L1: do {
       var y_15110150 = 0;
-      var res_16891409 = clipMinY_12755335[0];
+      var res_16995585 = clipMinY_12755335[0];
       L2: do {
           L3: while (true) {
-          if (!(res_16891409 <= clipMaxY_12755336[0])) break L3;
-            y_15110150 = res_16891409;
+          if (!(res_16995585 <= clipMaxY_12755336[0])) break L3;
+            y_15110150 = res_16995585;
             L4: do {
               var x_15110156 = 0;
-              var res_16891404 = clipMinX_12755333[0];
+              var res_16995580 = clipMinX_12755333[0];
               L5: do {
                   L6: while (true) {
-                  if (!(res_16891404 <= clipMaxX_12755334[0])) break L6;
-                    x_15110156 = res_16891404;
+                  if (!(res_16995580 <= clipMaxX_12755334[0])) break L6;
+                    x_15110156 = res_16995580;
                     psetRaw_15010768(x_15110156, y_15110150, 0);
-                    res_16891404 += 1;
+                    res_16995580 += 1;
                   }
               } while(false);
             } while(false);
-            res_16891409 += 1;
+            res_16995585 += 1;
           }
       } while(false);
     } while(false);
@@ -5784,13 +6465,13 @@ function hline_15010291(x0_15010293, y_15010294, x1_15010295) {
     x1_15370002 = toPint_14370366(nimMin(((x1_15370002)|0), maxX_15360030));
     L4: do {
       var x_15370018 = 0;
-      var res_16891422 = x0_15370001;
+      var res_16995598 = x0_15370001;
       L5: do {
           L6: while (true) {
-          if (!(res_16891422 <= x1_15370002)) break L6;
-            x_15370018 = res_16891422;
+          if (!(res_16995598 <= x1_15370002)) break L6;
+            x_15370018 = res_16995598;
             pset_15010202(x_15370018, y_15010294);
-            res_16891422 += 1;
+            res_16995598 += 1;
           }
       } while(false);
     } while(false);
@@ -5806,15 +6487,15 @@ function boxfill_15010279(x_15010281, y_15010282, w_15010283, h_15010284) {
     
     L1: do {
       var y_15190093 = 0;
-      var colontmp__16891416 = 0;
-      colontmp__16891416 = (y_15010282 + h_15010284);
-      var res_16891418 = y_15010282;
+      var colontmp__16995592 = 0;
+      colontmp__16995592 = (y_15010282 + h_15010284);
+      var res_16995594 = y_15010282;
       L2: do {
           L3: while (true) {
-          if (!(res_16891418 < colontmp__16891416)) break L3;
-            y_15190093 = res_16891418;
+          if (!(res_16995594 < colontmp__16995592)) break L3;
+            y_15190093 = res_16995594;
             hline_15010291(x_15010281, y_15190093, ((x_15010281 + w_15010283) - 1));
-            res_16891418 += 1;
+            res_16995594 += 1;
           }
       } while(false);
     } while(false);
@@ -5847,81 +6528,81 @@ function textWidth_14996277(text_14996279, scale_14996280) {
     
     L1: do {
       var c_16200002 = 0;
-      var i_16891457 = 0;
-      var result_16891458 = 0;
+      var i_16995633 = 0;
+      var result_16995634 = 0;
       L2: do {
           L3: while (true) {
-          if (!(i_16891457 < (text_14996279).length)) break L3;
-            if ((text_14996279[chckIndx(i_16891457, 0, (text_14996279).length-1)] <= 127)) {
-            result_16891458 = chckRange(text_14996279[chckIndx(i_16891457, 0, (text_14996279).length-1)], -2147483648, 2147483647);
-            i_16891457 = addInt(i_16891457, 1);
+          if (!(i_16995633 < (text_14996279).length)) break L3;
+            if ((text_14996279[chckIndx(i_16995633, 0, (text_14996279).length-1)] <= 127)) {
+            result_16995634 = chckRange(text_14996279[chckIndx(i_16995633, 0, (text_14996279).length-1)], -2147483648, 2147483647);
+            i_16995633 = addInt(i_16995633, 1);
             }
             else {
-            if ((((text_14996279[chckIndx(i_16891457, 0, (text_14996279).length-1)] >>> 0) >>> 5) == 6)) {
-            if ((i_16891457 <= subInt((text_14996279).length, 2))) {
-            result_16891458 = chckRange((((text_14996279[chckIndx(i_16891457, 0, (text_14996279).length-1)] & 31) << 6) | (text_14996279[chckIndx(addInt(i_16891457, 1), 0, (text_14996279).length-1)] & 63)), -2147483648, 2147483647);
-            i_16891457 = addInt(i_16891457, 2);
+            if ((((text_14996279[chckIndx(i_16995633, 0, (text_14996279).length-1)] >>> 0) >>> 5) == 6)) {
+            if ((i_16995633 <= subInt((text_14996279).length, 2))) {
+            result_16995634 = chckRange((((text_14996279[chckIndx(i_16995633, 0, (text_14996279).length-1)] & 31) << 6) | (text_14996279[chckIndx(addInt(i_16995633, 1), 0, (text_14996279).length-1)] & 63)), -2147483648, 2147483647);
+            i_16995633 = addInt(i_16995633, 2);
             }
             else {
-              result_16891458 = 65533;
-              i_16891457 = addInt(i_16891457, 1);
+              result_16995634 = 65533;
+              i_16995633 = addInt(i_16995633, 1);
             }
             
             }
             else {
-            if ((((text_14996279[chckIndx(i_16891457, 0, (text_14996279).length-1)] >>> 0) >>> 4) == 14)) {
-            if ((i_16891457 <= subInt((text_14996279).length, 3))) {
-            result_16891458 = chckRange(((((text_14996279[chckIndx(i_16891457, 0, (text_14996279).length-1)] & 15) << 12) | ((text_14996279[chckIndx(addInt(i_16891457, 1), 0, (text_14996279).length-1)] & 63) << 6)) | (text_14996279[chckIndx(addInt(i_16891457, 2), 0, (text_14996279).length-1)] & 63)), -2147483648, 2147483647);
-            i_16891457 = addInt(i_16891457, 3);
+            if ((((text_14996279[chckIndx(i_16995633, 0, (text_14996279).length-1)] >>> 0) >>> 4) == 14)) {
+            if ((i_16995633 <= subInt((text_14996279).length, 3))) {
+            result_16995634 = chckRange(((((text_14996279[chckIndx(i_16995633, 0, (text_14996279).length-1)] & 15) << 12) | ((text_14996279[chckIndx(addInt(i_16995633, 1), 0, (text_14996279).length-1)] & 63) << 6)) | (text_14996279[chckIndx(addInt(i_16995633, 2), 0, (text_14996279).length-1)] & 63)), -2147483648, 2147483647);
+            i_16995633 = addInt(i_16995633, 3);
             }
             else {
-              result_16891458 = 65533;
-              i_16891457 = addInt(i_16891457, 1);
+              result_16995634 = 65533;
+              i_16995633 = addInt(i_16995633, 1);
             }
             
             }
             else {
-            if ((((text_14996279[chckIndx(i_16891457, 0, (text_14996279).length-1)] >>> 0) >>> 3) == 30)) {
-            if ((i_16891457 <= subInt((text_14996279).length, 4))) {
-            result_16891458 = chckRange((((((text_14996279[chckIndx(i_16891457, 0, (text_14996279).length-1)] & 7) << 18) | ((text_14996279[chckIndx(addInt(i_16891457, 1), 0, (text_14996279).length-1)] & 63) << 12)) | ((text_14996279[chckIndx(addInt(i_16891457, 2), 0, (text_14996279).length-1)] & 63) << 6)) | (text_14996279[chckIndx(addInt(i_16891457, 3), 0, (text_14996279).length-1)] & 63)), -2147483648, 2147483647);
-            i_16891457 = addInt(i_16891457, 4);
+            if ((((text_14996279[chckIndx(i_16995633, 0, (text_14996279).length-1)] >>> 0) >>> 3) == 30)) {
+            if ((i_16995633 <= subInt((text_14996279).length, 4))) {
+            result_16995634 = chckRange((((((text_14996279[chckIndx(i_16995633, 0, (text_14996279).length-1)] & 7) << 18) | ((text_14996279[chckIndx(addInt(i_16995633, 1), 0, (text_14996279).length-1)] & 63) << 12)) | ((text_14996279[chckIndx(addInt(i_16995633, 2), 0, (text_14996279).length-1)] & 63) << 6)) | (text_14996279[chckIndx(addInt(i_16995633, 3), 0, (text_14996279).length-1)] & 63)), -2147483648, 2147483647);
+            i_16995633 = addInt(i_16995633, 4);
             }
             else {
-              result_16891458 = 65533;
-              i_16891457 = addInt(i_16891457, 1);
+              result_16995634 = 65533;
+              i_16995633 = addInt(i_16995633, 1);
             }
             
             }
             else {
-            if ((((text_14996279[chckIndx(i_16891457, 0, (text_14996279).length-1)] >>> 0) >>> 2) == 62)) {
-            if ((i_16891457 <= subInt((text_14996279).length, 5))) {
-            result_16891458 = chckRange(((((((text_14996279[chckIndx(i_16891457, 0, (text_14996279).length-1)] & 3) << 24) | ((text_14996279[chckIndx(addInt(i_16891457, 1), 0, (text_14996279).length-1)] & 63) << 18)) | ((text_14996279[chckIndx(addInt(i_16891457, 2), 0, (text_14996279).length-1)] & 63) << 12)) | ((text_14996279[chckIndx(addInt(i_16891457, 3), 0, (text_14996279).length-1)] & 63) << 6)) | (text_14996279[chckIndx(addInt(i_16891457, 4), 0, (text_14996279).length-1)] & 63)), -2147483648, 2147483647);
-            i_16891457 = addInt(i_16891457, 5);
+            if ((((text_14996279[chckIndx(i_16995633, 0, (text_14996279).length-1)] >>> 0) >>> 2) == 62)) {
+            if ((i_16995633 <= subInt((text_14996279).length, 5))) {
+            result_16995634 = chckRange(((((((text_14996279[chckIndx(i_16995633, 0, (text_14996279).length-1)] & 3) << 24) | ((text_14996279[chckIndx(addInt(i_16995633, 1), 0, (text_14996279).length-1)] & 63) << 18)) | ((text_14996279[chckIndx(addInt(i_16995633, 2), 0, (text_14996279).length-1)] & 63) << 12)) | ((text_14996279[chckIndx(addInt(i_16995633, 3), 0, (text_14996279).length-1)] & 63) << 6)) | (text_14996279[chckIndx(addInt(i_16995633, 4), 0, (text_14996279).length-1)] & 63)), -2147483648, 2147483647);
+            i_16995633 = addInt(i_16995633, 5);
             }
             else {
-              result_16891458 = 65533;
-              i_16891457 = addInt(i_16891457, 1);
+              result_16995634 = 65533;
+              i_16995633 = addInt(i_16995633, 1);
             }
             
             }
             else {
-            if ((((text_14996279[chckIndx(i_16891457, 0, (text_14996279).length-1)] >>> 0) >>> 1) == 126)) {
-            if ((i_16891457 <= subInt((text_14996279).length, 6))) {
-            result_16891458 = chckRange((((((((text_14996279[chckIndx(i_16891457, 0, (text_14996279).length-1)] & 1) << 30) | ((text_14996279[chckIndx(addInt(i_16891457, 1), 0, (text_14996279).length-1)] & 63) << 24)) | ((text_14996279[chckIndx(addInt(i_16891457, 2), 0, (text_14996279).length-1)] & 63) << 18)) | ((text_14996279[chckIndx(addInt(i_16891457, 3), 0, (text_14996279).length-1)] & 63) << 12)) | ((text_14996279[chckIndx(addInt(i_16891457, 4), 0, (text_14996279).length-1)] & 63) << 6)) | (text_14996279[chckIndx(addInt(i_16891457, 5), 0, (text_14996279).length-1)] & 63)), -2147483648, 2147483647);
-            i_16891457 = addInt(i_16891457, 6);
+            if ((((text_14996279[chckIndx(i_16995633, 0, (text_14996279).length-1)] >>> 0) >>> 1) == 126)) {
+            if ((i_16995633 <= subInt((text_14996279).length, 6))) {
+            result_16995634 = chckRange((((((((text_14996279[chckIndx(i_16995633, 0, (text_14996279).length-1)] & 1) << 30) | ((text_14996279[chckIndx(addInt(i_16995633, 1), 0, (text_14996279).length-1)] & 63) << 24)) | ((text_14996279[chckIndx(addInt(i_16995633, 2), 0, (text_14996279).length-1)] & 63) << 18)) | ((text_14996279[chckIndx(addInt(i_16995633, 3), 0, (text_14996279).length-1)] & 63) << 12)) | ((text_14996279[chckIndx(addInt(i_16995633, 4), 0, (text_14996279).length-1)] & 63) << 6)) | (text_14996279[chckIndx(addInt(i_16995633, 5), 0, (text_14996279).length-1)] & 63)), -2147483648, 2147483647);
+            i_16995633 = addInt(i_16995633, 6);
             }
             else {
-              result_16891458 = 65533;
-              i_16891457 = addInt(i_16891457, 1);
+              result_16995634 = 65533;
+              i_16995633 = addInt(i_16995633, 1);
             }
             
             }
             else {
-              result_16891458 = chckRange(text_14996279[chckIndx(i_16891457, 0, (text_14996279).length-1)], -2147483648, 2147483647);
-              i_16891457 = addInt(i_16891457, 1);
+              result_16995634 = chckRange(text_14996279[chckIndx(i_16995633, 0, (text_14996279).length-1)], -2147483648, 2147483647);
+              i_16995633 = addInt(i_16995633, 1);
             }
             }}}}}
-            c_16200002 = result_16891458;
+            c_16200002 = result_16995634;
             if (!(hasKey_16065316(currentFont_12755291[0].rects, c_16200002))) {
             raiseException({message: (makeNimstrLit("character not in font: \'") || []).concat(HEX24_3105214(c_16200002) || [],makeNimstrLit("\'") || []), parent: null, m_type: NTI1194617, name: null, trace: [], up: null}, "Exception");
             }
@@ -5942,15 +6623,15 @@ function substr_1571022(s_1571024, first_1571025, last_1571026) {
     result_1571027 = nimCopy(null, mnewString(chckRange(L_1571030, 0, 2147483647)), NTI1188013);
     L1: do {
       var i_1571039 = 0;
-      var colontmp__16891531 = 0;
-      colontmp__16891531 = subInt(L_1571030, 1);
-      var res_16891532 = 0;
+      var colontmp__16995707 = 0;
+      colontmp__16995707 = subInt(L_1571030, 1);
+      var res_16995708 = 0;
       L2: do {
           L3: while (true) {
-          if (!(res_16891532 <= colontmp__16891531)) break L3;
-            i_1571039 = res_16891532;
+          if (!(res_16995708 <= colontmp__16995707)) break L3;
+            i_1571039 = res_16995708;
             result_1571027[chckIndx(i_1571039, 0, (result_1571027).length-1)] = s_1571024[chckIndx(addInt(i_1571039, first_1571028), 0, (s_1571024).length-1)];
-            res_16891532 = addInt(res_16891532, 1);
+            res_16995708 = addInt(res_16995708, 1);
           }
       } while(false);
     } while(false);
@@ -5975,20 +6656,20 @@ function fontBlit_15490053(font_15490055, srcRect_15490056, dstRect_15490057, co
     var sh_15490066 = srcRect_15490056.Field3;
     L1: do {
       var y_15490074 = 0;
-      var i_16891557 = 0;
+      var i_16995733 = 0;
       L2: do {
           L3: while (true) {
-          if (!(i_16891557 < dstRect_15490057.Field3)) break L3;
-            y_15490074 = i_16891557;
+          if (!(i_16995733 < dstRect_15490057.Field3)) break L3;
+            y_15490074 = i_16995733;
             dx_15490059[0] = dstRect_15490057.Field0;
             sx_15490061[0] = srcRect_15490056.Field0;
             L4: do {
               var x_15490082 = 0;
-              var i_16891555 = 0;
+              var i_16995731 = 0;
               L5: do {
                   L6: while (true) {
-                  if (!(i_16891555 < dstRect_15490057.Field2)) break L6;
-                    x_15490082 = i_16891555;
+                  if (!(i_16995731 < dstRect_15490057.Field2)) break L6;
+                    x_15490082 = i_16995731;
                     L7: do {
                         if (((sx_15490061[0] < 0.0) || (sy_15490062[0] < 0.0))) Tmp9 = true; else {                          Tmp9 = (toPint_14370366((font_15490055.w - 1)) < toPint_12755100(sx_15490061[0]));                        }                        if (Tmp9) Tmp8 = true; else {                          Tmp8 = (toPint_14370366((font_15490055.h - 1)) < toPint_12755100(sy_15490062[0]));                        }                      if (Tmp8) {
                       break L7;
@@ -6009,13 +6690,13 @@ function fontBlit_15490053(font_15490055, srcRect_15490056, dstRect_15490057, co
                       HEX2BHEX3D_15405035(sx_15490061, 0, (1.0000000000000000e+00 * (sw_15490065 / dw_15490063)));
                       HEX2BHEX3D_15405035(dx_15490059, 0, 1.0000000000000000e+00);
                     } while(false);
-                    i_16891555 += 1;
+                    i_16995731 += 1;
                   }
               } while(false);
             } while(false);
             HEX2BHEX3D_15405035(sy_15490062, 0, (1.0000000000000000e+00 * (sh_15490066 / dh_15490064)));
             HEX2BHEX3D_15405035(dy_15490060, 0, 1.0000000000000000e+00);
-            i_16891557 += 1;
+            i_16995733 += 1;
           }
       } while(false);
     } while(false);
@@ -6078,28 +6759,28 @@ function print_14996259(text_14996261, x_14996262, y_14996263, scale_14996264) {
     var ix_16185004 = x_16185002;
     L1: do {
       var line_16185005 = [];
-      var first_16891525 = 0;
-      var last_16891526 = 0;
-      var eolpos_16891527 = 0;
+      var first_16995701 = 0;
+      var last_16995702 = 0;
+      var eolpos_16995703 = 0;
       L2: do {
           L3: while (true) {
           if (!true) break L3;
             L4: do {
                 L5: while (true) {
-                if (!((last_16891526 < (text_14996261).length) && !((ConstSet5[text_14996261[chckIndx(last_16891526, 0, (text_14996261).length-1)]] != undefined)))) break L5;
-                  last_16891526 = addInt(last_16891526, 1);
+                if (!((last_16995702 < (text_14996261).length) && !((ConstSet6[text_14996261[chckIndx(last_16995702, 0, (text_14996261).length-1)]] != undefined)))) break L5;
+                  last_16995702 = addInt(last_16995702, 1);
                 }
             } while(false);
-            eolpos_16891527 = last_16891526;
-            if ((last_16891526 < (text_14996261).length)) {
-            if ((text_14996261[chckIndx(last_16891526, 0, (text_14996261).length-1)] == 10)) {
-            last_16891526 = addInt(last_16891526, 1);
+            eolpos_16995703 = last_16995702;
+            if ((last_16995702 < (text_14996261).length)) {
+            if ((text_14996261[chckIndx(last_16995702, 0, (text_14996261).length-1)] == 10)) {
+            last_16995702 = addInt(last_16995702, 1);
             }
             else {
-            if ((text_14996261[chckIndx(last_16891526, 0, (text_14996261).length-1)] == 13)) {
-            last_16891526 = addInt(last_16891526, 1);
-            if (((last_16891526 < (text_14996261).length) && (text_14996261[chckIndx(last_16891526, 0, (text_14996261).length-1)] == 10))) {
-            last_16891526 = addInt(last_16891526, 1);
+            if ((text_14996261[chckIndx(last_16995702, 0, (text_14996261).length-1)] == 13)) {
+            last_16995702 = addInt(last_16995702, 1);
+            if (((last_16995702 < (text_14996261).length) && (text_14996261[chckIndx(last_16995702, 0, (text_14996261).length-1)] == 10))) {
+            last_16995702 = addInt(last_16995702, 1);
             }
             
             }
@@ -6107,101 +6788,101 @@ function print_14996259(text_14996261, x_14996262, y_14996263, scale_14996264) {
             }
             
             if (false) {
-            Tmp6 = subInt(last_16891526, 1);
+            Tmp6 = subInt(last_16995702, 1);
             }
             else {
-            Tmp6 = subInt(eolpos_16891527, 1);
+            Tmp6 = subInt(eolpos_16995703, 1);
             }
             
-            line_16185005 = substr_1571022(text_14996261, first_16891525, Tmp6);
+            line_16185005 = substr_1571022(text_14996261, first_16995701, Tmp6);
             L7: do {
               var c_16185006 = 0;
-              var i_16891492 = 0;
-              var result_16891493 = 0;
+              var i_16995668 = 0;
+              var result_16995669 = 0;
               L8: do {
                   L9: while (true) {
-                  if (!(i_16891492 < (line_16185005).length)) break L9;
-                    if ((line_16185005[chckIndx(i_16891492, 0, (line_16185005).length-1)] <= 127)) {
-                    result_16891493 = chckRange(line_16185005[chckIndx(i_16891492, 0, (line_16185005).length-1)], -2147483648, 2147483647);
-                    i_16891492 = addInt(i_16891492, 1);
+                  if (!(i_16995668 < (line_16185005).length)) break L9;
+                    if ((line_16185005[chckIndx(i_16995668, 0, (line_16185005).length-1)] <= 127)) {
+                    result_16995669 = chckRange(line_16185005[chckIndx(i_16995668, 0, (line_16185005).length-1)], -2147483648, 2147483647);
+                    i_16995668 = addInt(i_16995668, 1);
                     }
                     else {
-                    if ((((line_16185005[chckIndx(i_16891492, 0, (line_16185005).length-1)] >>> 0) >>> 5) == 6)) {
-                    if ((i_16891492 <= subInt((line_16185005).length, 2))) {
-                    result_16891493 = chckRange((((line_16185005[chckIndx(i_16891492, 0, (line_16185005).length-1)] & 31) << 6) | (line_16185005[chckIndx(addInt(i_16891492, 1), 0, (line_16185005).length-1)] & 63)), -2147483648, 2147483647);
-                    i_16891492 = addInt(i_16891492, 2);
+                    if ((((line_16185005[chckIndx(i_16995668, 0, (line_16185005).length-1)] >>> 0) >>> 5) == 6)) {
+                    if ((i_16995668 <= subInt((line_16185005).length, 2))) {
+                    result_16995669 = chckRange((((line_16185005[chckIndx(i_16995668, 0, (line_16185005).length-1)] & 31) << 6) | (line_16185005[chckIndx(addInt(i_16995668, 1), 0, (line_16185005).length-1)] & 63)), -2147483648, 2147483647);
+                    i_16995668 = addInt(i_16995668, 2);
                     }
                     else {
-                      result_16891493 = 65533;
-                      i_16891492 = addInt(i_16891492, 1);
+                      result_16995669 = 65533;
+                      i_16995668 = addInt(i_16995668, 1);
                     }
                     
                     }
                     else {
-                    if ((((line_16185005[chckIndx(i_16891492, 0, (line_16185005).length-1)] >>> 0) >>> 4) == 14)) {
-                    if ((i_16891492 <= subInt((line_16185005).length, 3))) {
-                    result_16891493 = chckRange(((((line_16185005[chckIndx(i_16891492, 0, (line_16185005).length-1)] & 15) << 12) | ((line_16185005[chckIndx(addInt(i_16891492, 1), 0, (line_16185005).length-1)] & 63) << 6)) | (line_16185005[chckIndx(addInt(i_16891492, 2), 0, (line_16185005).length-1)] & 63)), -2147483648, 2147483647);
-                    i_16891492 = addInt(i_16891492, 3);
+                    if ((((line_16185005[chckIndx(i_16995668, 0, (line_16185005).length-1)] >>> 0) >>> 4) == 14)) {
+                    if ((i_16995668 <= subInt((line_16185005).length, 3))) {
+                    result_16995669 = chckRange(((((line_16185005[chckIndx(i_16995668, 0, (line_16185005).length-1)] & 15) << 12) | ((line_16185005[chckIndx(addInt(i_16995668, 1), 0, (line_16185005).length-1)] & 63) << 6)) | (line_16185005[chckIndx(addInt(i_16995668, 2), 0, (line_16185005).length-1)] & 63)), -2147483648, 2147483647);
+                    i_16995668 = addInt(i_16995668, 3);
                     }
                     else {
-                      result_16891493 = 65533;
-                      i_16891492 = addInt(i_16891492, 1);
+                      result_16995669 = 65533;
+                      i_16995668 = addInt(i_16995668, 1);
                     }
                     
                     }
                     else {
-                    if ((((line_16185005[chckIndx(i_16891492, 0, (line_16185005).length-1)] >>> 0) >>> 3) == 30)) {
-                    if ((i_16891492 <= subInt((line_16185005).length, 4))) {
-                    result_16891493 = chckRange((((((line_16185005[chckIndx(i_16891492, 0, (line_16185005).length-1)] & 7) << 18) | ((line_16185005[chckIndx(addInt(i_16891492, 1), 0, (line_16185005).length-1)] & 63) << 12)) | ((line_16185005[chckIndx(addInt(i_16891492, 2), 0, (line_16185005).length-1)] & 63) << 6)) | (line_16185005[chckIndx(addInt(i_16891492, 3), 0, (line_16185005).length-1)] & 63)), -2147483648, 2147483647);
-                    i_16891492 = addInt(i_16891492, 4);
+                    if ((((line_16185005[chckIndx(i_16995668, 0, (line_16185005).length-1)] >>> 0) >>> 3) == 30)) {
+                    if ((i_16995668 <= subInt((line_16185005).length, 4))) {
+                    result_16995669 = chckRange((((((line_16185005[chckIndx(i_16995668, 0, (line_16185005).length-1)] & 7) << 18) | ((line_16185005[chckIndx(addInt(i_16995668, 1), 0, (line_16185005).length-1)] & 63) << 12)) | ((line_16185005[chckIndx(addInt(i_16995668, 2), 0, (line_16185005).length-1)] & 63) << 6)) | (line_16185005[chckIndx(addInt(i_16995668, 3), 0, (line_16185005).length-1)] & 63)), -2147483648, 2147483647);
+                    i_16995668 = addInt(i_16995668, 4);
                     }
                     else {
-                      result_16891493 = 65533;
-                      i_16891492 = addInt(i_16891492, 1);
+                      result_16995669 = 65533;
+                      i_16995668 = addInt(i_16995668, 1);
                     }
                     
                     }
                     else {
-                    if ((((line_16185005[chckIndx(i_16891492, 0, (line_16185005).length-1)] >>> 0) >>> 2) == 62)) {
-                    if ((i_16891492 <= subInt((line_16185005).length, 5))) {
-                    result_16891493 = chckRange(((((((line_16185005[chckIndx(i_16891492, 0, (line_16185005).length-1)] & 3) << 24) | ((line_16185005[chckIndx(addInt(i_16891492, 1), 0, (line_16185005).length-1)] & 63) << 18)) | ((line_16185005[chckIndx(addInt(i_16891492, 2), 0, (line_16185005).length-1)] & 63) << 12)) | ((line_16185005[chckIndx(addInt(i_16891492, 3), 0, (line_16185005).length-1)] & 63) << 6)) | (line_16185005[chckIndx(addInt(i_16891492, 4), 0, (line_16185005).length-1)] & 63)), -2147483648, 2147483647);
-                    i_16891492 = addInt(i_16891492, 5);
+                    if ((((line_16185005[chckIndx(i_16995668, 0, (line_16185005).length-1)] >>> 0) >>> 2) == 62)) {
+                    if ((i_16995668 <= subInt((line_16185005).length, 5))) {
+                    result_16995669 = chckRange(((((((line_16185005[chckIndx(i_16995668, 0, (line_16185005).length-1)] & 3) << 24) | ((line_16185005[chckIndx(addInt(i_16995668, 1), 0, (line_16185005).length-1)] & 63) << 18)) | ((line_16185005[chckIndx(addInt(i_16995668, 2), 0, (line_16185005).length-1)] & 63) << 12)) | ((line_16185005[chckIndx(addInt(i_16995668, 3), 0, (line_16185005).length-1)] & 63) << 6)) | (line_16185005[chckIndx(addInt(i_16995668, 4), 0, (line_16185005).length-1)] & 63)), -2147483648, 2147483647);
+                    i_16995668 = addInt(i_16995668, 5);
                     }
                     else {
-                      result_16891493 = 65533;
-                      i_16891492 = addInt(i_16891492, 1);
+                      result_16995669 = 65533;
+                      i_16995668 = addInt(i_16995668, 1);
                     }
                     
                     }
                     else {
-                    if ((((line_16185005[chckIndx(i_16891492, 0, (line_16185005).length-1)] >>> 0) >>> 1) == 126)) {
-                    if ((i_16891492 <= subInt((line_16185005).length, 6))) {
-                    result_16891493 = chckRange((((((((line_16185005[chckIndx(i_16891492, 0, (line_16185005).length-1)] & 1) << 30) | ((line_16185005[chckIndx(addInt(i_16891492, 1), 0, (line_16185005).length-1)] & 63) << 24)) | ((line_16185005[chckIndx(addInt(i_16891492, 2), 0, (line_16185005).length-1)] & 63) << 18)) | ((line_16185005[chckIndx(addInt(i_16891492, 3), 0, (line_16185005).length-1)] & 63) << 12)) | ((line_16185005[chckIndx(addInt(i_16891492, 4), 0, (line_16185005).length-1)] & 63) << 6)) | (line_16185005[chckIndx(addInt(i_16891492, 5), 0, (line_16185005).length-1)] & 63)), -2147483648, 2147483647);
-                    i_16891492 = addInt(i_16891492, 6);
+                    if ((((line_16185005[chckIndx(i_16995668, 0, (line_16185005).length-1)] >>> 0) >>> 1) == 126)) {
+                    if ((i_16995668 <= subInt((line_16185005).length, 6))) {
+                    result_16995669 = chckRange((((((((line_16185005[chckIndx(i_16995668, 0, (line_16185005).length-1)] & 1) << 30) | ((line_16185005[chckIndx(addInt(i_16995668, 1), 0, (line_16185005).length-1)] & 63) << 24)) | ((line_16185005[chckIndx(addInt(i_16995668, 2), 0, (line_16185005).length-1)] & 63) << 18)) | ((line_16185005[chckIndx(addInt(i_16995668, 3), 0, (line_16185005).length-1)] & 63) << 12)) | ((line_16185005[chckIndx(addInt(i_16995668, 4), 0, (line_16185005).length-1)] & 63) << 6)) | (line_16185005[chckIndx(addInt(i_16995668, 5), 0, (line_16185005).length-1)] & 63)), -2147483648, 2147483647);
+                    i_16995668 = addInt(i_16995668, 6);
                     }
                     else {
-                      result_16891493 = 65533;
-                      i_16891492 = addInt(i_16891492, 1);
+                      result_16995669 = 65533;
+                      i_16995668 = addInt(i_16995668, 1);
                     }
                     
                     }
                     else {
-                      result_16891493 = chckRange(line_16185005[chckIndx(i_16891492, 0, (line_16185005).length-1)], -2147483648, 2147483647);
-                      i_16891492 = addInt(i_16891492, 1);
+                      result_16995669 = chckRange(line_16185005[chckIndx(i_16995668, 0, (line_16185005).length-1)], -2147483648, 2147483647);
+                      i_16995668 = addInt(i_16995668, 1);
                     }
                     }}}}}
-                    c_16185006 = result_16891493;
+                    c_16185006 = result_16995669;
                     x_16185002 = addInt(x_16185002, glyph_14996240(c_16185006, x_16185002, y_16185003, scale_14996264));
                   }
               } while(false);
             } while(false);
             x_16185002 = ix_16185004;
             y_16185003 = addInt(y_16185003, toPint_14370366(currentFont_12755291[0].h));
-            if ((eolpos_16891527 == last_16891526)) {
+            if ((eolpos_16995703 == last_16995702)) {
             break L2;
             }
             
-            first_16891525 = last_16891526;
+            first_16995701 = last_16995702;
           }
       } while(false);
     } while(false);
@@ -6214,15 +6895,11 @@ function printr_14996271(text_14996273, x_14996274, y_14996275, scale_14996276) 
 
   
 }
-function hitbox_16555043(booth_16555045) {
-  var result_16555050 = {Field0: {Field0: 0, Field1: 0}, Field1: {Field0: 0, Field1: 0}};
+function printc_14996265(text_14996267, x_14996268, y_14996269, scale_14996270) {
+    var width_16205216 = textWidth_14996277(text_14996267, scale_14996270);
+    print_14996259(text_14996267, subInt(x_14996268, divInt(width_16205216, 2)), y_14996269, scale_14996270);
 
-    var colontmp__16891600 = {Field0: booth_16555045.x, Field1: booth_16555045.y};
-    var colontmp__16891601 = {Field0: subInt(addInt(booth_16555045.x, 7), 1), Field1: addInt(booth_16555045.y, 7)};
-    nimCopy(result_16555050, {Field0: nimCopy(null, colontmp__16891600, NTI16507345), Field1: nimCopy(null, colontmp__16891601, NTI16507345)}, NTI16545162);
-
-  return result_16555050;
-
+  
 }
 function rectfill_15010241(x1_15010243, y1_15010244, x2_15010245, y2_15010246) {
     var minx_15190025 = nimMin(x1_15010243, x2_15010245);
@@ -6231,24 +6908,24 @@ function rectfill_15010241(x1_15010243, y1_15010244, x2_15010245, y2_15010246) {
     var maxy_15190028 = nimMax(y1_15010244, y2_15010246);
     L1: do {
       var y_15190029 = 0;
-      var res_16891606 = miny_15190027;
+      var res_16995817 = miny_15190027;
       L2: do {
           L3: while (true) {
-          if (!(res_16891606 <= maxy_15190028)) break L3;
-            y_15190029 = res_16891606;
+          if (!(res_16995817 <= maxy_15190028)) break L3;
+            y_15190029 = res_16995817;
             L4: do {
               var x_15190030 = 0;
-              var res_16891604 = minx_15190025;
+              var res_16995815 = minx_15190025;
               L5: do {
                   L6: while (true) {
-                  if (!(res_16891604 <= maxx_15190026)) break L6;
-                    x_15190030 = res_16891604;
+                  if (!(res_16995815 <= maxx_15190026)) break L6;
+                    x_15190030 = res_16995815;
                     pset_15010202(x_15190030, y_15190029);
-                    res_16891604 += 1;
+                    res_16995815 += 1;
                   }
               } while(false);
             } while(false);
-            res_16891606 += 1;
+            res_16995817 += 1;
           }
       } while(false);
     } while(false);
@@ -6279,13 +6956,13 @@ function vline_15010301(x_15010303, y0_15010304, y1_15010305) {
     y1_15380002 = toPint_14370366(nimMin(((y1_15380002)|0), maxY_15370038));
     L4: do {
       var y_15380018 = 0;
-      var res_16891625 = y0_15380001;
+      var res_16995820 = y0_15380001;
       L5: do {
           L6: while (true) {
-          if (!(res_16891625 <= y1_15380002)) break L6;
-            y_15380018 = res_16891625;
+          if (!(res_16995820 <= y1_15380002)) break L6;
+            y_15380018 = res_16995820;
             pset_15010202(x_15010303, y_15380018);
-            res_16891625 += 1;
+            res_16995820 += 1;
           }
       } while(false);
     } while(false);
@@ -6293,79 +6970,79 @@ function vline_15010301(x_15010303, y0_15010304, y1_15010305) {
 
   
 }
-function draw_16625030(belt_16625032) {
+function draw_16715030(belt_16715032) {
     setColor_14996289(21);
-    rectfill_15010241(toPint_14370366(belt_16625032.tl.Field0), toPint_14370366(belt_16625032.tl.Field1), toPint_14370366(belt_16625032.br.Field0), toPint_14370366(belt_16625032.br.Field1));
+    rectfill_15010241(toPint_14370366(belt_16715032.tl.Field0), toPint_14370366(belt_16715032.tl.Field1), toPint_14370366(belt_16715032.br.Field0), toPint_14370366(belt_16715032.br.Field1));
     setColor_14996289(5);
-    switch (belt_16625032.dir) {
+    switch (belt_16715032.dir) {
     case 0:
-      var height_16625049 = absInt(subInt(belt_16625032.br.Field1, belt_16625032.tl.Field1));
+      var height_16715049 = absInt(subInt(belt_16715032.br.Field1, belt_16715032.tl.Field1));
       L1: do {
-        var i_16625057 = 0;
-        var i_16891610 = 0;
+        var i_16715057 = 0;
+        var i_16995799 = 0;
         L2: do {
             L3: while (true) {
-            if (!(i_16891610 < height_16625049)) break L3;
-              i_16625057 = i_16891610;
-              if ((modInt(addInt(i_16625057, ((belt_16625032.offset)|0)), 3) == 0)) {
-              hline_15010291(toPint_14370366(belt_16625032.tl.Field0), toPint_14370366(addInt(belt_16625032.tl.Field1, i_16625057)), toPint_14370366(belt_16625032.br.Field0));
+            if (!(i_16995799 < height_16715049)) break L3;
+              i_16715057 = i_16995799;
+              if ((modInt(addInt(i_16715057, ((belt_16715032.offset)|0)), 3) == 0)) {
+              hline_15010291(toPint_14370366(belt_16715032.tl.Field0), toPint_14370366(addInt(belt_16715032.tl.Field1, i_16715057)), toPint_14370366(belt_16715032.br.Field0));
               }
               
-              i_16891610 = addInt(i_16891610, 1);
+              i_16995799 = addInt(i_16995799, 1);
             }
         } while(false);
       } while(false);
       break;
     case 2:
-      var height_16625070 = absInt(subInt(belt_16625032.br.Field1, belt_16625032.tl.Field1));
+      var height_16715070 = absInt(subInt(belt_16715032.br.Field1, belt_16715032.tl.Field1));
       L4: do {
-        var i_16625078 = 0;
-        var i_16891614 = 0;
+        var i_16715078 = 0;
+        var i_16995803 = 0;
         L5: do {
             L6: while (true) {
-            if (!(i_16891614 < height_16625070)) break L6;
-              i_16625078 = i_16891614;
-              if ((modInt(addInt(i_16625078, ((belt_16625032.offset)|0)), 3) == 0)) {
-              hline_15010291(toPint_14370366(belt_16625032.tl.Field0), toPint_14370366(subInt(addInt(belt_16625032.tl.Field1, height_16625070), i_16625078)), toPint_14370366(belt_16625032.br.Field0));
+            if (!(i_16995803 < height_16715070)) break L6;
+              i_16715078 = i_16995803;
+              if ((modInt(addInt(i_16715078, ((belt_16715032.offset)|0)), 3) == 0)) {
+              hline_15010291(toPint_14370366(belt_16715032.tl.Field0), toPint_14370366(subInt(addInt(belt_16715032.tl.Field1, height_16715070), i_16715078)), toPint_14370366(belt_16715032.br.Field0));
               }
               
-              i_16891614 = addInt(i_16891614, 1);
+              i_16995803 = addInt(i_16995803, 1);
             }
         } while(false);
       } while(false);
       break;
     case 1:
-      var width_16625091 = absInt(subInt(belt_16625032.br.Field0, belt_16625032.tl.Field0));
+      var width_16715091 = absInt(subInt(belt_16715032.br.Field0, belt_16715032.tl.Field0));
       L7: do {
-        var i_16625099 = 0;
-        var i_16891618 = 0;
+        var i_16715099 = 0;
+        var i_16995807 = 0;
         L8: do {
             L9: while (true) {
-            if (!(i_16891618 < width_16625091)) break L9;
-              i_16625099 = i_16891618;
-              if ((modInt(addInt(i_16625099, ((belt_16625032.offset)|0)), 3) == 0)) {
-              vline_15010301(toPint_14370366(subInt(addInt(belt_16625032.tl.Field0, width_16625091), i_16625099)), toPint_14370366(belt_16625032.tl.Field1), toPint_14370366(belt_16625032.br.Field1));
+            if (!(i_16995807 < width_16715091)) break L9;
+              i_16715099 = i_16995807;
+              if ((modInt(addInt(i_16715099, ((belt_16715032.offset)|0)), 3) == 0)) {
+              vline_15010301(toPint_14370366(subInt(addInt(belt_16715032.tl.Field0, width_16715091), i_16715099)), toPint_14370366(belt_16715032.tl.Field1), toPint_14370366(belt_16715032.br.Field1));
               }
               
-              i_16891618 = addInt(i_16891618, 1);
+              i_16995807 = addInt(i_16995807, 1);
             }
         } while(false);
       } while(false);
       break;
     case 3:
-      var width_16625112 = absInt(subInt(belt_16625032.br.Field0, belt_16625032.tl.Field0));
+      var width_16715112 = absInt(subInt(belt_16715032.br.Field0, belt_16715032.tl.Field0));
       L10: do {
-        var i_16625120 = 0;
-        var i_16891622 = 0;
+        var i_16715120 = 0;
+        var i_16995811 = 0;
         L11: do {
             L12: while (true) {
-            if (!(i_16891622 < width_16625112)) break L12;
-              i_16625120 = i_16891622;
-              if ((modInt(addInt(i_16625120, ((belt_16625032.offset)|0)), 3) == 0)) {
-              vline_15010301(toPint_14370366(addInt(belt_16625032.tl.Field0, i_16625120)), toPint_14370366(belt_16625032.tl.Field1), toPint_14370366(belt_16625032.br.Field1));
+            if (!(i_16995811 < width_16715112)) break L12;
+              i_16715120 = i_16995811;
+              if ((modInt(addInt(i_16715120, ((belt_16715032.offset)|0)), 3) == 0)) {
+              vline_15010301(toPint_14370366(addInt(belt_16715032.tl.Field0, i_16715120)), toPint_14370366(belt_16715032.tl.Field1), toPint_14370366(belt_16715032.br.Field1));
               }
               
-              i_16891622 = addInt(i_16891622, 1);
+              i_16995811 = addInt(i_16995811, 1);
             }
         } while(false);
       } while(false);
@@ -6374,30 +7051,30 @@ function draw_16625030(belt_16625032) {
 
   
 }
-function drawBg_16545395(booth_16545397) {
+function drawBg_16625381(booth_16625383) {
     setColor_14996289(1);
-    boxfill_15010279(toPint_14370366(booth_16545397.x), toPint_14370366(booth_16545397.y), 7, 8);
+    boxfill_15010279(toPint_14370366(booth_16625383.x), toPint_14370366(booth_16625383.y), 7, 8);
     setColor_14996289(28);
-    vline_15010301(toPint_14370366(booth_16545397.x), toPint_14370366(booth_16545397.y), toPint_14370366(addInt(booth_16545397.y, 7)));
-    vline_15010301(toPint_14370366(subInt(addInt(booth_16545397.x, 7), 1)), toPint_14370366(booth_16545397.y), toPint_14370366(addInt(booth_16545397.y, 7)));
-    hline_15010291(toPint_14370366(booth_16545397.x), toPint_14370366(booth_16545397.y), toPint_14370366(subInt(addInt(booth_16545397.x, 7), 1)));
+    vline_15010301(toPint_14370366(booth_16625383.x), toPint_14370366(booth_16625383.y), toPint_14370366(addInt(booth_16625383.y, 7)));
+    vline_15010301(toPint_14370366(subInt(addInt(booth_16625383.x, 7), 1)), toPint_14370366(booth_16625383.y), toPint_14370366(addInt(booth_16625383.y, 7)));
+    hline_15010291(toPint_14370366(booth_16625383.x), toPint_14370366(booth_16625383.y), toPint_14370366(subInt(addInt(booth_16625383.x, 7), 1)));
     setColor_14996289(19);
-    hline_15010291(toPint_14370366(addInt(booth_16545397.x, 2)), toPint_14370366(addInt(booth_16545397.y, 4)), toPint_14370366(subInt(addInt(booth_16545397.x, 7), 3)));
-    vline_15010301(toPint_14370366(addInt(booth_16545397.x, 3)), toPint_14370366(addInt(booth_16545397.y, 4)), toPint_14370366(addInt(booth_16545397.y, 7)));
+    hline_15010291(toPint_14370366(addInt(booth_16625383.x, 2)), toPint_14370366(addInt(booth_16625383.y, 4)), toPint_14370366(subInt(addInt(booth_16625383.x, 7), 3)));
+    vline_15010301(toPint_14370366(addInt(booth_16625383.x, 3)), toPint_14370366(addInt(booth_16625383.y, 4)), toPint_14370366(addInt(booth_16625383.y, 7)));
     setColor_14996289(13);
-    vline_15010301(toPint_14370366(addInt(booth_16545397.x, 5)), toPint_14370366(addInt(booth_16545397.y, 1)), toPint_14370366(subInt(addInt(booth_16545397.y, 7), 1)));
+    vline_15010301(toPint_14370366(addInt(booth_16625383.x, 5)), toPint_14370366(addInt(booth_16625383.y, 1)), toPint_14370366(subInt(addInt(booth_16625383.y, 7), 1)));
 
   
 }
-function draw_16545263(b_16545265) {
+function draw_16625249(b_16625251) {
     setColor_14996289(7);
-    boxfill_15010279(toPint_12755100(b_16545265.x), toPint_12755100(b_16545265.y), 3, 1);
-    if (b_16545265.flipped) {
+    boxfill_15010279(toPint_12755100(b_16625251.x), toPint_12755100(b_16625251.y), 3, 1);
+    if (b_16625251.flipped) {
     setColor_14996289(6);
     }
     else {
-      if ((b_16545265.vote == 0)) {
-      setColor_14996289(8);
+      if ((b_16625251.vote == 0)) {
+      setColor_14996289(9);
       }
       else {
       setColor_14996289(12);
@@ -6405,42 +7082,42 @@ function draw_16545263(b_16545265) {
       
     }
     
-    boxfill_15010279(toPint_12755100(b_16545265.x), toPint_12755100((b_16545265.y + 1.0000000000000000e+00)), 3, 2);
+    boxfill_15010279(toPint_12755100(b_16625251.x), toPint_12755100((b_16625251.y + 1.0000000000000000e+00)), 3, 2);
 
   
 }
-function draw_16585073(m_16585075) {
-    setColor_14996289(7);
-    rectfill_15010241(toPint_14370366(m_16585075.x), toPint_14370366(m_16585075.y), toPint_14370366(subInt(addInt(m_16585075.x, 7), 1)), toPint_14370366(subInt(addInt(m_16585075.y, 7), 1)));
-    if (m_16585075.broken) {
-    setColor_14996289(25);
+function draw_16665073(m_16665075) {
+    if (m_16665075.broken) {
+    setColor_14996289(14);
     }
     else {
-    setColor_14996289(6);
+    setColor_14996289(7);
     }
     
-    rectfill_15010241(toPint_14370366(addInt(m_16585075.x, 1)), toPint_14370366(addInt(m_16585075.y, 1)), toPint_14370366(subInt(addInt(m_16585075.x, 7), 2)), toPint_14370366(addInt(m_16585075.y, 4)));
-    if ((0 <= m_16585075.lastBallot)) {
-    if ((m_16585075.lastBallot == 0)) {
-    setColor_14996289(8);
+    rectfill_15010241(toPint_14370366(m_16665075.x), toPint_14370366(m_16665075.y), toPint_14370366(subInt(addInt(m_16665075.x, 7), 1)), toPint_14370366(subInt(addInt(m_16665075.y, 7), 1)));
+    setColor_14996289(6);
+    rectfill_15010241(toPint_14370366(addInt(m_16665075.x, 1)), toPint_14370366(addInt(m_16665075.y, 1)), toPint_14370366(subInt(addInt(m_16665075.x, 7), 2)), toPint_14370366(addInt(m_16665075.y, 4)));
+    if ((0 <= m_16665075.lastBallot)) {
+    if ((m_16665075.lastBallot == 0)) {
+    setColor_14996289(9);
     }
     else {
     setColor_14996289(12);
     }
     
-    rectfill_15010241(toPint_14370366(addInt(m_16585075.x, 1)), toPint_14370366(addInt(m_16585075.y, 1)), toPint_14370366(subInt(addInt(m_16585075.x, 7), 2)), toPint_14370366(addInt(m_16585075.y, 4)));
+    rectfill_15010241(toPint_14370366(addInt(m_16665075.x, 1)), toPint_14370366(addInt(m_16665075.y, 1)), toPint_14370366(subInt(addInt(m_16665075.x, 7), 2)), toPint_14370366(addInt(m_16665075.y, 4)));
     }
     
 
   
 }
-function draw_16507602(p_16507604) {
+function draw_16585409(p_16585411) {
     var Tmp1;
 
-    setColor_14996289(p_16507604.color);
-    boxfill_15010279(toPint_12755083(p_16507604.x), toPint_12755083(p_16507604.y), 3, 5);
-    if ((p_16507604.blinkLeft == 0.0)) {
-    if ((ConstSet10[chckRange(p_16507604.color, 0, 65535)] != undefined)) {
+    setColor_14996289(p_16585411.color);
+    boxfill_15010279(toPint_12755083(p_16585411.x), toPint_12755083(p_16585411.y), 3, 5);
+    if ((p_16585411.blinkLeft == 0.0)) {
+    if ((ConstSet8[chckRange(p_16585411.color, 0, 65535)] != undefined)) {
     Tmp1 = 13;
     }
     else {
@@ -6448,12 +7125,12 @@ function draw_16507602(p_16507604) {
     }
     
     setColor_14996289(Tmp1);
-    if ((ConstSet11[p_16507604.facing] != undefined)) {
-    pset_15010202(toPint_12755083(p_16507604.x), toPint_12755083(p_16507604.y));
+    if ((ConstSet9[p_16585411.facing] != undefined)) {
+    pset_15010202(toPint_12755083(p_16585411.x), toPint_12755083(p_16585411.y));
     }
     
-    if ((ConstSet12[p_16507604.facing] != undefined)) {
-    pset_15010202(toPint_12755083((p_16507604.x + 2.0000000000000000e+00)), toPint_12755083(p_16507604.y));
+    if ((ConstSet10[p_16585411.facing] != undefined)) {
+    pset_15010202(toPint_12755083((p_16585411.x + 2.0000000000000000e+00)), toPint_12755083(p_16585411.y));
     }
     
     }
@@ -6461,83 +7138,60 @@ function draw_16507602(p_16507604) {
 
   
 }
-function circ_15010329(cx_15010331, cy_15010332, r_15010333) {
-  BeforeRet: do {
-    if ((r_15010333 == 1)) {
-    pset_15010202((cx_15010331 - 1), cy_15010332);
-    pset_15010202((cx_15010331 + 1), cy_15010332);
-    pset_15010202(cx_15010331, (cy_15010332 - 1));
-    pset_15010202(cx_15010331, (cy_15010332 + 1));
-    break BeforeRet;
+function draw_16710082(pat_16710084) {
+    draw_16585409(pat_16710084.creature);
+
+  
+}
+function draw_16690029(b_16690032) {
+    var Tmp1;
+      var Tmp2;
+
+      if (b_16690032.isPushed) Tmp2 = true; else {        Tmp2 = (0.0 < b_16690032.animSecondsLeft);      }    if (Tmp2) {
+    Tmp1 = 0;
+    }
+    else {
+    Tmp1 = 2;
     }
     
-    var err_15460037 = -(r_15010333);
-    var x_15460038 = r_15010333;
-    var y_15460039 = 0;
+    var lip_16695011 = Tmp1;
+    var lx_16695012 = addInt(b_16690032.loc.Field0, 1);
+    var rx_16695013 = subInt(addInt(b_16690032.loc.Field0, gridSize_16507092[0]), 2);
+    var by_16695014 = subInt(addInt(b_16690032.loc.Field1, gridSize_16507092[0]), 1);
+    setColor_14996289(3);
+    rectfill_15010241(toPint_14370366(lx_16695012), toPint_14370366(subInt(by_16695014, 1)), toPint_14370366(rx_16695013), toPint_14370366(by_16695014));
+    setColor_14996289(11);
+    rectfill_15010241(toPint_14370366(lx_16695012), toPint_14370366(subInt(addInt(b_16690032.loc.Field1, 3), lip_16695011)), toPint_14370366(rx_16695013), toPint_14370366(subInt(by_16695014, lip_16695011)));
+
+  
+}
+function drawFG_16625478(booth_16625480) {
+    if (isSome_16625496(booth_16625480.voter)) {
+    draw_16585409(get_16625659(booth_16625480.voter));
+    }
+    
+    if ((ConstSet11[booth_16625480.voterState] != undefined)) {
     L1: do {
-        L2: while (true) {
-        if (!(y_15460039 <= x_15460038)) break L2;
-          pset_15010202((cx_15010331 + x_15460038), (cy_15010332 + y_15460039));
-          pset_15010202((cx_15010331 + y_15460039), (cy_15010332 + x_15460038));
-          pset_15010202((cx_15010331 - y_15460039), (cy_15010332 + x_15460038));
-          pset_15010202((cx_15010331 - x_15460038), (cy_15010332 + y_15460039));
-          pset_15010202((cx_15010331 - x_15460038), (cy_15010332 - y_15460039));
-          pset_15010202((cx_15010331 - y_15460039), (cy_15010332 - x_15460038));
-          pset_15010202((cx_15010331 + y_15460039), (cy_15010332 - x_15460038));
-          pset_15010202((cx_15010331 + x_15460038), (cy_15010332 - y_15460039));
-          y_15460039 += 1;
-          err_15460037 += (1 + (2 * y_15460039));
-          if ((0 < ((2 * (err_15460037 - x_15460038)) + 1))) {
-          x_15460038 -= 1;
-          err_15460037 += (1 - (2 * x_15460038));
-          }
-          
-        }
-    } while(false);
-  } while (false);
-
-  
-}
-function draw_16620082(pat_16620084) {
-    setColor_14996289(0);
-    circ_15010329(toPint_12755083((pat_16620084.creature.x + 1.0000000000000000e+00)), toPint_12755083((pat_16620084.creature.y + 2.0000000000000000e+00)), toPint_14370366(patrolViewRadius_16507185[0]));
-    draw_16507602(pat_16620084.creature);
-
-  
-}
-function drawFG_16545492(booth_16545494) {
-    if (isSome_16545510(booth_16545494.voter)) {
-    draw_16507602(get_16545659(booth_16545494.voter));
-    }
-    
-    if ((ConstSet13[booth_16545494.voterState] != undefined)) {
-    L1: do {
-      var x_16555017 = 0;
-      var i_16891630 = 1;
+      var x_16635017 = 0;
+      var i_16995823 = 1;
       L2: do {
           L3: while (true) {
-          if (!(i_16891630 < 6)) break L3;
-            x_16555017 = i_16891630;
-            if ((modInt(x_16555017, 2) == 0)) {
+          if (!(i_16995823 < 6)) break L3;
+            x_16635017 = i_16995823;
+            if ((modInt(x_16635017, 2) == 0)) {
             setColor_14996289(29);
             }
             else {
             setColor_14996289(13);
             }
             
-            vline_15010301(toPint_14370366(addInt(booth_16545494.x, x_16555017)), toPint_14370366(addInt(booth_16545494.y, 1)), toPint_14370366(subInt(addInt(addInt(booth_16545494.y, 1), 7), 2)));
-            i_16891630 = addInt(i_16891630, 1);
+            vline_15010301(toPint_14370366(addInt(booth_16625480.x, x_16635017)), toPint_14370366(addInt(booth_16625480.y, 1)), toPint_14370366(subInt(addInt(addInt(booth_16625480.y, 1), 7), 2)));
+            i_16995823 = addInt(i_16995823, 1);
           }
       } while(false);
     } while(false);
     }
     
-
-  
-}
-function printc_14996265(text_14996267, x_14996268, y_14996269, scale_14996270) {
-    var width_16205216 = textWidth_14996277(text_14996267, scale_14996270);
-    print_14996259(text_14996267, subInt(x_14996268, divInt(width_16205216, 2)), y_14996269, scale_14996270);
 
   
 }
@@ -6552,11 +7206,11 @@ function parseSaturatedNatural_9425017(s_9425019, b_9425021, b_9425021_Idx, star
     i_9425025 = addInt(i_9425025, 1);
     }
     
-      if (!(i_9425025 < (s_9425019).length)) Tmp1 = false; else {        Tmp1 = (ConstSet19[s_9425019[chckIndx(i_9425025, 0, (s_9425019).length-1)]] != undefined);      }    if (Tmp1) {
+      if (!(i_9425025 < (s_9425019).length)) Tmp1 = false; else {        Tmp1 = (ConstSet17[s_9425019[chckIndx(i_9425025, 0, (s_9425019).length-1)]] != undefined);      }    if (Tmp1) {
     b_9425021[b_9425021_Idx] = 0;
     L2: do {
         L3: while (true) {
-          if (!(i_9425025 < (s_9425019).length)) Tmp4 = false; else {            Tmp4 = (ConstSet20[s_9425019[chckIndx(i_9425025, 0, (s_9425019).length-1)]] != undefined);          }        if (!Tmp4) break L3;
+          if (!(i_9425025 < (s_9425019).length)) Tmp4 = false; else {            Tmp4 = (ConstSet18[s_9425019[chckIndx(i_9425025, 0, (s_9425019).length-1)]] != undefined);          }        if (!Tmp4) break L3;
           var c_9435016 = subInt(s_9425019[chckIndx(i_9425025, 0, (s_9425019).length-1)], 48);
           if ((b_9425021[b_9425021_Idx] <= divInt(subInt(2147483647, c_9435016), 10))) {
           b_9425021[b_9425021_Idx] = addInt(mulInt(b_9425021[b_9425021_Idx], 10), c_9435016);
@@ -6589,13 +7243,13 @@ function HEX5BHEX5D_5820068(s_5820072, x_5820074) {
     result_5820075 = nimCopy(null, mnewString(chckRange(L_5820401, 0, 2147483647)), NTI1188013);
     L1: do {
       var i_5820409 = 0;
-      var i_16891646 = 0;
+      var i_16995839 = 0;
       L2: do {
           L3: while (true) {
-          if (!(i_16891646 < L_5820401)) break L3;
-            i_5820409 = i_16891646;
+          if (!(i_16995839 < L_5820401)) break L3;
+            i_5820409 = i_16995839;
             result_5820075[chckIndx(i_5820409, 0, (result_5820075).length-1)] = s_5820072[chckIndx(addInt(i_5820409, a_5820201), 0, (s_5820072).length-1)];
-            i_16891646 = addInt(i_16891646, 1);
+            i_16995839 = addInt(i_16995839, 1);
           }
       } while(false);
     } while(false);
@@ -6622,18 +7276,18 @@ function parseStandardFormatSpecifier_13015322(s_13015324, start_13015325, ignor
     result_13015328.align = 0;
     result_13015328.sign = 45;
     var i_13015331 = start_13015325;
-    if (((addInt(i_13015331, 1) < (s_13015324).length) && (ConstSet15[s_13015324[chckIndx(addInt(i_13015331, 1), 0, (s_13015324).length-1)]] != undefined))) {
+    if (((addInt(i_13015331, 1) < (s_13015324).length) && (ConstSet13[s_13015324[chckIndx(addInt(i_13015331, 1), 0, (s_13015324).length-1)]] != undefined))) {
     result_13015328.fill = s_13015324[chckIndx(i_13015331, 0, (s_13015324).length-1)];
     result_13015328.align = s_13015324[chckIndx(addInt(i_13015331, 1), 0, (s_13015324).length-1)];
     i_13015331 = addInt(i_13015331, 2);
     }
     else {
-    if (((i_13015331 < (s_13015324).length) && (ConstSet16[s_13015324[chckIndx(i_13015331, 0, (s_13015324).length-1)]] != undefined))) {
+    if (((i_13015331 < (s_13015324).length) && (ConstSet14[s_13015324[chckIndx(i_13015331, 0, (s_13015324).length-1)]] != undefined))) {
     result_13015328.align = s_13015324[chckIndx(i_13015331, 0, (s_13015324).length-1)];
     i_13015331 = addInt(i_13015331, 1);
     }
     }
-    if (((i_13015331 < (s_13015324).length) && (ConstSet17[s_13015324[chckIndx(i_13015331, 0, (s_13015324).length-1)]] != undefined))) {
+    if (((i_13015331 < (s_13015324).length) && (ConstSet15[s_13015324[chckIndx(i_13015331, 0, (s_13015324).length-1)]] != undefined))) {
     result_13015328.sign = s_13015324[chckIndx(i_13015331, 0, (s_13015324).length-1)];
     i_13015331 = addInt(i_13015331, 1);
     }
@@ -6643,7 +7297,7 @@ function parseStandardFormatSpecifier_13015322(s_13015324, start_13015325, ignor
     i_13015331 = addInt(i_13015331, 1);
     }
     
-      if (!((addInt(i_13015331, 1) < (s_13015324).length) && (s_13015324[chckIndx(i_13015331, 0, (s_13015324).length-1)] == 48))) Tmp1 = false; else {        Tmp1 = (ConstSet18[s_13015324[chckIndx(addInt(i_13015331, 1), 0, (s_13015324).length-1)]] != undefined);      }    if (Tmp1) {
+      if (!((addInt(i_13015331, 1) < (s_13015324).length) && (s_13015324[chckIndx(i_13015331, 0, (s_13015324).length-1)] == 48))) Tmp1 = false; else {        Tmp1 = (ConstSet16[s_13015324[chckIndx(addInt(i_13015331, 1), 0, (s_13015324).length-1)]] != undefined);      }    if (Tmp1) {
     result_13015328.padWithZero = true;
     i_13015331 = addInt(i_13015331, 1);
     }
@@ -6659,7 +7313,7 @@ function parseStandardFormatSpecifier_13015322(s_13015324, start_13015325, ignor
       result_13015328.precision = -1;
     }
     
-      if (!(i_13015331 < (s_13015324).length)) Tmp2 = false; else {        Tmp2 = (ConstSet21[s_13015324[chckIndx(i_13015331, 0, (s_13015324).length-1)]] != undefined);      }    if (Tmp2) {
+      if (!(i_13015331 < (s_13015324).length)) Tmp2 = false; else {        Tmp2 = (ConstSet19[s_13015324[chckIndx(i_13015331, 0, (s_13015324).length-1)]] != undefined);      }    if (Tmp2) {
     result_13015328.typ = s_13015324[chckIndx(i_13015331, 0, (s_13015324).length-1)];
     i_13015331 = addInt(i_13015331, 1);
     }
@@ -6700,18 +7354,18 @@ function nsuformatBiggestFloat(f_10380221, format_10380222, precision_10380227, 
     
     L1: do {
       var i_10380410 = 0;
-      var colontmp__16891651 = 0;
-      colontmp__16891651 = (result_10380229).length;
-      var i_16891652 = 0;
+      var colontmp__16995844 = 0;
+      colontmp__16995844 = (result_10380229).length;
+      var i_16995845 = 0;
       L2: do {
           L3: while (true) {
-          if (!(i_16891652 < colontmp__16891651)) break L3;
-            i_10380410 = i_16891652;
-            if ((ConstSet22[result_10380229[chckIndx(i_10380410, 0, (result_10380229).length-1)]] != undefined)) {
+          if (!(i_16995845 < colontmp__16995844)) break L3;
+            i_10380410 = i_16995845;
+            if ((ConstSet20[result_10380229[chckIndx(i_10380410, 0, (result_10380229).length-1)]] != undefined)) {
             result_10380229[chckIndx(i_10380410, 0, (result_10380229).length-1)] = decimalSep_10380228;
             }
             
-            i_16891652 = addInt(i_16891652, 1);
+            i_16995845 = addInt(i_16995845, 1);
           }
       } while(false);
     } while(false);
@@ -6747,15 +7401,15 @@ function nsuRepeatChar(c_10065124, count_10065125) {
     result_10065126 = nimCopy(null, mnewString(count_10065125), NTI1188013);
     L1: do {
       var i_10065135 = 0;
-      var colontmp__16891657 = 0;
-      colontmp__16891657 = subInt(count_10065125, 1);
-      var res_16891658 = 0;
+      var colontmp__16995850 = 0;
+      colontmp__16995850 = subInt(count_10065125, 1);
+      var res_16995851 = 0;
       L2: do {
           L3: while (true) {
-          if (!(res_16891658 <= colontmp__16891657)) break L3;
-            i_10065135 = res_16891658;
+          if (!(res_16995851 <= colontmp__16995850)) break L3;
+            i_10065135 = res_16995851;
             result_10065126[chckIndx(i_10065135, 0, (result_10065126).length-1)] = c_10065124;
-            res_16891658 = addInt(res_16891658, 1);
+            res_16995851 = addInt(res_16995851, 1);
           }
       } while(false);
     } while(false);
@@ -6877,7 +7531,7 @@ function alignString_13015222(s_13015224, minimumWidth_13015225, align_13015226,
 function nsuToUpperAsciiChar(c_9555016) {
   var result_9555017 = 0;
 
-    if ((ConstSet24[c_9555016] != undefined)) {
+    if ((ConstSet22[c_9555016] != undefined)) {
     result_9555017 = chckRange(subInt(c_9555016, 32), 0, 255);
     }
     else {
@@ -6894,15 +7548,15 @@ function nsuToUpperAsciiStr(s_9560037) {
     result_9560038 = nimCopy(null, mnewString(chckRange((s_9560037).length, 0, 2147483647)), NTI1188013);
     L1: do {
       var iHEX60gensym11_9565009 = 0;
-      var colontmp__16891676 = 0;
-      colontmp__16891676 = subInt((s_9560037).length, 1);
-      var res_16891677 = 0;
+      var colontmp__16995869 = 0;
+      colontmp__16995869 = subInt((s_9560037).length, 1);
+      var res_16995870 = 0;
       L2: do {
           L3: while (true) {
-          if (!(res_16891677 <= colontmp__16891676)) break L3;
-            iHEX60gensym11_9565009 = res_16891677;
+          if (!(res_16995870 <= colontmp__16995869)) break L3;
+            iHEX60gensym11_9565009 = res_16995870;
             result_9560038[chckIndx(iHEX60gensym11_9565009, 0, (result_9560038).length-1)] = nsuToUpperAsciiChar(s_9560037[chckIndx(iHEX60gensym11_9565009, 0, (s_9560037).length-1)]);
-            res_16891677 = addInt(res_16891677, 1);
+            res_16995870 = addInt(res_16995870, 1);
           }
       } while(false);
     } while(false);
@@ -6910,149 +7564,416 @@ function nsuToUpperAsciiStr(s_9560037) {
   return result_9560038;
 
 }
-function formatValue_16770001(result_16770004, result_16770004_Idx, value_16770005, specifier_16770006) {
+function formatValue_16930001(result_16930004, result_16930004_Idx, value_16930005, specifier_16930006) {
     var Tmp1;
 
   BeforeRet: do {
-    if (((specifier_16770006).length == 0)) {
-    result_16770004[result_16770004_Idx].push.apply(result_16770004[result_16770004_Idx], cstrToNimstr(nimFloatToString(value_16770005)));;
+    if (((specifier_16930006).length == 0)) {
+    result_16930004[result_16930004_Idx].push.apply(result_16930004[result_16930004_Idx], cstrToNimstr(nimFloatToString(value_16930005)));;
     break BeforeRet;
     }
     
-    var spec_16770007 = parseStandardFormatSpecifier_13015322(specifier_16770006, 0, false);
-    var fmode_16770008 = 0;
-    switch (spec_16770007.typ) {
+    var spec_16930007 = parseStandardFormatSpecifier_13015322(specifier_16930006, 0, false);
+    var fmode_16930008 = 0;
+    switch (spec_16930007.typ) {
     case 101:
     case 69:
-      fmode_16770008 = 2;
+      fmode_16930008 = 2;
       break;
     case 102:
     case 70:
-      fmode_16770008 = 1;
+      fmode_16930008 = 1;
       break;
     case 103:
     case 71:
-      fmode_16770008 = 0;
+      fmode_16930008 = 0;
       break;
     case 0:
       break;
     default: 
-      raiseException({message: (makeNimstrLit("invalid type in format string for number, expected one  of \'e\', \'E\', \'f\', \'F\', \'g\', \'G\' but got: ") || []).concat([spec_16770007.typ]), parent: null, m_type: NTI1194643, name: null, trace: [], up: null}, "ValueError");
+      raiseException({message: (makeNimstrLit("invalid type in format string for number, expected one  of \'e\', \'E\', \'f\', \'F\', \'g\', \'G\' but got: ") || []).concat([spec_16930007.typ]), parent: null, m_type: NTI1194643, name: null, trace: [], up: null}, "ValueError");
       break;
     }
-    var f_16775002 = [nsuformatBiggestFloat(value_16770005, fmode_16770008, chckRange(spec_16770007.precision, -1, 32), 46)];
-    var sign_16775003 = false;
-    if ((0.0 <= value_16770005)) {
-    if (!((spec_16770007.sign == 45))) {
-    sign_16775003 = true;
-    if ((value_16770005 == 0.0)) {
-    if (((1.0000000000000000e+00 / value_16770005) == Infinity)) {
-    insert_1565401(f_16775002, 0, nimCharToStr(spec_16770007.sign), 0);
+    var f_16935002 = [nsuformatBiggestFloat(value_16930005, fmode_16930008, chckRange(spec_16930007.precision, -1, 32), 46)];
+    var sign_16935003 = false;
+    if ((0.0 <= value_16930005)) {
+    if (!((spec_16930007.sign == 45))) {
+    sign_16935003 = true;
+    if ((value_16930005 == 0.0)) {
+    if (((1.0000000000000000e+00 / value_16930005) == Infinity)) {
+    insert_1565401(f_16935002, 0, nimCharToStr(spec_16930007.sign), 0);
     }
     
     }
     else {
-    insert_1565401(f_16775002, 0, nimCharToStr(spec_16770007.sign), 0);
+    insert_1565401(f_16935002, 0, nimCharToStr(spec_16930007.sign), 0);
     }
     
     }
     
     }
     else {
-      sign_16775003 = true;
+      sign_16935003 = true;
     }
     
-    if (spec_16770007.padWithZero) {
-    var signStr_16775006 = [];
-    if (sign_16775003) {
-    signStr_16775006 = nimCopy(null, nimCharToStr(f_16775002[0][chckIndx(0, 0, (f_16775002[0]).length-1)]), NTI1188013);
-    f_16775002[0] = nimCopy(null, HEX5BHEX5D_5820068(f_16775002[0], HEX2EHEX2E_5820001(1, 1)), NTI1188013);
+    if (spec_16930007.padWithZero) {
+    var signStr_16935006 = [];
+    if (sign_16935003) {
+    signStr_16935006 = nimCopy(null, nimCharToStr(f_16935002[0][chckIndx(0, 0, (f_16935002[0]).length-1)]), NTI1188013);
+    f_16935002[0] = nimCopy(null, HEX5BHEX5D_5820068(f_16935002[0], HEX2EHEX2E_5820001(1, 1)), NTI1188013);
     }
     
-    var toFill_16785040 = subInt(subInt(spec_16770007.minimumWidth, (f_16775002[0]).length), (sign_16775003 ? 1:0));
-    if ((0 < toFill_16785040)) {
-    f_16775002[0] = nimCopy(null, (nsuRepeatChar(48, chckRange(toFill_16785040, 0, 2147483647)) || []).concat(f_16775002[0] || []), NTI1188013);
+    var toFill_16945040 = subInt(subInt(spec_16930007.minimumWidth, (f_16935002[0]).length), (sign_16935003 ? 1:0));
+    if ((0 < toFill_16945040)) {
+    f_16935002[0] = nimCopy(null, (nsuRepeatChar(48, chckRange(toFill_16945040, 0, 2147483647)) || []).concat(f_16935002[0] || []), NTI1188013);
     }
     
-    if (sign_16775003) {
-    f_16775002[0] = nimCopy(null, (signStr_16775006 || []).concat(f_16775002[0] || []), NTI1188013);
+    if (sign_16935003) {
+    f_16935002[0] = nimCopy(null, (signStr_16935006 || []).concat(f_16935002[0] || []), NTI1188013);
     }
     
     }
     
-    if ((spec_16770007.align == 0)) {
+    if ((spec_16930007.align == 0)) {
     Tmp1 = 62;
     }
     else {
-    Tmp1 = spec_16770007.align;
+    Tmp1 = spec_16930007.align;
     }
     
-    var align_16785050 = Tmp1;
-    var res_16785051 = alignString_13015222(f_16775002[0], spec_16770007.minimumWidth, align_16785050, spec_16770007.fill);
-    if ((ConstSet23[spec_16770007.typ] != undefined)) {
-    result_16770004[result_16770004_Idx].push.apply(result_16770004[result_16770004_Idx], nsuToUpperAsciiStr(res_16785051));;
+    var align_16945050 = Tmp1;
+    var res_16945051 = alignString_13015222(f_16935002[0], spec_16930007.minimumWidth, align_16945050, spec_16930007.fill);
+    if ((ConstSet21[spec_16930007.typ] != undefined)) {
+    result_16930004[result_16930004_Idx].push.apply(result_16930004[result_16930004_Idx], nsuToUpperAsciiStr(res_16945051));;
     }
     else {
-    result_16770004[result_16770004_Idx].push.apply(result_16770004[result_16770004_Idx], res_16785051);;
+    result_16930004[result_16930004_Idx].push.apply(result_16930004[result_16930004_Idx], res_16945051);;
     }
     
   } while (false);
 
   
 }
-function draw_16705399(game_16705402) {
-      var Tmp1;
+function invLerp_16505054(a_16505056, b_16505057, v_16505058) {
+  var result_16505059 = 0.0;
+
+    result_16505059 = ((v_16505058 - a_16505056) / (b_16505057 - a_16505056));
+
+  return result_16505059;
+
+}
+function rect_15010235(x1_15010237, y1_15010238, x2_15010239, y2_15010240) {
+    var w_15390046 = (x2_15010239 - x1_15010237);
+    var h_15390047 = (y2_15010240 - y1_15010238);
+    var x_15390048 = x1_15010237;
+    var y_15390049 = y1_15010238;
+    hline_15010291(x_15390048, y_15390049, (x_15390048 + w_15390046));
+    hline_15010291(x_15390048, (y_15390049 + h_15390047), (x_15390048 + w_15390046));
+    vline_15010301((x_15390048 + w_15390046), (y_15390049 + 1), ((y_15390049 + h_15390047) - 1));
+    vline_15010301(x_15390048, (y_15390049 + 1), ((y_15390049 + h_15390047) - 1));
+
+  
+}
+function draw_16507805(bar_16507807) {
+    setColor_14996289(bar_16507807.bgColor);
+    rect_15010235(toPint_14370366(bar_16507807.pos.Field0), toPint_14370366(bar_16507807.pos.Field1), toPint_14370366(subInt(addInt(bar_16507807.pos.Field0, bar_16507807.width), 1)), toPint_14370366(subInt(addInt(bar_16507807.pos.Field1, bar_16507807.height), 1)));
+    setColor_14996289(bar_16507807.color);
+    var rx_16507824 = (bar_16507807.value * (toFloat_1216659(bar_16507807.width) - 2.0000000000000000e+00));
+    rectfill_15010241(toPint_14370366(addInt(bar_16507807.pos.Field0, 1)), toPint_14370366(addInt(bar_16507807.pos.Field1, 1)), addInt(toPint_14370366(bar_16507807.pos.Field0), toPint_12755083(rx_16507824)), toPint_14370366(subInt(addInt(bar_16507807.pos.Field1, bar_16507807.height), 2)));
+
+  
+}
+function hitbox_16635043(booth_16635045) {
+  var result_16635050 = {Field0: {Field0: 0, Field1: 0}, Field1: {Field0: 0, Field1: 0}};
+
+    var colontmp__16995875 = {Field0: booth_16635045.x, Field1: booth_16635045.y};
+    var colontmp__16995876 = {Field0: subInt(addInt(booth_16635045.x, 7), 1), Field1: addInt(booth_16635045.y, 7)};
+    nimCopy(result_16635050, {Field0: nimCopy(null, colontmp__16995875, NTI16507432), Field1: nimCopy(null, colontmp__16995876, NTI16507432)}, NTI16625148);
+
+  return result_16635050;
+
+}
+function hitbox_16685278(b_16685281) {
+    var Tmp1;
       var Tmp2;
-      var Tmp3;
+
+  var result_16685286 = {Field0: {Field0: 0, Field1: 0}, Field1: {Field0: 0, Field1: 0}};
+
+      if (b_16685281.isPushed) Tmp2 = true; else {        Tmp2 = (0.0 < b_16685281.animSecondsLeft);      }    if (Tmp2) {
+    Tmp1 = {Field0: {Field0: addInt(b_16685281.loc.Field0, 1), Field1: addInt(addInt(b_16685281.loc.Field1, 1), 2)}, Field1: {Field0: subInt(addInt(b_16685281.loc.Field0, gridSize_16507092[0]), 2), Field1: subInt(addInt(b_16685281.loc.Field1, gridSize_16507092[0]), 1)}};
+    }
+    else {
+    Tmp1 = {Field0: {Field0: addInt(b_16685281.loc.Field0, 1), Field1: addInt(b_16685281.loc.Field1, 1)}, Field1: {Field0: subInt(addInt(b_16685281.loc.Field0, gridSize_16507092[0]), 2), Field1: subInt(addInt(b_16685281.loc.Field1, gridSize_16507092[0]), 1)}};
+    }
+    
+    nimCopy(result_16685286, Tmp1, NTI16625148);
+
+  return result_16685286;
+
+}
+function sample_16565027(a_16565031) {
+  var result_16565032 = 0;
+
+    result_16565032 = a_16565031[chckIndx(rand_16565071(HEX2EHEX2E_3370220(0, ((a_16565031).length-1))), 0, (a_16565031).length-1)];
+
+  return result_16565032;
+
+}
+function rnd_16565021(a_16565025) {
+  var result_16565026 = 0;
+
+  BeforeRet: do {
+    result_16565026 = sample_16565027(a_16565025);
+    break BeforeRet;
+  } while (false);
+
+  return result_16565026;
+
+}
+function draw_16565014(particle_16565016) {
+    setColor_14996289(rnd_16565021([8, 9, 10, 14, 24]));
+    pset_15010202(toPint_12755083(particle_16565016.pos.Field0), toPint_12755083(particle_16565016.pos.Field1));
+
+  
+}
+function draw_16575253(explosion_16575256) {
+    L1: do {
+      var p_16585214 = null;
+      var i_16995879 = 0;
+      var L_16995880 = (explosion_16575256.particles).length;
+      L2: do {
+          L3: while (true) {
+          if (!(i_16995879 < L_16995880)) break L3;
+            p_16585214 = explosion_16575256.particles[chckIndx(i_16995879, 0, (explosion_16575256.particles).length-1)];
+            draw_16565014(p_16585214);
+            i_16995879 = addInt(i_16995879, 1);
+            if (!(((explosion_16575256.particles).length == L_16995880))) {
+            failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            }
+            
+          }
+      } while(false);
+    } while(false);
+
+  
+}
+function lerp_16520005(a_16520008, b_16520009, t_16520010) {
+  var result_16520011 = 0.0;
+
+  BeforeRet: do {
+    result_16520011 = (a_16520008 + ((b_16520009 - a_16520008) * t_16520010));
+    break BeforeRet;
+  } while (false);
+
+  return result_16520011;
+
+}
+function innerLineLow_15190147(x0_15190149, y0_15190150, x1_15190151, y1_15190152) {
+    var dx_15190153 = (x1_15190151 - x0_15190149);
+    var dy_15190154 = (y1_15190152 - y0_15190150);
+    var yi_15190156 = 1;
+    if ((dy_15190154 < 0)) {
+    yi_15190156 = -1;
+    dy_15190154 = -(dy_15190154);
+    }
+    
+    var D_15190170 = ((2 * dy_15190154) - dx_15190153);
+    var y_15190171 = y0_15190150;
+    L1: do {
+      var x_15190177 = 0;
+      var res_16995883 = x0_15190149;
+      L2: do {
+          L3: while (true) {
+          if (!(res_16995883 <= x1_15190151)) break L3;
+            x_15190177 = res_16995883;
+            pset_15010202(toPint_14370366(x_15190177), toPint_14370366(y_15190171));
+            if ((0 < D_15190170)) {
+            y_15190171 = (y_15190171 + yi_15190156);
+            D_15190170 = (D_15190170 - (2 * dx_15190153));
+            }
+            
+            D_15190170 = (D_15190170 + (2 * dy_15190154));
+            res_16995883 += 1;
+          }
+      } while(false);
+    } while(false);
+
+  
+}
+function innerLineHigh_15195030(x0_15195032, y0_15195033, x1_15195034, y1_15195035) {
+    var dx_15195036 = (x1_15195034 - x0_15195032);
+    var dy_15195037 = (y1_15195035 - y0_15195033);
+    var xi_15195039 = 1;
+    if ((dx_15195036 < 0)) {
+    xi_15195039 = -1;
+    dx_15195036 = -(dx_15195036);
+    }
+    
+    var D_15195053 = ((2 * dx_15195036) - dy_15195037);
+    var x_15195054 = x0_15195032;
+    L1: do {
+      var y_15195060 = 0;
+      var res_16995889 = y0_15195033;
+      L2: do {
+          L3: while (true) {
+          if (!(res_16995889 <= y1_15195035)) break L3;
+            y_15195060 = res_16995889;
+            pset_15010202(toPint_14370366(x_15195054), toPint_14370366(y_15195060));
+            if ((0 < D_15195053)) {
+            x_15195054 = (x_15195054 + xi_15195039);
+            D_15195053 = (D_15195053 - (2 * dy_15195037));
+            }
+            
+            D_15195053 = (D_15195053 + (2 * dx_15195036));
+            res_16995889 += 1;
+          }
+      } while(false);
+    } while(false);
+
+  
+}
+function innerLine_15315049(x0_15315051, y0_15315052, x1_15315053, y1_15315054) {
+    if ((Math.abs((y1_15315054 - y0_15315052)) < Math.abs((x1_15315053 - x0_15315051)))) {
+    if ((x1_15315053 < x0_15315051)) {
+    innerLineLow_15190147(((x1_15315053)|0), ((y1_15315054)|0), ((x0_15315051)|0), ((y0_15315052)|0));
+    }
+    else {
+    innerLineLow_15190147(((x0_15315051)|0), ((y0_15315052)|0), ((x1_15315053)|0), ((y1_15315054)|0));
+    }
+    
+    }
+    else {
+      if ((y1_15315054 < y0_15315052)) {
+      innerLineHigh_15195030(((x1_15315053)|0), ((y1_15315054)|0), ((x0_15315051)|0), ((y0_15315052)|0));
+      }
+      else {
+      innerLineHigh_15195030(((x0_15315051)|0), ((y0_15315052)|0), ((x1_15315053)|0), ((y1_15315054)|0));
+      }
+      
+    }
+    
+
+  
+}
+function line_15010285(x0_15010287, y0_15010288, x1_15010289, y1_15010290) {
+    if (((x0_15010287 == x1_15010289) && (y0_15010288 == y1_15010290))) {
+    pset_15010202(x0_15010287, y0_15010288);
+    }
+    else {
+    if ((x0_15010287 == x1_15010289)) {
+    vline_15010301(x0_15010287, y0_15010288, y1_15010290);
+    }
+    else {
+    if ((y0_15010288 == y1_15010290)) {
+    hline_15010291(x0_15010287, y0_15010288, x1_15010289);
+    }
+    else {
+    innerLine_15315049(x0_15010287, y0_15010288, x1_15010289, y1_15010290);
+    }
+    }}
+
+  
+}
+function draw_16510014(b_16510017) {
+    var v_16510018 = invLerp_16505054(0.0, beam_lifetime_16507268[0], (beam_lifetime_16507268[0] - b_16510017.secondsLeft));
+    var top_16510019 = 0.0;
+    var bottom_16510020 = 0.0;
+    if ((v_16510018 < 2.5000000000000000e-01)) {
+    if ((logCount_16507067[0] < logMax_16507070[0])) {
+    rawEcho(cstrToNimstr((logCount_16507067[0])+""), makeNimstrLit(": "), makeNimstrLit("beam coming down"));
+    logCount_16507067[0] = addInt(logCount_16507067[0], 1);
+    if ((logMax_16507070[0] <= logCount_16507067[0])) {
+    rawEcho(makeNimstrLit("STOPPING LOGGING"));
+    }
+    
+    }
+    
+    top_16510019 = 0.0;
+    bottom_16510020 = lerp_16520005(0.0, b_16510017.pos.Field1, invLerp_16505054(0.0, 2.5000000000000000e-01, v_16510018));
+    }
+    else {
+    if ((7.5000000000000000e-01 < v_16510018)) {
+    if ((logCount_16507067[0] < logMax_16507070[0])) {
+    rawEcho(cstrToNimstr((logCount_16507067[0])+""), makeNimstrLit(": "), makeNimstrLit("beam leaving"));
+    logCount_16507067[0] = addInt(logCount_16507067[0], 1);
+    if ((logMax_16507070[0] <= logCount_16507067[0])) {
+    rawEcho(makeNimstrLit("STOPPING LOGGING"));
+    }
+    
+    }
+    
+    bottom_16510020 = b_16510017.pos.Field1;
+    top_16510019 = lerp_16520005(0.0, b_16510017.pos.Field1, invLerp_16505054(7.5000000000000000e-01, 1.0000000000000000e+00, v_16510018));
+    }
+    else {
+      if ((logCount_16507067[0] < logMax_16507070[0])) {
+      rawEcho(cstrToNimstr((logCount_16507067[0])+""), makeNimstrLit(": "), makeNimstrLit("Beam holding"));
+      logCount_16507067[0] = addInt(logCount_16507067[0], 1);
+      if ((logMax_16507070[0] <= logCount_16507067[0])) {
+      rawEcho(makeNimstrLit("STOPPING LOGGING"));
+      }
+      
+      }
+      
+      top_16510019 = 0.0;
+      bottom_16510020 = b_16510017.pos.Field1;
+    }
+    }
+    var x1_16545024 = ((b_16510017.pos.Field0 - 4.0000000000000000e+00) + rnd_16545005(-1.0000000000000000e+00, 1.0000000000000000e+00));
+    var x2_16545030 = ((b_16510017.pos.Field0 + 4.0000000000000000e+00) + rnd_16545005(-1.0000000000000000e+00, 1.0000000000000000e+00));
+    setColor_14996289(7);
+    line_15010285(toPint_12755083(rnd_16545005(x1_16545024, x2_16545030)), toPint_12755083(top_16510019), toPint_12755083(rnd_16545005(x1_16545024, x2_16545030)), toPint_12755083(bottom_16510020));
+    setColor_14996289(11);
+    line_15010285(toPint_12755083(rnd_16545005(x1_16545024, x2_16545030)), toPint_12755083(top_16510019), toPint_12755083(rnd_16545005(x1_16545024, x2_16545030)), toPint_12755083(bottom_16510020));
+
+  
+}
+function draw_16855444(game_16855447) {
       var Tmp25;
-      var Tmp29;
-      function nfloat_16765026(x_16765028) {
-        var result_16765029 = [];
+      var Tmp32;
+      function nfloat_16925052(x_16925054) {
+        var result_16925055 = [];
 
-          var fmtRes_16765030 = [mnewString(0)];
-          formatValue_16770001(fmtRes_16765030, 0, x_16765028, makeNimstrLit("2.3f"));
-          result_16765029 = nimCopy(null, fmtRes_16765030[0], NTI1188013);
+          var fmtRes_16925056 = [mnewString(0)];
+          formatValue_16930001(fmtRes_16925056, 0, x_16925054, makeNimstrLit("2.3f"));
+          result_16925055 = nimCopy(null, fmtRes_16925056[0], NTI1188013);
 
-        return result_16765029;
+        return result_16925055;
 
       }
+              var Tmp37;
+      var Tmp38;
+      var Tmp39;
+      var Tmp40;
+      var Tmp41;
 
+  BeforeRet: do {
+    if ((game_16855447.state == 0)) {
+    var h1_16855453 = subInt(divInt(screenHeight_12755223[0], 2), 8);
+    var hw_16855454 = divInt(textWidth_14996277(makeNimstrLit("STEAL the ELECTION"), 1), 2);
+    setColor_14996289(8);
+    print_14996259(makeNimstrLit("STEAL"), toPint_14370366(subInt(divInt(screenWidth_12755220[0], 2), ((hw_16855454)|0))), toPint_14370366(h1_16855453), 1);
+    setColor_14996289(7);
+    print_14996259(makeNimstrLit("the"), toPint_14370366(addInt(subInt(divInt(screenWidth_12755220[0], 2), ((hw_16855454)|0)), ((textWidth_14996277(makeNimstrLit("STEAL "), 1))|0))), toPint_14370366(h1_16855453), 1);
     setColor_14996289(12);
-    switch (game_16705402.player1_selected.kind) {
-    case 1:
-      var Tmp1 = game_16705402.player1_selected;
-      if (ConstSet6[Tmp1.kind]===undefined) { raiseFieldError(makeNimstrLit("\'booth\' is not accessible using discriminant \'kind\' of type \'Selectable\'")); }
-      var hb_16705404 = hitbox_16555043(Tmp1.booth);
-      rectfill_15010241(toPint_14370366(subInt(hb_16705404.Field0.Field0, 1)), toPint_14370366(subInt(hb_16705404.Field0.Field1, 1)), toPint_14370366(addInt(hb_16705404.Field1.Field0, 1)), toPint_14370366(addInt(hb_16705404.Field1.Field1, 1)));
-      break;
-    case 3:
-      var Tmp2 = game_16705402.player1_selected;
-      if (ConstSet7[Tmp2.kind]===undefined) { raiseFieldError(makeNimstrLit("\'countingMachine\' is not accessible using discriminant \'kind\' of type \'Selectable\'")); }
-      var hb_16705422 = hitbox_16590038(Tmp2.countingMachine);
-      rectfill_15010241(toPint_14370366(subInt(hb_16705422.Field0.Field0, 1)), toPint_14370366(subInt(hb_16705422.Field0.Field1, 1)), toPint_14370366(addInt(hb_16705422.Field1.Field0, 1)), toPint_14370366(addInt(hb_16705422.Field1.Field1, 1)));
-      break;
-    case 2:
-      setColor_14996289(10);
-      var Tmp3 = game_16705402.player1_selected;
-      if (ConstSet8[Tmp3.kind]===undefined) { raiseFieldError(makeNimstrLit("\'ballot\' is not accessible using discriminant \'kind\' of type \'Selectable\'")); }
-      var hb_16705440 = hitbox_16545296(Tmp3.ballot);
-      rectfill_15010241(toPint_14370366(subInt(hb_16705440.Field0.Field0, 1)), toPint_14370366(subInt(hb_16705440.Field0.Field1, 1)), toPint_14370366(addInt(hb_16705440.Field1.Field0, 1)), toPint_14370366(addInt(hb_16705440.Field1.Field1, 1)));
-      break;
-    default: 
-      break;
+    print_14996259(makeNimstrLit("ELECTION"), toPint_14370366(addInt(subInt(divInt(screenWidth_12755220[0], 2), ((hw_16855454)|0)), ((textWidth_14996277(makeNimstrLit("STEAL the "), 1))|0))), toPint_14370366(h1_16855453), 1);
+    setColor_14996289(7);
+    printc_14996265(makeNimstrLit("Press Space to Start"), toPint_14370366(divInt(screenWidth_12755220[0], 2)), toPint_14370366(divInt(screenHeight_12755223[0], 2)), 1);
+    break BeforeRet;
     }
-    if ((ConstSet9[game_16705402.state] != undefined)) {
-    L4: do {
-      var b_16720214 = null;
-      var i_16891561 = 0;
-      var L_16891562 = (game_16705402.belts).length;
-      L5: do {
-          L6: while (true) {
-          if (!(i_16891561 < L_16891562)) break L6;
-            b_16720214 = game_16705402.belts[chckIndx(i_16891561, 0, (game_16705402.belts).length-1)];
-            draw_16625030(b_16720214);
-            i_16891561 = addInt(i_16891561, 1);
-            if (!(((game_16705402.belts).length == L_16891562))) {
+    
+    if ((ConstSet7[game_16855447.state] != undefined)) {
+    L1: do {
+      var b_16870214 = null;
+      var i_16995737 = 0;
+      var L_16995738 = (game_16855447.belts).length;
+      L2: do {
+          L3: while (true) {
+          if (!(i_16995737 < L_16995738)) break L3;
+            b_16870214 = game_16855447.belts[chckIndx(i_16995737, 0, (game_16855447.belts).length-1)];
+            draw_16715030(b_16870214);
+            i_16995737 = addInt(i_16995737, 1);
+            if (!(((game_16855447.belts).length == L_16995738))) {
             failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
             
@@ -7061,21 +7982,40 @@ function draw_16705399(game_16705402) {
     } while(false);
     }
     
-    switch (game_16705402.state) {
-    case 1:
+    switch (game_16855447.state) {
     case 0:
+      break;
+    case 2:
+    case 1:
+      L4: do {
+        var b_16880214 = null;
+        var b_16880214_Idx = 0;
+        var i_16995742 = 0;
+        var L_16995743 = (game_16855447.booths).length;
+        L5: do {
+            L6: while (true) {
+            if (!(i_16995742 < L_16995743)) break L6;
+              b_16880214 = game_16855447.booths; b_16880214_Idx = chckIndx(i_16995742, 0, (game_16855447.booths).length-1);
+              drawBg_16625381(b_16880214[b_16880214_Idx]);
+              i_16995742 = addInt(i_16995742, 1);
+              if (!(((game_16855447.booths).length == L_16995743))) {
+              failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+              }
+              
+            }
+        } while(false);
+      } while(false);
       L7: do {
-        var b_16730214 = null;
-        var b_16730214_Idx = 0;
-        var i_16891566 = 0;
-        var L_16891567 = (game_16705402.booths).length;
+        var b_16890214 = null;
+        var i_16995747 = 0;
+        var L_16995748 = (game_16855447.ballots).length;
         L8: do {
             L9: while (true) {
-            if (!(i_16891566 < L_16891567)) break L9;
-              b_16730214 = game_16705402.booths; b_16730214_Idx = chckIndx(i_16891566, 0, (game_16705402.booths).length-1);
-              drawBg_16545395(b_16730214[b_16730214_Idx]);
-              i_16891566 = addInt(i_16891566, 1);
-              if (!(((game_16705402.booths).length == L_16891567))) {
+            if (!(i_16995747 < L_16995748)) break L9;
+              b_16890214 = game_16855447.ballots[chckIndx(i_16995747, 0, (game_16855447.ballots).length-1)];
+              draw_16625249(b_16890214);
+              i_16995747 = addInt(i_16995747, 1);
+              if (!(((game_16855447.ballots).length == L_16995748))) {
               failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
               }
               
@@ -7083,16 +8023,17 @@ function draw_16705399(game_16705402) {
         } while(false);
       } while(false);
       L10: do {
-        var b_16740214 = null;
-        var i_16891571 = 0;
-        var L_16891572 = (game_16705402.ballots).length;
+        var m_16900214 = null;
+        var m_16900214_Idx = 0;
+        var i_16995752 = 0;
+        var L_16995753 = (game_16855447.counters).length;
         L11: do {
             L12: while (true) {
-            if (!(i_16891571 < L_16891572)) break L12;
-              b_16740214 = game_16705402.ballots[chckIndx(i_16891571, 0, (game_16705402.ballots).length-1)];
-              draw_16545263(b_16740214);
-              i_16891571 = addInt(i_16891571, 1);
-              if (!(((game_16705402.ballots).length == L_16891572))) {
+            if (!(i_16995752 < L_16995753)) break L12;
+              m_16900214 = game_16855447.counters; m_16900214_Idx = chckIndx(i_16995752, 0, (game_16855447.counters).length-1);
+              draw_16665073(m_16900214[m_16900214_Idx]);
+              i_16995752 = addInt(i_16995752, 1);
+              if (!(((game_16855447.counters).length == L_16995753))) {
               failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
               }
               
@@ -7100,17 +8041,16 @@ function draw_16705399(game_16705402) {
         } while(false);
       } while(false);
       L13: do {
-        var m_16750214 = null;
-        var m_16750214_Idx = 0;
-        var i_16891576 = 0;
-        var L_16891577 = (game_16705402.counters).length;
+        var c_16910214 = null;
+        var i_16995757 = 0;
+        var L_16995758 = (game_16855447.creatures).length;
         L14: do {
             L15: while (true) {
-            if (!(i_16891576 < L_16891577)) break L15;
-              m_16750214 = game_16705402.counters; m_16750214_Idx = chckIndx(i_16891576, 0, (game_16705402.counters).length-1);
-              draw_16585073(m_16750214[m_16750214_Idx]);
-              i_16891576 = addInt(i_16891576, 1);
-              if (!(((game_16705402.counters).length == L_16891577))) {
+            if (!(i_16995757 < L_16995758)) break L15;
+              c_16910214 = game_16855447.creatures[chckIndx(i_16995757, 0, (game_16855447.creatures).length-1)];
+              draw_16585409(c_16910214);
+              i_16995757 = addInt(i_16995757, 1);
+              if (!(((game_16855447.creatures).length == L_16995758))) {
               failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
               }
               
@@ -7118,16 +8058,16 @@ function draw_16705399(game_16705402) {
         } while(false);
       } while(false);
       L16: do {
-        var c_16760214 = null;
-        var i_16891581 = 0;
-        var L_16891582 = (game_16705402.creatures).length;
+        var p_16910222 = null;
+        var i_16995761 = 0;
+        var L_16995762 = (game_16855447.patrollers).length;
         L17: do {
             L18: while (true) {
-            if (!(i_16891581 < L_16891582)) break L18;
-              c_16760214 = game_16705402.creatures[chckIndx(i_16891581, 0, (game_16705402.creatures).length-1)];
-              draw_16507602(c_16760214);
-              i_16891581 = addInt(i_16891581, 1);
-              if (!(((game_16705402.creatures).length == L_16891582))) {
+            if (!(i_16995761 < L_16995762)) break L18;
+              p_16910222 = game_16855447.patrollers[chckIndx(i_16995761, 0, (game_16855447.patrollers).length-1)];
+              draw_16710082(p_16910222);
+              i_16995761 = addInt(i_16995761, 1);
+              if (!(((game_16855447.patrollers).length == L_16995762))) {
               failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
               }
               
@@ -7135,16 +8075,17 @@ function draw_16705399(game_16705402) {
         } while(false);
       } while(false);
       L19: do {
-        var p_16760222 = null;
-        var i_16891585 = 0;
-        var L_16891586 = (game_16705402.patrollers).length;
+        var b_16920214 = null;
+        var b_16920214_Idx = 0;
+        var i_16995766 = 0;
+        var L_16995767 = (game_16855447.buttons).length;
         L20: do {
             L21: while (true) {
-            if (!(i_16891585 < L_16891586)) break L21;
-              p_16760222 = game_16705402.patrollers[chckIndx(i_16891585, 0, (game_16705402.patrollers).length-1)];
-              draw_16620082(p_16760222);
-              i_16891585 = addInt(i_16891585, 1);
-              if (!(((game_16705402.patrollers).length == L_16891586))) {
+            if (!(i_16995766 < L_16995767)) break L21;
+              b_16920214 = game_16855447.buttons; b_16920214_Idx = chckIndx(i_16995766, 0, (game_16855447.buttons).length-1);
+              draw_16690029(b_16920214[b_16920214_Idx]);
+              i_16995766 = addInt(i_16995766, 1);
+              if (!(((game_16855447.buttons).length == L_16995767))) {
               failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
               }
               
@@ -7152,313 +8093,362 @@ function draw_16705399(game_16705402) {
         } while(false);
       } while(false);
       L22: do {
-        var b_16760230 = null;
-        var b_16760230_Idx = 0;
-        var i_16891589 = 0;
-        var L_16891590 = (game_16705402.booths).length;
+        var b_16920222 = null;
+        var b_16920222_Idx = 0;
+        var i_16995770 = 0;
+        var L_16995771 = (game_16855447.booths).length;
         L23: do {
             L24: while (true) {
-            if (!(i_16891589 < L_16891590)) break L24;
-              b_16760230 = game_16705402.booths; b_16760230_Idx = chckIndx(i_16891589, 0, (game_16705402.booths).length-1);
-              drawFG_16545492(b_16760230[b_16760230_Idx]);
-              i_16891589 = addInt(i_16891589, 1);
-              if (!(((game_16705402.booths).length == L_16891590))) {
+            if (!(i_16995770 < L_16995771)) break L24;
+              b_16920222 = game_16855447.booths; b_16920222_Idx = chckIndx(i_16995770, 0, (game_16855447.booths).length-1);
+              drawFG_16625478(b_16920222[b_16920222_Idx]);
+              i_16995770 = addInt(i_16995770, 1);
+              if (!(((game_16855447.booths).length == L_16995771))) {
               failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
               }
               
             }
         } while(false);
       } while(false);
-      if ((game_16705402.state == 1)) {
+      if ((game_16855447.state == 2)) {
       setColor_14996289(8);
-      if (!(eqStrings(game_16705402.game_over_msg, []))) {
-      Tmp25 = game_16705402.game_over_msg;
+      if (!(eqStrings(game_16855447.game_over_msg, []))) {
+      Tmp25 = game_16855447.game_over_msg;
       }
       else {
       Tmp25 = makeNimstrLit("GAME OVER");
       }
       
-      var msg_16765003 = nimCopy(null, Tmp25, NTI1188013);
-      printc_14996265(msg_16765003, toPint_14370366(divInt(screenWidth_12755220[0], 2)), toPint_14370366(subInt(divInt(screenHeight_12755223[0], 2), 7)), 1);
+      var msg_16925003 = nimCopy(null, Tmp25, NTI1188013);
+      printc_14996265(msg_16925003, toPint_14370366(divInt(screenWidth_12755220[0], 2)), toPint_14370366(subInt(divInt(screenHeight_12755223[0], 2), 7)), 1);
+      setColor_14996289(7);
+      printc_14996265(makeNimstrLit("Press Space to Restart"), toPint_14370366(divInt(screenWidth_12755220[0], 2)), toPint_14370366(divInt(screenHeight_12755223[0], 2)), 1);
       }
       
       break;
-    case 2:
+    case 3:
       setColor_14996289(7);
-      print_14996259(makeNimstrLit("Audit time!"), 0, 0, 1);
-      print_14996259((makeNimstrLit("Get ballot ") || []).concat(cstrToNimstr((addInt(game_16705402.target_ballot, 1))+"") || []), 0, 7, 1);
+      print_14996259(makeNimstrLit("Audit time!"), 1, 1, 1);
+      print_14996259((makeNimstrLit("get ballot ") || []).concat(cstrToNimstr((addInt(game_16855447.target_ballot, 1))+"") || []), toPint_14370366(addInt(grid_16507455(2), 1)), toPint_14370366(addInt(grid_16507455(2), 1)), 1);
       L26: do {
-        var b_16765019 = null;
-        var i_16891593 = 0;
-        var L_16891594 = (game_16705402.ballots).length;
+        var b_16925037 = null;
+        var b_16925037_Idx = 0;
+        var i_16995774 = 0;
+        var L_16995775 = (game_16855447.buttons).length;
         L27: do {
             L28: while (true) {
-            if (!(i_16891593 < L_16891594)) break L28;
-              b_16765019 = game_16705402.ballots[chckIndx(i_16891593, 0, (game_16705402.ballots).length-1)];
-              draw_16545263(b_16765019);
-              i_16891593 = addInt(i_16891593, 1);
-              if (!(((game_16705402.ballots).length == L_16891594))) {
+            if (!(i_16995774 < L_16995775)) break L28;
+              b_16925037 = game_16855447.buttons; b_16925037_Idx = chckIndx(i_16995774, 0, (game_16855447.buttons).length-1);
+              draw_16690029(b_16925037[b_16925037_Idx]);
+              i_16995774 = addInt(i_16995774, 1);
+              if (!(((game_16855447.buttons).length == L_16995775))) {
               failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
               }
               
             }
         } while(false);
       } while(false);
-      if ((game_16705402.player1_selected.kind == 2)) {
+      L29: do {
+        var b_16925045 = null;
+        var i_16995778 = 0;
+        var L_16995779 = (game_16855447.ballots).length;
+        L30: do {
+            L31: while (true) {
+            if (!(i_16995778 < L_16995779)) break L31;
+              b_16925045 = game_16855447.ballots[chckIndx(i_16995778, 0, (game_16855447.ballots).length-1)];
+              draw_16625249(b_16925045);
+              i_16995778 = addInt(i_16995778, 1);
+              if (!(((game_16855447.ballots).length == L_16995779))) {
+              failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+              }
+              
+            }
+        } while(false);
+      } while(false);
+      if ((game_16855447.player1_selected.kind == 2)) {
       setColor_14996289(7);
-      var Tmp29 = game_16705402.player1_selected;
-      if (ConstSet14[Tmp29.kind]===undefined) { raiseFieldError(makeNimstrLit("\'ballot\' is not accessible using discriminant \'kind\' of type \'Selectable\'")); }
-      print_14996259(cstrToNimstr((addInt(Tmp29.ballot.index, 1))+""), 0, 14, 1);
+      var Tmp32 = game_16855447.player1_selected;
+      if (ConstSet12[Tmp32.kind]===undefined) { raiseFieldError(makeNimstrLit("\'ballot\' is not accessible using discriminant \'kind\' of type \'Selectable\'")); }
+      print_14996259(cstrToNimstr((addInt(Tmp32.ballot.index, 1))+""), 0, 14, 1);
       }
       
       setColor_14996289(6);
-      printr_14996271((makeNimstrLit("s = ") || []).concat(nfloat_16765026(game_16705402.audit_s_value) || []), toPint_14370366(screenWidth_12755220[0]), 0, 1);
-      printr_14996271((makeNimstrLit("t = ") || []).concat(nfloat_16765026(game_16705402.audit_tol_value) || []), toPint_14370366(screenWidth_12755220[0]), 7, 1);
-      var s_16785109 = game_16705402.audit_s_value;
-      var t_16785110 = game_16705402.audit_tol_value;
-      var tval_16785111 = 1.0000000000000000e+00;
-      L30: do {
-        var i_16785121 = 0;
-        var b_16785122 = 0;
-        var i_16891597 = 0;
-        var L_16891598 = (game_16705402.audited_ballots).length;
-        L31: do {
-            L32: while (true) {
-            if (!(i_16891597 < L_16891598)) break L32;
-              i_16785121 = i_16891597;
-              b_16785122 = game_16705402.audited_ballots[chckIndx(i_16891597, 0, (game_16705402.audited_ballots).length-1)];
-              var ballot_16785123 = nimCopy(null, game_16705402.ballots[chckIndx(b_16785122, 0, (game_16705402.ballots).length-1)], NTI16507422);
-              if ((ballot_16785123.vote == game_16705402.pre_audit_winner)) {
-              if ((logCount_16507042[0] < logMax_16507045[0])) {
-              rawEcho(cstrToNimstr((logCount_16507042[0])+""), makeNimstrLit(": "), makeNimstrLit("vote for winner"));
-              logCount_16507042[0] = addInt(logCount_16507042[0], 1);
-              if ((logMax_16507045[0] <= logCount_16507042[0])) {
-              rawEcho(makeNimstrLit("STOPPING LOGGING"));
-              }
-              
-              }
-              
-              if ((logCount_16507042[0] < logMax_16507045[0])) {
-              rawEcho(cstrToNimstr((logCount_16507042[0])+""), makeNimstrLit(": "), makeNimstrLit("b: "), cstrToNimstr(nimFloatToString(tval_16785111)));
-              logCount_16507042[0] = addInt(logCount_16507042[0], 1);
-              if ((logMax_16507045[0] <= logCount_16507042[0])) {
-              rawEcho(makeNimstrLit("STOPPING LOGGING"));
-              }
-              
-              }
-              
-              if ((logCount_16507042[0] < logMax_16507045[0])) {
-              rawEcho(cstrToNimstr((logCount_16507042[0])+""), makeNimstrLit(": "), makeNimstrLit("(s - t)"), cstrToNimstr(nimFloatToString((s_16785109 - t_16785110))));
-              logCount_16507042[0] = addInt(logCount_16507042[0], 1);
-              if ((logMax_16507045[0] <= logCount_16507042[0])) {
-              rawEcho(makeNimstrLit("STOPPING LOGGING"));
-              }
-              
-              }
-              
-              if ((logCount_16507042[0] < logMax_16507045[0])) {
-              rawEcho(cstrToNimstr((logCount_16507042[0])+""), makeNimstrLit(": "), makeNimstrLit(" / 0.50"), cstrToNimstr(nimFloatToString(((s_16785109 - t_16785110) / 5.0000000000000000e-01))));
-              logCount_16507042[0] = addInt(logCount_16507042[0], 1);
-              if ((logMax_16507045[0] <= logCount_16507042[0])) {
-              rawEcho(makeNimstrLit("STOPPING LOGGING"));
-              }
-              
-              }
-              
-              tval_16785111 = ((tval_16785111 * (s_16785109 - t_16785110)) / 5.0000000000000000e-01);
-              if ((logCount_16507042[0] < logMax_16507045[0])) {
-              rawEcho(cstrToNimstr((logCount_16507042[0])+""), makeNimstrLit(": "), makeNimstrLit("tval: "), cstrToNimstr(nimFloatToString(tval_16785111)));
-              logCount_16507042[0] = addInt(logCount_16507042[0], 1);
-              if ((logMax_16507045[0] <= logCount_16507042[0])) {
-              rawEcho(makeNimstrLit("STOPPING LOGGING"));
-              }
-              
-              }
-              
+      printr_14996271((makeNimstrLit("s=") || []).concat(nfloat_16925052(game_16855447.audit_s_value) || []), toPint_14370366(screenWidth_12755220[0]), 0, 1);
+      printr_14996271((makeNimstrLit("t=") || []).concat(nfloat_16925052(game_16855447.audit_tol_value) || []), toPint_14370366(screenWidth_12755220[0]), 7, 1);
+      var s_16945109 = game_16855447.audit_s_value;
+      var t_16945110 = game_16855447.audit_tol_value;
+      var tval_16945111 = 1.0000000000000000e+00;
+      L33: do {
+        var i_16955214 = 0;
+        var b_16955215 = 0;
+        var i_16995783 = 0;
+        var L_16995784 = (game_16855447.audited_ballots).length;
+        L34: do {
+            L35: while (true) {
+            if (!(i_16995783 < L_16995784)) break L35;
+              i_16955214 = i_16995783;
+              b_16955215 = game_16855447.audited_ballots[chckIndx(i_16995783, 0, (game_16855447.audited_ballots).length-1)];
+++excHandler;
+              Tmp37 = framePtr;
+              try {
+              var ballot_16955216 = nimCopy(null, game_16855447.ballots[chckIndx(b_16955215, 0, (game_16855447.ballots).length-1)], NTI16507509);
+              if ((ballot_16955216.vote == game_16855447.pre_audit_winner)) {
+              tval_16945111 = ((tval_16945111 * (s_16945109 - t_16945110)) / 5.0000000000000000e-01);
               }
               else {
-                if ((logCount_16507042[0] < logMax_16507045[0])) {
-                rawEcho(cstrToNimstr((logCount_16507042[0])+""), makeNimstrLit(": "), makeNimstrLit("vote not for winner"));
-                logCount_16507042[0] = addInt(logCount_16507042[0], 1);
-                if ((logMax_16507045[0] <= logCount_16507042[0])) {
-                rawEcho(makeNimstrLit("STOPPING LOGGING"));
-                }
-                
-                }
-                
-                if ((logCount_16507042[0] < logMax_16507045[0])) {
-                rawEcho(cstrToNimstr((logCount_16507042[0])+""), makeNimstrLit(": "), makeNimstrLit("b: "), cstrToNimstr(nimFloatToString(tval_16785111)));
-                logCount_16507042[0] = addInt(logCount_16507042[0], 1);
-                if ((logMax_16507045[0] <= logCount_16507042[0])) {
-                rawEcho(makeNimstrLit("STOPPING LOGGING"));
-                }
-                
-                }
-                
-                if ((logCount_16507042[0] < logMax_16507045[0])) {
-                rawEcho(cstrToNimstr((logCount_16507042[0])+""), makeNimstrLit(": "), makeNimstrLit("(1 - (s - t))"), cstrToNimstr(nimFloatToString((1.0000000000000000e+00 - (s_16785109 - t_16785110)))));
-                logCount_16507042[0] = addInt(logCount_16507042[0], 1);
-                if ((logMax_16507045[0] <= logCount_16507042[0])) {
-                rawEcho(makeNimstrLit("STOPPING LOGGING"));
-                }
-                
-                }
-                
-                if ((logCount_16507042[0] < logMax_16507045[0])) {
-                rawEcho(cstrToNimstr((logCount_16507042[0])+""), makeNimstrLit(": "), makeNimstrLit(" / 0.50"), cstrToNimstr(nimFloatToString(((1.0000000000000000e+00 - (s_16785109 - t_16785110)) / 5.0000000000000000e-01))));
-                logCount_16507042[0] = addInt(logCount_16507042[0], 1);
-                if ((logMax_16507045[0] <= logCount_16507042[0])) {
-                rawEcho(makeNimstrLit("STOPPING LOGGING"));
-                }
-                
-                }
-                
-                tval_16785111 = ((tval_16785111 * (1.0000000000000000e+00 - (s_16785109 - t_16785110))) / 5.0000000000000000e-01);
-                if ((logCount_16507042[0] < logMax_16507045[0])) {
-                rawEcho(cstrToNimstr((logCount_16507042[0])+""), makeNimstrLit(": "), makeNimstrLit("tval: "), cstrToNimstr(nimFloatToString(tval_16785111)));
-                logCount_16507042[0] = addInt(logCount_16507042[0], 1);
-                if ((logMax_16507045[0] <= logCount_16507042[0])) {
-                rawEcho(makeNimstrLit("STOPPING LOGGING"));
-                }
-                
-                }
-                
+                tval_16945111 = ((tval_16945111 * (1.0000000000000000e+00 - (s_16945109 - t_16945110))) / 5.0000000000000000e-01);
               }
               
-              i_16891597 = addInt(i_16891597, 1);
-              if (!(((game_16705402.audited_ballots).length == L_16891598))) {
+--excHandler;
+} catch (EXC) {
+ var prevJSError = lastJSError;
+ lastJSError = EXC;
+ --excHandler;
+              framePtr = Tmp37;
+              if ((logCount_16507067[0] < logMax_16507070[0])) {
+              rawEcho(cstrToNimstr((logCount_16507067[0])+""), makeNimstrLit(": "), makeNimstrLit("NO audited ballot: "), cstrToNimstr((b_16955215)+""));
+              logCount_16507067[0] = addInt(logCount_16507067[0], 1);
+              if ((logMax_16507070[0] <= logCount_16507067[0])) {
+              rawEcho(makeNimstrLit("STOPPING LOGGING"));
+              }
+              
+              }
+              
+              lastJSError = prevJSError;
+              } finally {
+              framePtr = Tmp37;
+              }
+              i_16995783 = addInt(i_16995783, 1);
+              if (!(((game_16855447.audited_ballots).length == L_16995784))) {
               failedAssertImpl_1305480(makeNimstrLit("iterators.nim(137, 11) `len(a) == L` the length of the seq changed while iterating over it"));
               }
               
             }
         } while(false);
       } while(false);
-      printr_14996271((makeNimstrLit("T = ") || []).concat(nfloat_16765026(tval_16785111) || []), toPint_14370366(screenWidth_12755220[0]), 14, 1);
-      if ((9.9000000000000004e+00 < tval_16785111)) {
-      if ((game_16705402.pre_audit_winner == 1)) {
+      printr_14996271((makeNimstrLit("T=") || []).concat(nfloat_16925052(tval_16945111) || []), toPint_14370366(screenWidth_12755220[0]), 14, 1);
+      if ((9.9000000000000004e+00 < tval_16945111)) {
+      if ((game_16855447.pre_audit_winner == 1)) {
       setColor_14996289(12);
-      printc_14996265(makeNimstrLit("You successfully stole the election!"), toPint_14370366(divInt(screenWidth_12755220[0], 2)), toPint_14370366(divInt(screenHeight_12755223[0], 2)), 1);
+      printc_14996265(makeNimstrLit("You WON!"), toPint_14370366(divInt(screenWidth_12755220[0], 2)), toPint_14370366(divInt(screenHeight_12755223[0], 2)), 1);
       }
       else {
         setColor_14996289(8);
         printc_14996265(makeNimstrLit("Audit says you lost!"), toPint_14370366(divInt(screenWidth_12755220[0], 2)), toPint_14370366(divInt(screenHeight_12755223[0], 2)), 1);
+        game_over_16750290(game_16855447, makeNimstrLit("Audit caught you!"));
       }
       
       }
       else {
-      if ((tval_16785111 < 1.0999999999999999e-02)) {
+      if ((tval_16945111 < 1.0999999999999999e-02)) {
       setColor_14996289(8);
       printc_14996265(makeNimstrLit("Audit caught you!"), toPint_14370366(divInt(screenWidth_12755220[0], 2)), toPint_14370366(divInt(screenHeight_12755223[0], 2)), 1);
+      game_over_16750290(game_16855447, makeNimstrLit("Audit caught you!"));
       }
       }
+      var v_16970031 = clamp_14520015(invLerp_16505054(Math.log10(1.0999999999999999e-02), Math.log10(9.9000000000000004e+00), Math.log10(tval_16945111)), 0.0, 1.0000000000000000e+00);
+      var color_16970033 = 9;
+      if ((tval_16945111 < 1.0000000000000000e+00)) {
+      if ((game_16855447.pre_audit_winner == 0)) {
+      color_16970033 = 12;
+      }
+      else {
+        color_16970033 = 9;
+      }
+      
+      }
+      else {
+        if ((game_16855447.pre_audit_winner == 0)) {
+        color_16970033 = 9;
+        }
+        else {
+          color_16970033 = 12;
+        }
+        
+      }
+      
+      var bar_16970036 = {pos: nimCopy(null, {Field0: grid_16507455(1), Field1: grid_16507455(subInt(gridCount_16507094[0], 2))}, NTI16507432), width: grid_16507455(subInt(gridCount_16507094[0], 2)), height: gridSize_16507092[0], value: v_16970031, color: color_16970033, bgColor: 5};
+      draw_16507805(bar_16970036);
       break;
     }
-    draw_16507602(game_16705402.player1);
+    draw_16585409(game_16855447.player1);
+    setColor_14996289(12);
+    switch (game_16855447.player1_selected.kind) {
+    case 1:
+      var Tmp38 = game_16855447.player1_selected;
+      if (ConstSet23[Tmp38.kind]===undefined) { raiseFieldError(makeNimstrLit("\'booth\' is not accessible using discriminant \'kind\' of type \'Selectable\'")); }
+      var hb_16970038 = hitbox_16635043(Tmp38.booth);
+      rect_15010235(toPint_14370366(subInt(hb_16970038.Field0.Field0, 1)), toPint_14370366(subInt(hb_16970038.Field0.Field1, 1)), toPint_14370366(addInt(hb_16970038.Field1.Field0, 1)), toPint_14370366(addInt(hb_16970038.Field1.Field1, 1)));
+      break;
+    case 3:
+      var Tmp39 = game_16855447.player1_selected;
+      if (ConstSet24[Tmp39.kind]===undefined) { raiseFieldError(makeNimstrLit("\'countingMachine\' is not accessible using discriminant \'kind\' of type \'Selectable\'")); }
+      var hb_16970056 = hitbox_16670038(Tmp39.countingMachine);
+      rect_15010235(toPint_14370366(subInt(hb_16970056.Field0.Field0, 1)), toPint_14370366(subInt(hb_16970056.Field0.Field1, 1)), toPint_14370366(addInt(hb_16970056.Field1.Field0, 1)), toPint_14370366(addInt(hb_16970056.Field1.Field1, 1)));
+      break;
+    case 2:
+      setColor_14996289(10);
+      var Tmp40 = game_16855447.player1_selected;
+      if (ConstSet25[Tmp40.kind]===undefined) { raiseFieldError(makeNimstrLit("\'ballot\' is not accessible using discriminant \'kind\' of type \'Selectable\'")); }
+      var hb_16970074 = hitbox_16625282(Tmp40.ballot);
+      rect_15010235(toPint_14370366(subInt(hb_16970074.Field0.Field0, 1)), toPint_14370366(subInt(hb_16970074.Field0.Field1, 1)), toPint_14370366(addInt(hb_16970074.Field1.Field0, 1)), toPint_14370366(addInt(hb_16970074.Field1.Field1, 1)));
+      break;
+    case 5:
+      var Tmp41 = game_16855447.player1_selected;
+      if (ConstSet26[Tmp41.kind]===undefined) { raiseFieldError(makeNimstrLit("\'button\' is not accessible using discriminant \'kind\' of type \'Selectable\'")); }
+      var hb_16970092 = hitbox_16685278(Tmp41.button);
+      rect_15010235(toPint_14370366(subInt(hb_16970092.Field0.Field0, 1)), toPint_14370366(subInt(hb_16970092.Field0.Field1, 1)), toPint_14370366(addInt(hb_16970092.Field1.Field0, 1)), toPint_14370366(addInt(hb_16970092.Field1.Field1, 1)));
+      break;
+    default: 
+      break;
+    }
+    L42: do {
+      var e_16980214 = null;
+      var e_16980214_Idx = 0;
+      var i_16995789 = 0;
+      var L_16995790 = (explosions_16507743[0]).length;
+      L43: do {
+          L44: while (true) {
+          if (!(i_16995789 < L_16995790)) break L44;
+            e_16980214 = explosions_16507743[0]; e_16980214_Idx = chckIndx(i_16995789, 0, (explosions_16507743[0]).length-1);
+            draw_16575253(e_16980214[e_16980214_Idx]);
+            i_16995789 = addInt(i_16995789, 1);
+            if (!(((explosions_16507743[0]).length == L_16995790))) {
+            failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            }
+            
+          }
+      } while(false);
+    } while(false);
+    L45: do {
+      var b_16990214 = null;
+      var b_16990214_Idx = 0;
+      var i_16995794 = 0;
+      var L_16995795 = (beams_16507746[0]).length;
+      L46: do {
+          L47: while (true) {
+          if (!(i_16995794 < L_16995795)) break L47;
+            b_16990214 = beams_16507746[0]; b_16990214_Idx = chckIndx(i_16995794, 0, (beams_16507746[0]).length-1);
+            draw_16510014(b_16990214[b_16990214_Idx]);
+            i_16995794 = addInt(i_16995794, 1);
+            if (!(((beams_16507746[0]).length == L_16995795))) {
+            failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            }
+            
+          }
+      } while(false);
+    } while(false);
+  } while (false);
 
   
 }
-function gameDraw_16890769() {
+function gameDraw_16990482() {
     cls_15110143();
     setColor_14996289(17);
     boxfill_15010279(0, 0, toPint_14370366(screenWidth_12755220[0]), toPint_14370366(screenHeight_12755223[0]));
     L1: do {
-      var x_16890787 = 0;
-      var colontmp__16891388 = 0;
-      colontmp__16891388 = divInt(screenWidth_12755220[0], gridSize_16507067[0]);
-      var res_16891389 = 0;
+      var x_16990500 = 0;
+      var colontmp__16995564 = 0;
+      colontmp__16995564 = divInt(screenWidth_12755220[0], gridSize_16507092[0]);
+      var res_16995565 = 0;
       L2: do {
           L3: while (true) {
-          if (!(res_16891389 <= colontmp__16891388)) break L3;
-            x_16890787 = res_16891389;
+          if (!(res_16995565 <= colontmp__16995564)) break L3;
+            x_16990500 = res_16995565;
             L4: do {
-              var y_16890796 = 0;
-              var colontmp__16891382 = 0;
-              colontmp__16891382 = divInt(screenHeight_12755223[0], gridSize_16507067[0]);
-              var res_16891383 = 0;
+              var y_16990509 = 0;
+              var colontmp__16995558 = 0;
+              colontmp__16995558 = divInt(screenHeight_12755223[0], gridSize_16507092[0]);
+              var res_16995559 = 0;
               L5: do {
                   L6: while (true) {
-                  if (!(res_16891383 <= colontmp__16891382)) break L6;
-                    y_16890796 = res_16891383;
-                    if ((modInt(addInt(x_16890787, y_16890796), 2) == 0)) {
+                  if (!(res_16995559 <= colontmp__16995558)) break L6;
+                    y_16990509 = res_16995559;
+                    if ((modInt(addInt(x_16990500, y_16990509), 2) == 0)) {
                     setColor_14996289(1);
                     setColor_14996289(0);
-                    boxfill_15010279(toPint_14370366(grid_16507368(x_16890787)), toPint_14370366(grid_16507368(y_16890796)), toPint_14370366(gridSize_16507067[0]), toPint_14370366(gridSize_16507067[0]));
+                    boxfill_15010279(toPint_14370366(grid_16507455(x_16990500)), toPint_14370366(grid_16507455(y_16990509)), toPint_14370366(gridSize_16507092[0]), toPint_14370366(gridSize_16507092[0]));
                     }
                     
-                    res_16891383 = addInt(res_16891383, 1);
+                    res_16995559 = addInt(res_16995559, 1);
                   }
               } while(false);
             } while(false);
-            res_16891389 = addInt(res_16891389, 1);
+            res_16995565 = addInt(res_16995565, 1);
           }
       } while(false);
     } while(false);
-    var true_votes0_16890814 = 0;
-    var true_votes1_16890816 = 0;
+    var true_votes0_16990527 = 0;
+    var true_votes1_16990529 = 0;
     L7: do {
-      var v_16890824 = null;
-      var v_16890824_Idx = 0;
-      var i_16891395 = 0;
-      var L_16891396 = (game_16507572[0].true_votes).length;
+      var v_16990537 = null;
+      var v_16990537_Idx = 0;
+      var i_16995571 = 0;
+      var L_16995572 = (game_16507740[0].true_votes).length;
       L8: do {
           L9: while (true) {
-          if (!(i_16891395 < L_16891396)) break L9;
-            v_16890824 = game_16507572[0].true_votes; v_16890824_Idx = chckIndx(i_16891395, 0, (game_16507572[0].true_votes).length-1);
-            if ((v_16890824[v_16890824_Idx] == 0)) {
-            true_votes0_16890814 = addInt(true_votes0_16890814, 1);
+          if (!(i_16995571 < L_16995572)) break L9;
+            v_16990537 = game_16507740[0].true_votes; v_16990537_Idx = chckIndx(i_16995571, 0, (game_16507740[0].true_votes).length-1);
+            if ((v_16990537[v_16990537_Idx] == 0)) {
+            true_votes0_16990527 = addInt(true_votes0_16990527, 1);
             }
             else {
-            if ((v_16890824[v_16890824_Idx] == 1)) {
-            true_votes1_16890816 = addInt(true_votes1_16890816, 1);
+            if ((v_16990537[v_16990537_Idx] == 1)) {
+            true_votes1_16990529 = addInt(true_votes1_16990529, 1);
             }
             }
-            i_16891395 = addInt(i_16891395, 1);
-            if (!(((game_16507572[0].true_votes).length == L_16891396))) {
+            i_16995571 = addInt(i_16995571, 1);
+            if (!(((game_16507740[0].true_votes).length == L_16995572))) {
             failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
             
           }
       } while(false);
     } while(false);
-    var counted_votes0_16890838 = 0;
-    var counted_votes1_16890840 = 0;
+    var counted_votes0_16990551 = 0;
+    var counted_votes1_16990553 = 0;
+    var stolen_16990555 = 0;
     L10: do {
-      var v_16890848 = null;
-      var v_16890848_Idx = 0;
-      var i_16891399 = 0;
-      var L_16891400 = (game_16507572[0].counted_votes).length;
+      var v_16990563 = null;
+      var i_16995575 = 0;
+      var L_16995576 = (game_16507740[0].counted_votes).length;
       L11: do {
           L12: while (true) {
-          if (!(i_16891399 < L_16891400)) break L12;
-            v_16890848 = game_16507572[0].counted_votes; v_16890848_Idx = chckIndx(i_16891399, 0, (game_16507572[0].counted_votes).length-1);
-            if ((v_16890848[v_16890848_Idx] == 0)) {
-            counted_votes0_16890838 = addInt(counted_votes0_16890838, 1);
+          if (!(i_16995575 < L_16995576)) break L12;
+            v_16990563 = game_16507740[0].counted_votes[chckIndx(i_16995575, 0, (game_16507740[0].counted_votes).length-1)];
+            if ((v_16990563["Field0"] == 0)) {
+            counted_votes0_16990551 = addInt(counted_votes0_16990551, 1);
             }
             else {
-            if ((v_16890848[v_16890848_Idx] == 1)) {
-            counted_votes1_16890840 = addInt(counted_votes1_16890840, 1);
+            if ((v_16990563["Field0"] == 1)) {
+            counted_votes1_16990553 = addInt(counted_votes1_16990553, 1);
             }
             }
-            i_16891399 = addInt(i_16891399, 1);
-            if (!(((game_16507572[0].counted_votes).length == L_16891400))) {
+            if (v_16990563["Field1"]) {
+            stolen_16990555 = addInt(stolen_16990555, 1);
+            }
+            
+            i_16995575 = addInt(i_16995575, 1);
+            if (!(((game_16507740[0].counted_votes).length == L_16995576))) {
             failedAssertImpl_1305480(makeNimstrLit("iterators.nim(204, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
             
           }
       } while(false);
     } while(false);
-    setColor_14996289(5);
-    printr_14996271(cstrToNimstr((true_votes0_16890814)+""), toPint_14370366(subInt(divInt(screenWidth_12755220[0], 2), 2)), 1, 1);
-    setColor_14996289(8);
-    printr_14996271(cstrToNimstr((counted_votes0_16890838)+""), toPint_14370366(subInt(divInt(screenWidth_12755220[0], 2), 2)), 8, 1);
-    setColor_14996289(5);
-    print_14996259(cstrToNimstr((true_votes1_16890816)+""), toPint_14370366(addInt(divInt(screenWidth_12755220[0], 2), 4)), 1, 1);
+    setColor_14996289(9);
+    printr_14996271(cstrToNimstr((counted_votes0_16990551)+""), toPint_14370366(subInt(divInt(screenWidth_12755220[0], 2), 2)), 1, 1);
     setColor_14996289(12);
-    print_14996259(cstrToNimstr((counted_votes1_16890840)+""), toPint_14370366(addInt(divInt(screenWidth_12755220[0], 2), 4)), 8, 1);
-    draw_16705399(game_16507572[0]);
+    var s_16990586 = cstrToNimstr((counted_votes1_16990553)+"");
+    if ((0 < stolen_16990555)) {
+    s_16990586.push.apply(s_16990586, (makeNimstrLit(" +") || []).concat(cstrToNimstr((stolen_16990555)+"") || [],[] || []));;
+    }
+    
+    print_14996259(s_16990586, toPint_14370366(addInt(divInt(screenWidth_12755220[0], 2), 4)), 1, 1);
+    draw_16855444(game_16507740[0]);
 
   
 }
 init_15010529(makeNimstrLit("myOrg"), makeNimstrLit("myApp"));
-createWindow_16440171(makeNimstrLit("myApp"), mulInt(gridSize_16507067[0], gridCount_16507069[0]), mulInt(gridSize_16507067[0], gridCount_16507069[0]), 4, false);
-run_16440690(gameInit_16890173, gameUpdate_16890684, gameDraw_16890769);
+createWindow_16440171(makeNimstrLit("myApp"), mulInt(gridSize_16507092[0], gridCount_16507094[0]), mulInt(gridSize_16507092[0], gridCount_16507094[0]), 4, false);
+run_16440690(gameInit_16990363, gameUpdate_16990417, gameDraw_16990482);
