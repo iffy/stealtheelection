@@ -1,0 +1,115 @@
+<html>
+	<head>
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+			body {
+				background: grey;
+				width: 100%;
+				/* margin: auto 0; */
+				/* overflow: hidden; */
+				font-family: Arial;
+			}
+			section {
+				background: white;
+				width: 40em;
+				margin: 0 auto;
+				padding: 1rem;
+			}
+			canvas {
+				background: #111111;
+				display: block;
+				margin: 2em auto;
+				image-rendering: -moz-crisp-edges;
+				image-rendering: -webkit-crisp-edges;
+				image-rendering: pixelated;
+			}
+		</style>
+		<title>Steal the Election!</title>
+
+		<meta name="description" content="Steal the Election!  A simulation to explore risk-limiting audits in elections.">
+  	<meta property="og:locale" content="en_US" />
+  	<meta property="og:title" content="Steal the Election!" />
+  <meta property="og:description" content="Steal the Election!  A simulation to explore risk-limiting audits in elections." />
+  <meta property="og:url" content="https://www.iffycan.com/stealtheelection/index.html" />
+  <meta property="og:image" content="https://www.iffycan.com/stealtheelection/photo.png" />
+	</head>
+	<body>
+		<section>
+			<a href="/">iffycan home</a> <a href="../">Latest version</a>
+			<h1>Steal the Election</h1>
+			<p>
+				I watched a <a href="https://www.pbs.org/newshour/show/how-some-election-officials-are-trying-to-verify-the-vote-more-easily">report from PBS Newshour about using risk-limiting audits to validate election results.</a>  So I made a game to simulate a vote and an audit to see if it would be possible to steal an election despite the audit.  Read below for more information (including some strategies for possibly beating the game).
+			</p>
+			
+			<p><strong>Disclaimer:</strong> I don't endorse <em>actually</em> trying to ruin any elections.  This is just a game.  And this isn't a commentary on any past, current or future elections.</p>
+
+			<h2>Game</h2>
+			<p>
+				The orange candidate is slated to win this election by a narrow margin. Your goal as a fake poll worker is to get the blue candidate to win.  Do this by sabotaging the vote-counting machines&mdash;when you do, they will count all ballots as voting for blue.
+			</p>
+			<p>
+				But be careful!  If a real poll worker sees you interfering, it's game over.  If they see a vote-counting machine count something incorrectly, they'll fix it.  And after all votes are tallied, the results will be audited to detect any fraud.
+			</p>
+			<ul>
+				<li>Arrow keys to move</li>
+				<li>Z - do stuff (e.g. press buttons, break/fix counting machine)</li>
+			</ul>
+	<div id="nicogame"></div>
+		
+		<script type="text/javascript">
+		function handleMouseDown(evt) { window.focus(); evt.preventDefault(); evt.stopPropagation(); }
+		document.getElementById('nicogame').addEventListener('mousedown', handleMouseDown, false);
+		</script>
+		<script type="text/javascript" src="stealtheelection.js"></script>
+
+		<h2>Source</h2>
+		<p>
+			The source for the game is available <a href="https://github.com/iffy/stealtheelection">here</a>.  It was built with the <a href="https://github.com/ftsf/nico#nico-game-framework">NICO Game Framework</a> and borrows some assets from that.  Most sounds are from The Essential Retro Video Game Sound Effects Collection By Juhani Junkala.
+		</p>
+
+		<h2>Research</h2>
+		<p>
+			Here's <a href="https://www.stat.berkeley.edu/~stark/Preprints/gentle12.pdf">a paper co-authored by the man interviewed in the report above</a>.  It describes how risk-limiting audits work.
+		</p>
+
+		<h2>Personal Research</h2>
+		<p>
+			The paper is pretty clear about how the audit works, but I learned a few things trying several scenarios on my own.  First of all, <code>(s - t)/50%</code> is the same as <code>2 * (s - t)</code>.  I find that math easier.
+		</p>
+		<ol>
+			<li>Find <code>s</code> and pick <code>t</code> (read the paper for this).</li>
+			<li>Start the audit with the number <code>T<sub>0</sub> = 1</code></li>
+			<li>Pick a ballot at random</li>
+			<li>If the ballot is for the declared winner <em>grow</em> <code>T</code> by <code>2(s - t)</code>. For example: <code>T<sub>n+1</sub> = T<sub>n</sub> * 1.05</code>.  The percent is based on the margin of victory and a chosen "tolerance".</li>
+			<li>If the ballot is for the declared loser <em>shrink</em> <code>T</code> by an inverse amount (<code>2(1 - (s - t))</code>).  For example: <code>T<sub>n+1</sub> = T<sub>n</sub> * 0.95</code></li>
+			<li>If <code>T</code> grows sufficiently large (~10), the declared winner is probably not wrong. (I'm still not certain what the actual guarantees are in this case. The paper tries to emphasize that the audit won't guarantee the declared winner is <em>correct</em>, but rather will show when a declared winner is <em>incorrect</em>.</li>
+			<li>If <code>T</code> shrinks sufficiently small (~0.01), the declared winner is probably wrong.</li>
+		</ol>
+
+		<h2>Winning</h2>
+		<p>
+			So how do you beat the game?  I haven't beaten it yet.  Don't ask me :)  But here are some thoughts:
+		</p>
+		<p>
+			The value <code>s</code> is the percent of the vote the declared winner got.  So if blue wins with 65% of the vote, <code>s = 0.65</code>.
+		</p>
+		<p>
+			In the best case (for a blue saboteur), the audit will pick <em>only</em> votes for blue.  The minimum number of votes you need to pass the audit is inversely dependent on <code>s</code> and directly dependent on <code>t</code>.  Here's <a href="https://docs.google.com/spreadsheets/d/1P0_GGEs6DI5d1do9NkJSRGUrrB81kGsNvXi9ke4MiJQ/edit?usp=sharing">a spreadsheet where I played with some numbers.</a>
+			For example, if the declared winner got 60% of the vote, and the tolerance is 5%, the best case scenario (for a saboteur) is the first 24 ballots audited being for the (false) winner.  This is summarized in the first example in the list below:
+		</p>
+		<ul>
+			<li><code>s = 0.60; t = 0.05</code>, minimum ballots to win: 24.</li>
+			<li><code>s = 0.60; t = 0</code>, minimum ballots to win: 13</li>
+			<li><code>s = 0.65; t = 0</code>, minimum ballots to win: 9</li>
+		</ul>
+
+		<p>So a good strategy would be to get the highest margin of fraudulent victory you can with the lowest tolerance possible.  <strong>However</strong>, high <code>s</code> and low <code>t</code> cuts both ways.  The scenario also reduces the number of ballots needed to fail the audit.
+		</p>
+
+		<p>Also, in real life, I would expect an unexpectedly high margin of victory to cause people to do extra audits.  So what you learn from doing this game may not apply to real life.</p>
+		</section>
+	</body>
+</html>
+

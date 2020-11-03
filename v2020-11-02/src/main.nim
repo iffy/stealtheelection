@@ -52,7 +52,7 @@ var particle_lifetime = 0.2 .. 0.75
 
 var beam_lifetime = 0.75
 
-const DRAW_VIEW = true
+const DRAW_VIEW = false
 
 const snd_button = 1
 const snd_break = 2
@@ -61,8 +61,6 @@ const snd_votecounted = 4
 const snd_votestolen = 5
 const snd_win = 6
 const snd_lose = 7
-const snd_burn = 8
-const snd_duplicate = 9
 
 const
   BallotWidth = 3
@@ -467,21 +465,6 @@ proc move*(game: ref Game, b: var Ballot, amount: Point[float]) =
 
 proc center*(b: Ballot): Point[float] =
   (b.x + 1.0, b.y + 1.0)
-
-proc duplicate*(game: ref Game, b: var Ballot) =
-  game.ballots.add Ballot(
-    x: b.x,
-    y: b.y + 4.0,
-    vote: b.vote,
-    index: game.ballots.len,
-  )
-  sfx(snd_duplicate, snd_duplicate)
-
-proc burn*(game: ref Game, b: var Ballot) =
-  let center = b.center()
-  boom((center.x, center.y + 1.0))
-  game.ballots.del(game.ballots.find(b))
-  sfx(snd_burn, snd_burn)
 
 #--------------------------------------------------------------
 # Voting booths
@@ -892,13 +875,13 @@ proc start*(game: ref Game) =
   game.boothAt(13.grid, screenHeight - 8.grid, 5.grid)
   game.boothAt(17.grid, screenHeight - 2.grid, 5.grid)
 
-  proc addPatroller(waypoints: seq[Point[int]], start: Point[int] = (5.grid, 0.grid)) =
+  proc addPatroller(waypoints: seq[Point[int]]) =
     game.patrollers.add Patroller(
       creature: Creature(
         color: dark_purple,
         speed: 0.3,
-        x: start.x.toFloat,
-        y: start.y.toFloat,
+        x: 5.grid.toFloat,
+        y: 0.grid.toFloat,
       ),
       waypoints: waypoints.mapIt((it.x + 2, it.y + 1)),
     )
@@ -916,7 +899,7 @@ proc start*(game: ref Game) =
     (3.grid, 4.grid + 5),
     (6.grid, 1.grid)
   ]
-  addPatroller(@[
+  addPatroller @[
     (11.grid, 3.grid),
     (12.grid, 4.grid),
     (11.grid, 5.grid),
@@ -924,23 +907,7 @@ proc start*(game: ref Game) =
     (11.grid, 7.grid),
     (11.grid, 7.grid),
     (12.grid, 10.grid),
-  ], (12.grid, 0.grid))
-  addPatroller @[
-    (4.grid, 11.grid),
-    (5.grid, 14.grid),
-    (7.grid, 14.grid),
-    (7.grid, 7.grid),
-    #---
-    (7.grid, 14.grid),
-    (5.grid, 14.grid),
   ]
-  addPatroller(@[
-    (16.grid, 10.grid),
-    (16.grid, 17.grid),
-    (11.grid, 11.grid),
-    #--
-    (16.grid, 17.grid),
-  ], (16.grid, 0.grid))
 
   # warp button
   var warp: ref Button
@@ -983,13 +950,8 @@ proc startAudit*(game: ref Game) =
       counted_votes1.inc
   var winner_votes = 0
   if counted_votes0 == counted_votes1:
-    game.game_over("IT'S A TIE!")
+    game.game_over("It's a tie!")
     return
-  elif game.counted_votes.len < totalVotes:
-    game.game_over("MISSING BALLOT DETECTED!")
-    return
-  elif game.counted_votes.len > totalVotes:
-    game.game_over("EXTRA BALLOTS DETECTED!")
   elif counted_votes0 > counted_votes1:
     game.pre_audit_winner = 0
     winner_votes = counted_votes0
@@ -998,6 +960,18 @@ proc startAudit*(game: ref Game) =
     winner_votes = counted_votes1
   game.audit_s_value = winner_votes.toFloat / game.counted_votes.len.toFloat
   game.audit_tol_value = 0
+  #(game.audit_s_value - 0.50) / tolerance_div
+  # for i,v in game.true_votes:
+  #   let col = i mod gridCount
+  #   let row = 4 + i div gridCount
+  #   game.ballots.add Ballot(
+  #     vote: v,
+  #     x: col.grid.toFloat + 2,
+  #     y: row.grid.toFloat + 2,
+  #     flipped: true,
+  #     index: i,
+  #   )
+  #   game.nextAuditBallot()
 
   # next ballot button
   var next: ref Button
@@ -1061,7 +1035,7 @@ proc update*(game: ref Game, dt: float) =
           machine.countBallot(ballot)
           keep = false
       if keep:
-        game.selectIfNearer(game.selectable(ballot))
+        # game.selectIfNearer(game.selectable(ballot))
         tokeep.add(ballot)
     for button in game.buttons.mitems:
       button.update(dt)
@@ -1077,19 +1051,11 @@ proc update*(game: ref Game, dt: float) =
     #   for ballot in game.ballots.mitems:
     #     game.selectIfNearer(game.selectable(ballot))
     if game.state == Voting:
-      if game.winnerVotes == 0 and game.loserVotes == 0 and game.ballots.len == 0:
+      if game.counted_votes.len == totalVotes:
         # Start the audit
         game.startAudit()
 
 proc draw*(game: ref Game) =
-  # DEBUG
-  when false:
-    setcolor(green)
-    print("wv: " & $game.winnerVotes, 0, 0)
-    print("lv: " & $game.loserVotes, 0, 7)
-    print("bl: " & $game.ballots.len, 0, 14)
-  #
-
   if game.state == Start:
     let h1 = screenHeight div 2 - 8
     let hw = "STEAL the ELECTION".textWidth div 2
@@ -1235,8 +1201,6 @@ proc gameInit() =
   loadSfx(snd_votestolen, "votestolen.wav")
   loadSfx(snd_win, "win.wav")
   loadSfx(snd_lose, "lose.wav")
-  loadSfx(snd_burn, "burn.wav")
-  loadSfx(snd_duplicate, "duplicate.wav")
   explosions = newSeq[ref Explosion]()
   
   setPalette loadPalettePico8Extra()
@@ -1270,17 +1234,6 @@ proc gameUpdate(dt: float32) =
       of selButton:
         var btn = game.player1_selected.button
         btn.click()
-      of selBallot:
-        var ballot = game.player1_selected.ballot
-        for patroller in game.patrollers:
-          if patroller.canSee(ballot):
-            game.game_over("You were caught!")
-        if ballot.vote == 0:
-          # burn it
-          game.burn(ballot)
-        else:
-          # duplicate it
-          game.duplicate(ballot)
       else:
         discard
     of Audit:
