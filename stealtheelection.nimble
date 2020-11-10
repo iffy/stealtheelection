@@ -8,6 +8,7 @@ license = "?"
 # Deps
 requires "nim >= 1.2.0"
 requires "nico >= 0.2.5"
+requires "nimhttpd >= 1.1.1"
 
 srcDir = "src"
 
@@ -28,6 +29,9 @@ task web, "Builds stealtheelection for current web":
 
 task webd, "Builds debug stealtheelection for current web":
  exec "nim js -d:debug -o:stealtheelection.js src/main.nim"
+
+task webs, "Runs a webserver for the current directory on port 8090":
+ exec "nimhttpd -p 8090"
 
 task deps, "Downloads dependencies":
  exec "curl https://www.libsdl.org/release/SDL2-2.0.12-win32-x64.zip -o SDL2_x64.zip"
